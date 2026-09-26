@@ -34,6 +34,29 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "best-wedding-venues-dream-wedding",
+    title: "Best Wedding Venues and Ideas for Your Dream Wedding",
+    excerpt: "From luxury hotels and royal palaces to intimate garden settings, discover the perfect venue and décor ideas for your special day.",
+    fullContent: `Your wedding day is one of the most special days of your life. From choosing the right venue to planning the décor, every little detail matters. The venue sets the mood for the entire celebration, so choosing the right place is an important decision.
+
+Today, couples have many options when it comes to wedding venues:
+• Destination Weddings: Celebrate your special day in style by inviting close friends to a beautiful location.
+• 5-Star & 3-Star Hotels: Perfect for luxury experiences or practical budgets with all functions under one roof.
+• Convention Halls: A convenient option for large weddings with spacious areas for dining and stage setup.
+• Palace Grounds: Create a grand, royal-themed wedding with elegant décor and traditional elements.
+• Resort & Garden Weddings: Combine celebrations with a relaxing stay and beautiful natural outdoor surroundings.
+• Bungalow & Villa Weddings: A wonderful choice for an intimate, small, and private celebration.
+
+Beautiful décor does not always mean a huge budget. At Surya Event, decor starts from ₹1.25 lakhs. Start planning your dream wedding with us and turn your vision into a beautiful celebration.`,
+    category: "Wedding Trends",
+    date: "September 23, 2026",
+    readTime: "3 min read",
+    author: "Surya Event",
+    image: "https://images.unsplash.com/photo-1774025108494-3e596e9b9683?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    likes: 120,
+    instagramTag: "@_surya_event_management._"
+  },
+  {
     id: "royal-heritage-weddings-2026",
     title: "Top South Indian Wedding Trends: Muhurtha & Stage Structures",
     excerpt: "Discover how traditional weddings in Bengaluru and across South India are blending authentic ritual spaces with modern lighting and floral arches.",
