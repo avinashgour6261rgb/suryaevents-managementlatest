@@ -244,10 +244,10 @@ export default function Hero() {
           </button>
           
           <button
-            onClick={() => scrollToSection("#featured")}
+            onClick={() => scrollToSection("#gallery")}
             className="w-full sm:w-auto px-8 py-4 bg-black/60 border border-white/30 text-[#f5f5f0] font-sans font-bold text-xs uppercase tracking-[0.2em] rounded-sm hover:bg-white/20 hover:border-[#D4AF37]/60 active:scale-95 transition-all duration-300 backdrop-blur-md flex items-center justify-center gap-2 shadow-xl cursor-pointer"
           >
-            Featured Events
+            View Gallery
           </button>
 
           <a

@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import TrustStrip from "./components/TrustStrip";
 import About from "./components/About";
 import Services from "./components/Services";
-import FeaturedEvents from "./components/FeaturedEvents";
 import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import Testimonials from "./components/Testimonials";
@@ -23,7 +22,6 @@ export default function App() {
         <TrustStrip />
         <About />
         <Services />
-        <FeaturedEvents />
         <Gallery />
         <Blog />
         <Testimonials />
