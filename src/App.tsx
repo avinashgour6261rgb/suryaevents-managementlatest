@@ -1,3 +1,5 @@
+import { useState } from "react";
+import LoadingScreen from "./components/LoadingScreen";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TrustStrip from "./components/TrustStrip";
@@ -13,8 +15,11 @@ import WhatsAppFloating from "./components/WhatsAppFloating";
 import ReadingProgressBar from "./components/ReadingProgressBar";
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <div className="min-h-screen bg-[#050505] text-[#f5f5f0] selection:bg-[#D4AF37] selection:text-black">
+    <div className="min-h-screen bg-[#050505] text-[#f5f5f0] selection:bg-[#D4AF37] selection:text-black relative">
+      {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
       <ReadingProgressBar />
       <Header />
       <main>
