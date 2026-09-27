@@ -373,16 +373,16 @@ export default function Gallery() {
               className="group relative h-72 sm:h-80 rounded-xl overflow-hidden cursor-pointer bg-black border border-[#D4AF37]/25 hover:border-[#D4AF37] hover:shadow-[0_10px_35px_rgba(212,175,55,0.3)] transition-all duration-500"
               onClick={() => setSelectedPhotoIndex(idx)}
             >
-              {/* Image - Pure Image, No Names */}
+              {/* Image - Pure Image with subtle zoom-in animation on hover, No Text Overlays */}
               <img
                 src={photo.url}
                 alt="Surya Event Management"
                 loading="lazy"
-                className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
+                className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700 ease-out will-change-transform"
                 referrerPolicy="no-referrer"
               />
 
-              {/* Sleek hover state with expand icon - absolutely no text or names */}
+              {/* Sleek hover indicator with expand icon - absolutely no text or names */}
               <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
                 <div className="w-11 h-11 rounded-full bg-black/80 border border-[#D4AF37] flex items-center justify-center text-[#D4AF37] shadow-[0_4px_25px_rgba(0,0,0,0.9)] transform scale-75 group-hover:scale-100 transition-transform duration-300">
                   <Maximize2 className="w-5 h-5" />
