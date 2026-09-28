@@ -357,7 +357,7 @@ export default function Gallery() {
           </button>
         </div>
 
-        {/* Responsive Gallery Grid */}
+        {/* Responsive Gallery Grid - Pure Visual Showcase, No Names */}
         <motion.div 
           layout
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-6"
@@ -370,41 +370,23 @@ export default function Gallery() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10px" }}
               transition={{ duration: 0.4, delay: (idx % 4) * 0.08 }}
-              className="group relative h-72 sm:h-80 rounded-xl overflow-hidden cursor-pointer bg-white/5 border border-[#D4AF37]/20 hover:border-[#D4AF37]/80 transition-all duration-500 shadow-xl"
+              className="group relative h-72 sm:h-80 rounded-xl overflow-hidden cursor-pointer bg-black border border-[#D4AF37]/25 hover:border-[#D4AF37] hover:shadow-[0_10px_35px_rgba(212,175,55,0.3)] transition-all duration-500"
               onClick={() => setSelectedPhotoIndex(idx)}
             >
-              {/* Image */}
+              {/* Image - Pure Image with subtle zoom-in animation on hover, No Text Overlays */}
               <img
                 src={photo.url}
-                alt={photo.title}
+                alt="Surya Event Management"
                 loading="lazy"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700 ease-out will-change-transform"
                 referrerPolicy="no-referrer"
               />
 
-              {/* Gradient Vignette Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/30 to-black/10 opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
-
-              {/* Top Meta Badges */}
-              <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
-                <span className="px-2.5 py-1 rounded-full bg-black/80 border border-[#D4AF37]/40 text-[#D4AF37] text-[10px] font-sans font-bold uppercase tracking-wider backdrop-blur-md">
-                  {photo.categoryLabel}
-                </span>
-
-                <div className="w-8 h-8 rounded-full bg-black/70 border border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 shadow-lg">
-                  <Maximize2 className="w-3.5 h-3.5" />
+              {/* Sleek hover indicator with expand icon - absolutely no text or names */}
+              <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+                <div className="w-11 h-11 rounded-full bg-black/80 border border-[#D4AF37] flex items-center justify-center text-[#D4AF37] shadow-[0_4px_25px_rgba(0,0,0,0.9)] transform scale-75 group-hover:scale-100 transition-transform duration-300">
+                  <Maximize2 className="w-5 h-5" />
                 </div>
-              </div>
-
-              {/* Bottom Caption */}
-              <div className="absolute bottom-3 left-3 right-3 transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300 space-y-1">
-                <div className="flex items-center gap-1.5 text-[#D4AF37] text-[11px] font-sans font-medium">
-                  <MapPin className="w-3 h-3 flex-shrink-0" />
-                  <span className="truncate">{photo.venue}</span>
-                </div>
-                <h3 className="font-serif text-base sm:text-lg font-bold text-white leading-snug group-hover:text-[#D4AF37] transition-colors drop-shadow-md line-clamp-1">
-                  {photo.title}
-                </h3>
               </div>
             </motion.div>
           ))}

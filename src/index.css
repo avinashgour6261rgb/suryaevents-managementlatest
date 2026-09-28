@@ -97,3 +97,7 @@
     animation: none;
   }
 }
+
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}

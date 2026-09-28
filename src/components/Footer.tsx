@@ -64,7 +64,7 @@ export default function Footer() {
               Quick Links
             </h5>
             <ul className="space-y-3 flex flex-col">
-              {["Home", "About", "Services", "Featured Events", "Gallery", "Blog", "Clients", "Contact"].map((link) => {
+              {["Home", "About", "Services", "Gallery", "Blog", "Clients", "Contact"].map((link) => {
                 const href = `#${link.toLowerCase().replace(/\s+/g, "")}`;
                 return (
                   <a
