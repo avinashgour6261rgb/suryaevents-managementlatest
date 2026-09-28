@@ -22,7 +22,7 @@ interface BlogPost {
   id: string;
   title: string;
   excerpt: string;
-  fullContent: string;
+  fullContent: any;
   category: "Wedding Trends" | "Decor & Styling" | "Behind The Scenes";
   date: string;
   readTime: string;
@@ -37,23 +37,69 @@ const BLOG_POSTS: BlogPost[] = [
     id: "best-wedding-venues-dream-wedding",
     title: "Best Wedding Venues and Ideas for Your Dream Wedding",
     excerpt: "From luxury hotels and royal palaces to intimate garden settings, discover the perfect venue and décor ideas for your special day.",
-    fullContent: `Your wedding day is one of the most special days of your life. From choosing the right venue to planning the décor, every little detail matters. The venue sets the mood for the entire celebration, so choosing the right place is an important decision.
+    fullContent: (
+      <article className="space-y-4">
+        <p>Your wedding day is one of the most special days of your life. From choosing the right venue to planning the décor, every little detail matters. The venue sets the mood for the entire celebration, so choosing the right place is an important decision.</p>
+        <p>Today, couples have many options when it comes to wedding venues. You can choose a luxury hotel, a beautiful resort, a palace, a garden, a villa, or even a private bungalow. With the right planning and décor, any place can be turned into a beautiful wedding venue.</p>
+        <p>If you are looking for an experienced team to help plan and manage your wedding, you can learn more about <strong>Surya Event and its event planning services</strong> through our <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">About Us</a> page.</p>
 
-Today, couples have many options when it comes to wedding venues:
-• Destination Weddings: Celebrate your special day in style by inviting close friends to a beautiful location.
-• 5-Star & 3-Star Hotels: Perfect for luxury experiences or practical budgets with all functions under one roof.
-• Convention Halls: A convenient option for large weddings with spacious areas for dining and stage setup.
-• Palace Grounds: Create a grand, royal-themed wedding with elegant décor and traditional elements.
-• Resort & Garden Weddings: Combine celebrations with a relaxing stay and beautiful natural outdoor surroundings.
-• Bungalow & Villa Weddings: A wonderful choice for an intimate, small, and private celebration.
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Destination Wedding – Celebrate Your Special Day in Style</h2>
+        <p>A <strong>Destination Wedding</strong> is a great choice for couples who want something different from a traditional wedding. You can invite your family and close friends to a beautiful location and enjoy the wedding celebrations together.</p>
+        <p>Destination weddings can be planned at resorts, hotels, villas, palaces, or other beautiful locations. The location, décor, food, entertainment, and guest experience can all be planned according to your wedding theme.</p>
 
-Beautiful décor does not always mean a huge budget. At Surya Event, decor starts from ₹1.25 lakhs. Start planning your dream wedding with us and turn your vision into a beautiful celebration.`,
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Wedding at 5-Star Hotels</h2>
+        <p>For couples looking for a luxury wedding experience, <strong>5-star hotels</strong> are a popular choice. These venues offer comfortable rooms, beautiful banquet spaces, professional services, and excellent hospitality.</p>
+        <p>A 5-star hotel can be a good option when you want your guests to stay at the same place where the wedding functions are happening. From engagement and mehendi to sangeet and the main wedding ceremony, multiple functions can be planned under one roof.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Wedding at 3-Star Hotels</h2>
+        <p>If you are looking for a comfortable venue with a more practical budget, <strong>3-star hotels</strong> can also be considered.</p>
+        <p>These hotels can offer banquet halls, accommodation, food services, and basic event facilities. With creative décor and proper planning, a simple hotel space can be transformed into an attractive wedding venue.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Convention Halls for Large Weddings</h2>
+        <p>For weddings with a large number of guests, <strong>Convention Halls</strong> can be a convenient option. They provide spacious areas where you can arrange seating, dining, stage setup, entertainment, and other wedding activities.</p>
+        <p>Convention halls are especially useful when you want everything to be organised at one location and need enough space for your guests.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Palace Grounds for a Royal Wedding</h2>
+        <p>Want your wedding to feel grand and royal?</p>
+        <p><strong>Palace Grounds</strong> can create a beautiful setting for a traditional or royal-themed wedding. Large open spaces, elegant décor, traditional elements, and beautiful lighting can give the entire celebration a royal feel.</p>
+        <p>A palace-style wedding is perfect for couples who want their wedding photographs and celebrations to have a timeless look.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bungalow Wedding – Simple and Personal</h2>
+        <p>A <strong>Bungalow Wedding</strong> can be a wonderful choice for a small and private celebration. It gives you more freedom to design the space according to your personal style.</p>
+        <p>You can create different areas for mehendi, haldi, dining, music, and the wedding ceremony. It can also give your guests a more comfortable and personal experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Resort Wedding for a Relaxed Celebration</h2>
+        <p>A <strong>Resort Wedding</strong> combines the wedding celebration with a relaxing stay. It can be a great option for couples who want their guests to enjoy the wedding as well as some quality time together.</p>
+        <p>Resorts usually provide open spaces, rooms, gardens, pools, and other facilities. This gives you more flexibility when planning different wedding functions.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Garden and Water Pond Weddings</h2>
+        <p>Outdoor weddings are becoming a popular choice for couples who love natural surroundings.</p>
+        <p><strong>Garden and water pond weddings</strong> can create a fresh and beautiful atmosphere. Floral decorations, fairy lights, candles, seating arrangements, and a beautiful stage can make the outdoor space look magical.</p>
+        <p>The natural background can also add a special touch to wedding photography.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Villa Wedding – A Private Celebration</h2>
+        <p>A <strong>Villa Wedding</strong> is another option for couples who want an intimate and private celebration.</p>
+        <p>Villas can work well for small weddings, pre-wedding functions, family gatherings, and destination celebrations. The space can be decorated according to your theme, giving the wedding a more personal feel.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Beautiful Décor Does Not Always Mean a Huge Budget</h2>
+        <p>Many people think that beautiful wedding décor requires a very high budget. However, the right planning can make a big difference.</p>
+        <p>At Surya Event, <strong>decor starts from ₹1.25 lakhs</strong>, giving couples an option to plan attractive wedding décor while keeping their requirements and budget in mind.</p>
+        <p>The décor can be planned according to the venue, number of guests, wedding theme, and type of function. From floral arrangements and lighting to stage décor and entry setups, every element can be planned to match the overall wedding style.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding with the Right Team</h2>
+        <p>Choosing the right venue is only the first step. A successful wedding also needs proper planning, creative décor, guest management, and attention to small details.</p>
+        <p>Whether you are planning a <strong>Destination Wedding, 5-star hotel wedding, 3-star hotel wedding, convention hall wedding, palace wedding, bungalow wedding, resort wedding, garden wedding, water pond wedding, or villa wedding</strong>, the right event planning team can help bring your idea to life.</p>
+        <p>Your wedding should feel personal, beautiful, and memorable. With the right venue, décor, and planning, you can create a celebration that you and your guests will remember for years.</p>
+        <p>If you are ready to discuss your wedding requirements, venue, décor, or event planning needs, <strong><a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact Surya Event</a></strong> and start planning your celebration.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Start planning your dream wedding with Surya Event and turn your wedding vision into a beautiful celebration.</p>
+      </article>
+    ),
     category: "Wedding Trends",
     date: "September 23, 2026",
-    readTime: "3 min read",
-    author: "Surya Event",
+    readTime: "4 min read",
+    author: "Surya Team",
     image: "https://images.unsplash.com/photo-1774025108494-3e596e9b9683?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 120,
+    likes: 154,
     instagramTag: "@_surya_event_management._"
   },
   {
@@ -299,8 +345,8 @@ export default function Blog() {
               key={cat}
               onClick={() => setActiveCategory(cat)}
               className={`px-5 py-2.5 rounded-full text-xs font-sans tracking-wider uppercase transition-all duration-300 cursor-pointer ${activeCategory === cat
-                ? "bg-[#D4AF37] text-black font-bold shadow-[0_4px_20px_rgba(212,175,55,0.4)]"
-                : "bg-white/5 border border-white/10 text-[#F5F5F0]/70 hover:text-white hover:border-[#D4AF37]/40"
+                  ? "bg-[#D4AF37] text-black font-bold shadow-[0_4px_20px_rgba(212,175,55,0.4)]"
+                  : "bg-white/5 border border-white/10 text-[#F5F5F0]/70 hover:text-white hover:border-[#D4AF37]/40"
                 }`}
             >
               {cat}
@@ -383,8 +429,8 @@ export default function Blog() {
                   <button
                     onClick={() => toggleLike(post.id)}
                     className={`flex items-center gap-1.5 text-xs font-sans px-3 py-1.5 rounded-full border transition-colors cursor-pointer ${userLikedMap[post.id]
-                      ? "bg-rose-500/20 border-rose-500/60 text-rose-400"
-                      : "bg-white/5 border-white/10 text-white/70 hover:text-rose-400 hover:border-rose-500/30"
+                        ? "bg-rose-500/20 border-rose-500/60 text-rose-400"
+                        : "bg-white/5 border-white/10 text-white/70 hover:text-rose-400 hover:border-rose-500/30"
                       }`}
                   >
                     <Heart className={`w-3.5 h-3.5 ${userLikedMap[post.id] ? "fill-rose-400" : ""}`} />
@@ -491,7 +537,25 @@ export default function Blog() {
                 </div>
 
                 {/* Main Article Text */}
-                <div className="prose prose-invert max-w-none text-sm md:text-base leading-relaxed text-[#F5F5F0]/85 font-light whitespace-pre-line">
+                <div 
+                  className="prose prose-invert max-w-none text-sm md:text-base leading-relaxed text-[#F5F5F0]/85 font-light whitespace-pre-line"
+                  onClick={(e) => {
+                    const target = e.target as HTMLElement;
+                    if (target.tagName === 'A') {
+                      const href = target.getAttribute('href');
+                      if (href && href.startsWith('#')) {
+                        e.preventDefault();
+                        setSelectedPost(null);
+                        setTimeout(() => {
+                          const element = document.querySelector(href);
+                          if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                          }
+                        }, 300);
+                      }
+                    }
+                  }}
+                >
                   {selectedPost.fullContent}
                 </div>
 
