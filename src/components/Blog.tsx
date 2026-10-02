@@ -35,6 +35,141 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "2026-wedding-trends-memorable",
+    title: "2026 Wedding Trends That Can Make Your Celebration More Memorable",
+    excerpt: "Couples today are focusing more on creating an experience that feels personal, comfortable, and memorable for everyone.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>Weddings are changing. Couples today are looking beyond traditional decorations and large celebrations and are focusing more on creating an experience that feels personal, comfortable, and memorable for everyone.</p>
+        <p>From personalized welcome experiences and creative food presentations to interactive entertainment and beautiful photo moments, small details can make a big difference in how guests remember your wedding.</p>
+        <p>At <strong>Surya Event</strong>, we believe that a memorable wedding is not only about how the venue looks. It is also about how the celebration feels from the moment guests arrive until the final function ends. <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Know more about Surya Event</a> and discover our approach to creating memorable event experiences.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Your Wedding About the Guest Experience</h2>
+        <p>Your guests are an important part of your wedding celebration. While beautiful décor creates the visual atmosphere, thoughtful planning can make guests feel more comfortable and involved throughout the event.</p>
+        <p>Think about what your guests experience when they arrive, where they sit, how they move around the venue, what they eat, how they enjoy the entertainment, and what they remember after the celebration.</p>
+        <p>A wedding becomes more memorable when these small experiences are planned along with the main décor and arrangements.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Warm Welcome for Your Guests</h2>
+        <p>The wedding experience begins as soon as your guests arrive.</p>
+        <p>A beautifully designed entrance, welcome signage, floral arrangements, traditional welcome elements, or a simple personalized greeting can immediately create a positive atmosphere.</p>
+        <p>You can also create a dedicated welcome area where guests can receive information about the event schedule, seating arrangements, accommodation, or other important details.</p>
+        <p>The goal is simple — make your guests feel welcomed from the very beginning.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Personalization Is Becoming More Important</h2>
+        <p>Instead of following exactly the same wedding design seen everywhere, couples are increasingly looking for ways to add their own personality to the celebration.</p>
+        <p>Personalization can be added through colours, signage, photographs, seating areas, wedding stationery, stage details, table settings, and other decorative elements.</p>
+        <p>You can also include meaningful details from your relationship or family traditions. These small touches can make the celebration feel more connected to your story.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Interactive Guest Experiences</h2>
+        <p>A wedding does not have to be limited to guests sitting and watching the functions.</p>
+        <p>Interactive experiences can encourage guests to participate and create memorable moments together.</p>
+        <p>Some ideas include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Interactive photo corners</li>
+          <li>Guest message boards</li>
+          <li>Personalized memory walls</li>
+          <li>Fun family activities</li>
+          <li>Interactive games</li>
+          <li>Creative Mehendi and Haldi setups</li>
+          <li>Personalized guest books</li>
+        </ul>
+        <p>These activities can be planned according to the age group, size of the gathering, and overall style of the wedding.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Food Presentation a Creative Touch</h2>
+        <p>Food is already an important part of every wedding, but presentation can make the dining experience even more interesting.</p>
+        <p>Instead of focusing only on the menu, think about how the food area looks and how guests experience it.</p>
+        <p>Beautiful counters, organized food sections, attractive table settings, live food stations, dessert displays, and coordinated décor can make the dining area feel like an important part of the celebration.</p>
+        <p>The dining setup should also be practical, allowing guests to move comfortably and access different food sections easily.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Use Lighting to Create Different Moods</h2>
+        <p>Lighting can completely change the atmosphere of a wedding function.</p>
+        <p>A daytime celebration may work well with natural light and soft decorative elements, while an evening function can use warm lighting, hanging lights, candles, or focused illumination to create a different mood.</p>
+        <p>Lighting can also be used to highlight important areas such as the stage, entrance, dining section, pathways, photo zones, and architectural features.</p>
+        <p>Instead of treating lighting as just decoration, it can become part of the overall wedding experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Special Moments for Photography</h2>
+        <p>Wedding photographs are more than just pictures of the ceremony. They capture the small moments that people remember long after the celebration is over.</p>
+        <p>A beautifully planned photo corner can encourage guests to take pictures together. You can create a simple floral backdrop, personalized wall, decorative seating area, or a setup that matches your wedding theme.</p>
+        <p>Natural surroundings can also become part of the photography experience. Gardens, water features, elegant architecture, decorated pathways, and beautifully lit areas can provide different backgrounds throughout the celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Every Function Feel Different</h2>
+        <p>If your wedding includes multiple functions, each event does not have to look exactly the same.</p>
+        <p>You can create a different atmosphere for each function while keeping a common visual connection throughout the wedding.</p>
+        <p><strong>Haldi</strong> can have a bright and cheerful atmosphere with colourful flowers and playful elements.</p>
+        <p><strong>Mehendi</strong> can focus on relaxed seating, vibrant details, comfortable spaces, and creative décor.</p>
+        <p><strong>The Wedding Ceremony</strong> can have a more traditional and elegant atmosphere with carefully planned stage décor and lighting.</p>
+        <p><strong>The Reception</strong> can move towards a sophisticated look with elegant lighting, stylish décor, and a polished overall setup.</p>
+        <p>This gives every function its own identity while keeping the complete wedding experience connected.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Entertainment Beyond Music and Dance</h2>
+        <p>Music and dance are an important part of wedding celebrations, but entertainment can go beyond the traditional setup.</p>
+        <p>Depending on your guests and wedding style, you can include interactive performances, family activities, games, photo experiences, or other forms of participation.</p>
+        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Comfortable Spaces for Guests</h2>
+        <p>Not every guest wants to stand near the main stage throughout the celebration.</p>
+        <p>Creating comfortable seating and lounge areas can give guests a place to relax, talk, and enjoy the event at their own pace.</p>
+        <p>For larger celebrations, different seating zones can be planned around the venue. For smaller and intimate functions, comfortable furniture and thoughtfully arranged seating can make the environment feel more welcoming.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Small Details Can Make a Big Difference</h2>
+        <p>Sometimes the smallest details become the things guests remember most.</p>
+        <p>A personalized welcome sign, beautifully arranged table, family photographs, thoughtful guest information, creative lighting, customized seating, or a unique photo corner can add character to the celebration.</p>
+        <p>Good event design is not always about adding more decoration. It is about choosing the right details and placing them where they create the most impact.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Consider More Sustainable Wedding Ideas</h2>
+        <p>Couples can also think about how to make their celebrations more thoughtful when planning décor and other event elements.</p>
+        <p>Natural flowers and greenery can be incorporated into the design, reusable decorative elements can be considered where practical, and unnecessary decoration can be avoided.</p>
+        <p>The idea is not to remove the beauty from the celebration but to plan the décor thoughtfully and use the venue and its natural surroundings effectively.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor That Matches Your Experience</h2>
+        <p>The décor should support the kind of experience you want your guests to have.</p>
+        <p>A grand celebration may require larger stage elements and impressive entrance décor, while an intimate event may benefit more from comfortable seating, warm lighting, personalized details, and smaller decorative installations.</p>
+        <p>At <strong>Surya Event, décor starts from ₹1.25 lakhs</strong>, allowing couples to plan their wedding setup according to their requirements, venue, functions, and preferred style.</p>
+        <p>From stage and entrance décor to lighting, flowers, seating, and decorative details, the setup can be planned around the overall wedding experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding Around Your Story</h2>
+        <p>Wedding trends can give you ideas, but your celebration does not have to follow every trend.</p>
+        <p>The most meaningful weddings are often the ones that include details connected to the couple and their families.</p>
+        <p>Your favourite colours, important family traditions, memorable photographs, personal preferences, and the atmosphere you want to create can all become part of the wedding design.</p>
+        <p>Whether you prefer something grand, elegant, traditional, modern, colourful, or intimate, the celebration can be planned around your own story.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About What Guests Will Remember</h2>
+        <p>After the wedding is over, guests may not remember every individual decoration or every small arrangement.</p>
+        <p>They are more likely to remember how the celebration felt — the welcome, the food, the atmosphere, the entertainment, the people they spent time with, and the special moments they experienced.</p>
+        <p>That is why wedding planning should focus not only on creating beautiful visuals but also on creating a comfortable and enjoyable experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Experience, Not Just the Event</h2>
+        <p>A successful wedding brings many different elements together.</p>
+        <p>The décor creates the visual identity. Lighting creates the atmosphere. Food creates part of the guest experience. Entertainment brings people together. Photography captures the memories. And thoughtful planning connects everything.</p>
+        <p>When these elements work together, the wedding feels more natural, organized, and personal.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Know More About Surya Event</h2>
+        <p>Every wedding starts with an idea, but turning that idea into a complete celebration requires planning and coordination.</p>
+        <p>At <strong>Surya Event</strong>, we focus on understanding the celebration you want to create and planning the décor and event experience around your requirements.</p>
+        <p><a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Learn More About Surya Event</a> and discover more about our approach to wedding planning and event décor.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Celebration Your Guests Will Remember</h2>
+        <p>Your wedding does not have to follow a fixed formula.</p>
+        <p>Focus on the moments you want your guests to experience, the atmosphere you want to create, and the personal details that make the celebration meaningful to you and your family.</p>
+        <p>From the first welcome to the final goodbye, every part of the celebration can become an opportunity to create a beautiful memory.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Wedding. Your Experience. Your Story.</h2>
+        <p>A memorable wedding is not only about how beautiful it looks. It is about how special it feels.</p>
+        <p>Ready to discuss your wedding ideas, décor, guest experience, or event requirements?</p>
+        <p><strong><a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Contact Surya Event</a></strong> and start planning a celebration designed around your vision.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help you create a wedding experience that you and your guests will remember for years to come.</p>
+      </article>
+    ),
+    category: "Wedding Trends",
+    date: "September 28, 2026",
+    readTime: "6 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1744891471118-f74c0453cd21?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    likes: 85,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Memorable 2026 Wedding Trends"
+  },
+  {
     id: "why-choose-surya-event",
     title: "Why Choose Surya Event for Your Dream Wedding?",
     excerpt: "Discover why Surya Event is the perfect partner for planning your special celebration.",
