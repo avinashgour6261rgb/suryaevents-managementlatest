@@ -169,7 +169,7 @@ const BLOG_POSTS: BlogPost[] = [
       </article>
     ),
     category: "Behind The Scenes",
-    date: "September 29, 2026",
+    date: "October 5, 2026",
     readTime: "7 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
