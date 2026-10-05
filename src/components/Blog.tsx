@@ -173,7 +173,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "7 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 94,
+    likes: 118,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Wedding planning timeline and checklist"
   },
@@ -308,7 +308,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "6 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1744891471118-f74c0453cd21?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 85,
+    likes: 109,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Memorable 2026 Wedding Trends"
   },
@@ -426,7 +426,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "7 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1707374661682-d804856cee22?q=80&w=1076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 120,
+    likes: 145,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Beautiful wedding celebration venue"
   },
@@ -568,7 +568,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "6 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1657816925116-9bbb2a45fb6d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 137,
+    likes: 158,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Elegant wedding stage and decor setup"
   },
@@ -674,7 +674,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "5 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1773745060497-4cc1df774c72?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 152,
+    likes: 173,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Stunning outdoor wedding venue setup"
   },
@@ -759,7 +759,7 @@ const BLOG_POSTS: BlogPost[] = [
     readTime: "5 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1736155983506-c6e9da195f43?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    likes: 174,
+    likes: 196,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Luxury wedding venue with premium decorations"
   },
