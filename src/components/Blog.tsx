@@ -35,6 +35,149 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "wedding-planning-timeline",
+    title: "Complete Wedding Planning Timeline: What to Plan Before Your Big Day",
+    excerpt: "A simple timeline can make the entire process much easier. Instead of handling everything at the last moment, couples can work through each part of the celebration in a planned sequence.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A wedding is made up of hundreds of small decisions, and when all of them come together at the same time, preparation can quickly become confusing. From deciding the functions to selecting a venue, arranging décor and making sure guests have a comfortable experience, every stage needs the right amount of attention.</p>
+        <p>A simple timeline can make the entire process much easier. Instead of handling everything at the last moment, couples can work through each part of the celebration in a planned sequence.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Begin With the Bigger Picture</h2>
+        <p>Before booking anything, take some time to understand what you want your wedding to feel like.</p>
+        <p>Do you imagine a traditional celebration, a modern gathering, a destination-style event, or an intimate family occasion?</p>
+        <p>Your answer will influence almost every decision that follows, including the venue, décor, seating, lighting and overall atmosphere.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build Your Guest List Early</h2>
+        <p>The number of guests has a direct impact on your venue and event arrangements.</p>
+        <p>Create an initial guest list and divide it into categories such as:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Close family</li>
+          <li>Relatives</li>
+          <li>Friends</li>
+          <li>Colleagues</li>
+          <li>Special guests</li>
+        </ul>
+        <p>You don't need a final number immediately, but having an estimated count will make later decisions much easier.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Map Out Your Wedding Functions</h2>
+        <p>A wedding may include several celebrations, and each one can have its own character.</p>
+        <p>Depending on your plans, the schedule may include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Haldi</li>
+          <li>Mehendi</li>
+          <li>Wedding Ceremony</li>
+          <li>Reception</li>
+        </ul>
+        <p>Thinking about each function separately helps you plan its timing, setting and visual style without making the entire celebration look the same.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Select a Setting That Fits Your Celebration</h2>
+        <p>The venue is one of the earliest major decisions because it determines the space available for guests, décor, photography and other arrangements.</p>
+        <p>Possible choices include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Destination Wedding</li>
+          <li>5-Star Hotel</li>
+          <li>3-Star Hotel</li>
+          <li>Convention Hall</li>
+          <li>Palace Grounds</li>
+          <li>Bungalow Wedding</li>
+          <li>Resort Wedding</li>
+          <li>Garden and Water Pond Wedding</li>
+          <li>Villa Wedding</li>
+        </ul>
+        <p>Consider the guest count, accessibility, atmosphere and type of celebration before making the final choice.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Divide the Budget Into Clear Categories</h2>
+        <p>Rather than looking at the wedding budget as one large amount, divide it into practical sections.</p>
+        <p>For example:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Venue</li>
+          <li>Décor</li>
+          <li>Food</li>
+          <li>Guest arrangements</li>
+          <li>Photography</li>
+          <li>Entertainment</li>
+          <li>Transportation</li>
+          <li>Accommodation</li>
+        </ul>
+        <p>This makes it easier to understand where your money is going and where adjustments can be made when required.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Décor a Clear Direction</h2>
+        <p>Décor becomes much easier to plan when you have a defined visual direction.</p>
+        <p>You could choose a floral setting, a traditional arrangement, a contemporary look, a minimal setup or something inspired by the surroundings. To see examples of stunning setups, <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">check out our previous event gallery</a>.</p>
+        <p>Wedding décor packages can be planned from ₹1.25 lakhs, depending on the scale and requirements of the celebration. You can explore all our offerings in our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Every Function Feel Different</h2>
+        <p>One of the easiest ways to add personality to a wedding is to give every function its own visual identity.</p>
+        <p><strong>Haldi:</strong> Think bright colours, playful elements, fresh flowers and an informal environment where everyone can enjoy themselves.</p>
+        <p><strong>Mehendi:</strong> A relaxed setup with colourful details, comfortable seating and creative backgrounds can make the occasion feel warm and inviting.</p>
+        <p><strong>Wedding Ceremony:</strong> This is where elegant floral arrangements, a thoughtfully designed stage and suitable lighting can create a more traditional and graceful atmosphere.</p>
+        <p><strong>Reception:</strong> The reception can take on a more polished appearance with a statement stage, coordinated décor and carefully placed lighting.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Don't Forget the Guest Experience</h2>
+        <p>A beautiful setup is only one part of a successful celebration.</p>
+        <p>Guests should also be able to move around comfortably, find their seating easily and enjoy the dining and event areas without unnecessary confusion.</p>
+        <p>Small details such as seating arrangements, pathways and designated areas can make a noticeable difference.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Leave Space for Memorable Moments</h2>
+        <p>Think beyond the main stage.</p>
+        <p>A wedding can include smaller areas for photographs, family interactions and candid moments. A well-planned corner can become one of the most memorable parts of the celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Finalize the Event Flow</h2>
+        <p>Once the major arrangements are confirmed, create a clear sequence for the day.</p>
+        <p>Note down:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Function timings</li>
+          <li>Guest arrival</li>
+          <li>Décor setup</li>
+          <li>Photography schedule</li>
+          <li>Food and dining timings</li>
+          <li>Stage activities</li>
+          <li>Special ceremonies</li>
+          <li>Closing arrangements</li>
+        </ul>
+        <p>Having this information organized beforehand reduces last-minute confusion.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Complete a Final Preparation Check</h2>
+        <p>Before the wedding week begins, review all important arrangements.</p>
+        <p>Check:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Venue readiness</li>
+          <li>Décor requirements</li>
+          <li>Seating plan</li>
+          <li>Guest arrangements</li>
+          <li>Dining setup</li>
+          <li>Lighting</li>
+          <li>Photography areas</li>
+          <li>Accommodation</li>
+          <li>Function schedule</li>
+        </ul>
+        <p>This final review gives you an opportunity to identify missing details while there is still time to fix them.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Why a Timeline Makes a Difference</h2>
+        <p>Wedding planning becomes less stressful when decisions are made in the right order.</p>
+        <p>Instead of trying to solve everything together, you can first decide the vision, then the guest list, venue, budget, décor and event flow. Each decision naturally supports the next one.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring Your Wedding Plans Together</h2>
+        <p>Every couple has a different idea of what their celebration should look and feel like. The goal is not simply to arrange a venue, but to create an experience that feels connected from beginning to end.</p>
+        <p>Explore the possibilities with Surya Event and start shaping your celebration around your own ideas. You can <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">learn more about our story</a> and how we handle every single detail.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Wedding. Your Timeline. Your Celebration.</h2>
+        <p>A well-planned wedding gives you more time to enjoy the moments that actually matter.</p>
+        <p>For wedding planning and event arrangements, get in touch with Surya Event through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event guide you through a stress-free planning timeline and turn your vision into reality.</p>
+      </article>
+    ),
+    category: "Behind The Scenes",
+    date: "September 29, 2026",
+    readTime: "7 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    likes: 94,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Wedding planning timeline and checklist"
+  },
+  {
     id: "2026-wedding-trends-memorable",
     title: "2026 Wedding Trends That Can Make Your Celebration More Memorable",
     excerpt: "Couples today are focusing more on creating an experience that feels personal, comfortable, and memorable for everyone.",
