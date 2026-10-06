@@ -1,5 +1,4 @@
-import { useState, FormEvent } from "react";
-import { motion } from "motion/react";
+import { useState, useEffect, FormEvent } from "react";
 import { 
   Sparkles, 
   Phone, 
@@ -7,36 +6,176 @@ import {
   MapPin, 
   Send, 
   MessageSquare, 
-  Calendar, 
-  Users, 
-  Clock, 
-  CheckCircle2 
+  CheckCircle2, 
+  WifiOff, 
+  RefreshCw,
+  ArrowRight,
+  ShieldCheck,
+  AlertCircle
 } from "lucide-react";
+import { formatInquiryPlainText, InquiryData } from "../utils/emailTemplate";
+
+const PENDING_STORAGE_KEY = "surya_pending_consultations";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<InquiryData>({
     fullName: "",
     phone: "",
     email: "",
     eventType: "South Indian Wedding & Muhurtha",
     eventDate: "",
-    guestCount: "500-1000 Guests",
+    guestCount: "500 - 1,000 Guests",
     venueCity: "Bengaluru",
     notes: ""
   });
 
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submissionState, setSubmissionState] = useState<
+    "idle" | "submitting" | "success" | "offline_queued" | "error"
+  >("idle");
+  const [statusMessage, setStatusMessage] = useState<string>("");
+  const [isOnline, setIsOnline] = useState<boolean>(
+    typeof navigator !== "undefined" ? navigator.onLine : true
+  );
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setIsSubmitted(true);
+  // Auto-sync pending submissions stored during offline mode
+  const syncPendingSubmissions = async () => {
+    try {
+      const raw = localStorage.getItem(PENDING_STORAGE_KEY);
+      if (!raw) return;
+      const pendingList: InquiryData[] = JSON.parse(raw);
+      if (!Array.isArray(pendingList) || pendingList.length === 0) return;
 
-    // Also offer WhatsApp quick link redirection
-    const message = `*Event Inquiry - Surya Event Management*%0A%0A*Name:* ${formData.fullName}%0A*Phone:* ${formData.phone}%0A*Email:* ${formData.email}%0A*Event Type:* ${formData.eventType}%0A*Event Date:* ${formData.eventDate || "To be decided"}%0A*Guest Count:* ${formData.guestCount}%0A*Venue / City:* ${formData.venueCity}%0A*Notes:* ${formData.notes || "None"}`;
-    
-    // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/919449303946?text=${message}`, "_blank");
+      const remaining: InquiryData[] = [];
+      for (const item of pendingList) {
+        try {
+          const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(item),
+          });
+          if (!res.ok) {
+            remaining.push(item);
+          }
+        } catch {
+          remaining.push(item);
+        }
+      }
+
+      if (remaining.length > 0) {
+        localStorage.setItem(PENDING_STORAGE_KEY, JSON.stringify(remaining));
+      } else {
+        localStorage.removeItem(PENDING_STORAGE_KEY);
+      }
+    } catch (e) {
+      console.warn("Could not sync pending submissions:", e);
+    }
   };
+
+  useEffect(() => {
+    const handleOnline = () => {
+      setIsOnline(true);
+      syncPendingSubmissions();
+    };
+    const handleOffline = () => {
+      setIsOnline(false);
+    };
+
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+
+    // Initial sync check on mount
+    syncPendingSubmissions();
+
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
+
+  const saveToOfflineQueue = (data: InquiryData) => {
+    try {
+      const raw = localStorage.getItem(PENDING_STORAGE_KEY);
+      const list: InquiryData[] = raw ? JSON.parse(raw) : [];
+      list.push({
+        ...data,
+        submittedAt: new Date().toLocaleString("en-IN", {
+          timeZone: "Asia/Kolkata",
+          dateStyle: "full",
+          timeStyle: "medium",
+        }),
+      });
+      localStorage.setItem(PENDING_STORAGE_KEY, JSON.stringify(list));
+    } catch (e) {
+      console.error("Local storage error:", e);
+    }
+  };
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setSubmissionState("submitting");
+    setStatusMessage("");
+
+    const payload: InquiryData = {
+      ...formData,
+      submittedAt: new Date().toLocaleString("en-IN", {
+        timeZone: "Asia/Kolkata",
+        dateStyle: "full",
+        timeStyle: "medium",
+      }),
+    };
+
+    // If browser is actively offline, queue immediately
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      saveToOfflineQueue(payload);
+      setSubmissionState("offline_queued");
+      setStatusMessage(
+        "You are currently offline. Your event consultation details have been recorded securely on your device and will be dispatched to suryaevent.india@gmail.com the moment your internet connection reconnects."
+      );
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json().catch(() => null);
+
+      if (response.ok && result?.success) {
+        setSubmissionState("success");
+        setStatusMessage(
+          "Your event inquiry has been successfully transmitted via official email to suryaevent.india@gmail.com. Our senior event director will review your requirements and reach out to you shortly."
+        );
+      } else {
+        // Fallback: save to offline queue so lead is never lost
+        saveToOfflineQueue(payload);
+        setSubmissionState("offline_queued");
+        setStatusMessage(
+          result?.error ||
+            "Unable to reach the mail server directly. Your inquiry has been saved securely on your device and will retry dispatch automatically."
+        );
+      }
+    } catch (error: any) {
+      // Network failure / server offline
+      saveToOfflineQueue(payload);
+      setSubmissionState("offline_queued");
+      setStatusMessage(
+        "Network connection interrupted. Your inquiry has been preserved locally and will automatically send when connectivity is restored."
+      );
+    }
+  };
+
+  // Build clean, formal plain text for WhatsApp and Mailto fallback (NO EMOJIS)
+  const formalTextSummary = formatInquiryPlainText(formData);
+  const encodedFormalSummary = encodeURIComponent(formalTextSummary);
+  const mailtoUrl = `mailto:suryaevent.india@gmail.com?subject=${encodeURIComponent(
+    `Event Consultation Inquiry - ${formData.fullName} - ${formData.eventType}`
+  )}&body=${encodedFormalSummary}`;
+  const whatsappUrl = `https://wa.me/919449303946?text=${encodedFormalSummary}`;
 
   return (
     <section
@@ -101,13 +240,13 @@ export default function Contact() {
                       +91 9449303946
                     </span>
                     <p className="text-[10px] text-[#F5F5F0]/50 mt-0.5">
-                      Available Mon-Sun, 24/7 for auspicious dates
+                      Available Monday to Sunday for auspicious dates
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="https://wa.me/919449303946?text=Hello%20Surya%20Event%20Management%2C%20I%20would%20like%20to%20inquire%20about%20event%20planning."
+                  href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 hover:border-[#25D366]/60 hover:bg-[#25D366]/20 transition-all group"
@@ -120,10 +259,10 @@ export default function Contact() {
                       Official WhatsApp
                     </span>
                     <span className="font-serif text-base text-white font-bold">
-                      Instant Chat &amp; Stage Photos
+                      Instant Chat &amp; Stage Portfolio
                     </span>
                     <p className="text-[10px] text-[#F5F5F0]/50 mt-0.5">
-                      Fast response within 15 minutes
+                      Direct inquiry channel with management
                     </p>
                   </div>
                 </a>
@@ -137,7 +276,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-bold block">
-                      Email Desk
+                      Official Management Email
                     </span>
                     <span className="font-sans text-sm text-white font-medium group-hover:text-[#D4AF37] transition-colors break-all">
                       suryaevent.india@gmail.com
@@ -168,33 +307,164 @@ export default function Contact() {
           {/* Right Column: Inquiry Form */}
           <div className="lg:col-span-7">
             <div className="p-8 md:p-10 bg-white/5 backdrop-blur-2xl border border-[#D4AF37]/30 rounded-2xl shadow-2xl relative">
-              <h3 className="font-serif text-2xl md:text-3xl font-bold text-white mb-2">
-                Event Consultation &amp; Booking Form
-              </h3>
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-serif text-2xl md:text-3xl font-bold text-white">
+                  Event Consultation &amp; Booking Form
+                </h3>
+                {!isOnline && (
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-amber-500/10 border border-amber-500/30 text-amber-300 text-[10px] font-sans uppercase tracking-wider">
+                    <WifiOff className="w-3 h-3" /> Offline Mode Enabled
+                  </span>
+                )}
+              </div>
+              
               <p className="text-xs md:text-sm text-[#F5F5F0]/70 font-light mb-8">
                 Fill in your celebration details below and our team will get in touch promptly.
               </p>
 
-              {isSubmitted ? (
-                <div className="p-8 bg-[#D4AF37]/10 border border-[#D4AF37]/40 rounded-xl text-center space-y-4">
-                  <div className="w-16 h-16 rounded-full bg-[#D4AF37]/20 flex items-center justify-center mx-auto text-[#D4AF37]">
+              {/* SUCCESS CONFIRMATION STATE */}
+              {submissionState === "success" && (
+                <div className="p-8 bg-[#D4AF37]/10 border border-[#D4AF37]/50 rounded-xl text-center space-y-5 animate-fade-in">
+                  <div className="w-16 h-16 rounded-full bg-[#D4AF37]/20 flex items-center justify-center mx-auto text-[#D4AF37] border border-[#D4AF37]/40 shadow-[0_0_20px_rgba(212,175,55,0.3)]">
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
-                  <h4 className="font-serif text-2xl font-bold text-white">
-                    Thank You, {formData.fullName}!
-                  </h4>
-                  <p className="text-xs md:text-sm text-[#F5F5F0]/80 max-w-md mx-auto font-light">
-                    Your event inquiry has been received and WhatsApp has been initiated. Our senior event curator will call you shortly.
+                  
+                  <div className="space-y-2">
+                    <span className="text-[11px] font-sans uppercase tracking-widest text-[#D4AF37] font-bold block">
+                      Inquiry Dispatched via Email
+                    </span>
+                    <h4 className="font-serif text-2xl font-bold text-white">
+                      Thank You, {formData.fullName}!
+                    </h4>
+                  </div>
+
+                  <p className="text-xs md:text-sm text-[#F5F5F0]/90 max-w-lg mx-auto font-light leading-relaxed">
+                    {statusMessage}
                   </p>
-                  <button
-                    onClick={() => setIsSubmitted(false)}
-                    className="mt-4 px-6 py-2.5 bg-[#D4AF37] text-black font-sans font-bold text-xs uppercase tracking-widest rounded-md hover:brightness-110"
-                  >
-                    Submit Another Inquiry
-                  </button>
+
+                  <div className="p-4 rounded-lg bg-black/60 border border-[#D4AF37]/20 text-left text-xs space-y-1.5 max-w-md mx-auto text-[#F5F5F0]/80">
+                    <div className="flex justify-between border-b border-white/5 pb-1">
+                      <span className="text-[#D4AF37]">Recipient:</span>
+                      <span className="font-medium text-white">suryaevent.india@gmail.com</span>
+                    </div>
+                    <div className="flex justify-between border-b border-white/5 pb-1">
+                      <span className="text-[#D4AF37]">Event Type:</span>
+                      <span className="font-medium text-white">{formData.eventType}</span>
+                    </div>
+                    <div className="flex justify-between border-b border-white/5 pb-1">
+                      <span className="text-[#D4AF37]">Tentative Date:</span>
+                      <span className="font-medium text-white">{formData.eventDate || "To be decided"}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-[#D4AF37]">Expected Guests:</span>
+                      <span className="font-medium text-white">{formData.guestCount}</span>
+                    </div>
+                  </div>
+
+                  <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <a
+                      href={whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto px-6 py-3 bg-[#25D366] text-black font-sans font-bold text-xs uppercase tracking-widest rounded-md hover:brightness-110 flex items-center justify-center gap-2 transition-all"
+                    >
+                      <MessageSquare className="w-4 h-4" />
+                      Optional: Open WhatsApp Chat
+                    </a>
+                    
+                    <button
+                      onClick={() => {
+                        setSubmissionState("idle");
+                        setFormData({
+                          fullName: "",
+                          phone: "",
+                          email: "",
+                          eventType: "South Indian Wedding & Muhurtha",
+                          eventDate: "",
+                          guestCount: "500 - 1,000 Guests",
+                          venueCity: "Bengaluru",
+                          notes: ""
+                        });
+                      }}
+                      className="w-full sm:w-auto px-6 py-3 border border-[#D4AF37]/40 text-[#D4AF37] hover:bg-[#D4AF37]/10 font-sans font-semibold text-xs uppercase tracking-widest rounded-md transition-all cursor-pointer"
+                    >
+                      Submit Another Inquiry
+                    </button>
+                  </div>
                 </div>
-              ) : (
+              )}
+
+              {/* OFFLINE QUEUED CONFIRMATION STATE */}
+              {submissionState === "offline_queued" && (
+                <div className="p-8 bg-amber-950/30 border border-amber-500/40 rounded-xl text-center space-y-5 animate-fade-in">
+                  <div className="w-16 h-16 rounded-full bg-amber-500/20 flex items-center justify-center mx-auto text-amber-400 border border-amber-500/30">
+                    <ShieldCheck className="w-8 h-8" />
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <span className="text-[11px] font-sans uppercase tracking-widest text-amber-400 font-bold block">
+                      Saved Securely in Offline Queue
+                    </span>
+                    <h4 className="font-serif text-2xl font-bold text-white">
+                      Inquiry Stored Locally, {formData.fullName}
+                    </h4>
+                  </div>
+
+                  <p className="text-xs md:text-sm text-[#F5F5F0]/90 max-w-lg mx-auto font-light leading-relaxed">
+                    {statusMessage}
+                  </p>
+
+                  <div className="p-4 rounded-lg bg-black/60 border border-amber-500/20 text-left text-xs space-y-1.5 max-w-md mx-auto text-[#F5F5F0]/80">
+                    <p className="text-amber-300 font-medium pb-1 border-b border-white/5">
+                      Immediate Contact Channels (No Internet Required):
+                    </p>
+                    <p className="text-[11px] text-[#F5F5F0]/70">
+                      You can instantly transmit these details via cellular WhatsApp or launch your device email app directly.
+                    </p>
+                  </div>
+
+                  <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <a
+                      href={whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto px-6 py-3 bg-[#25D366] text-black font-sans font-bold text-xs uppercase tracking-widest rounded-md hover:brightness-110 flex items-center justify-center gap-2 transition-all"
+                    >
+                      <MessageSquare className="w-4 h-4" />
+                      Send via WhatsApp
+                    </a>
+
+                    <a
+                      href={mailtoUrl}
+                      className="w-full sm:w-auto px-6 py-3 bg-[#D4AF37] text-black font-sans font-bold text-xs uppercase tracking-widest rounded-md hover:brightness-110 flex items-center justify-center gap-2 transition-all"
+                    >
+                      <Mail className="w-4 h-4" />
+                      Open Device Email
+                    </a>
+
+                    <button
+                      onClick={() => setSubmissionState("idle")}
+                      className="w-full sm:w-auto px-5 py-3 border border-white/20 text-white/80 hover:text-white font-sans text-xs uppercase tracking-widest rounded-md cursor-pointer transition-all"
+                    >
+                      Back to Form
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* ACTIVE FORM */}
+              {submissionState !== "success" && submissionState !== "offline_queued" && (
                 <form onSubmit={handleSubmit} className="space-y-6">
+                  {submissionState === "error" && (
+                    <div className="p-4 bg-red-950/40 border border-red-500/40 rounded-lg flex items-start gap-3 text-red-200 text-xs">
+                      <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-semibold text-red-300">Submission Notice</p>
+                        <p className="mt-0.5">{statusMessage}</p>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-xs uppercase tracking-widest text-[#D4AF37] font-sans font-semibold mb-2">
@@ -206,7 +476,8 @@ export default function Contact() {
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         placeholder="e.g. Anand Gowda"
-                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all disabled:opacity-50"
                       />
                     </div>
 
@@ -220,7 +491,8 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="+91 9449303946"
-                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all disabled:opacity-50"
                       />
                     </div>
                   </div>
@@ -232,10 +504,11 @@ export default function Contact() {
                       </label>
                       <input
                         type="email"
-                        value={formData.email}
+                        value={formData.email || ""}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         placeholder="yourname@gmail.com"
-                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all disabled:opacity-50"
                       />
                     </div>
 
@@ -246,7 +519,8 @@ export default function Contact() {
                       <select
                         value={formData.eventType}
                         onChange={(e) => setFormData({ ...formData, eventType: e.target.value })}
-                        className="w-full px-4 py-3 bg-black/80 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/80 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all disabled:opacity-50"
                       >
                         <option value="South Indian Wedding & Muhurtha">South Indian Wedding &amp; Muhurtha</option>
                         <option value="Grand Reception Stage Structure">Grand Reception Stage Structure</option>
@@ -266,9 +540,10 @@ export default function Contact() {
                       </label>
                       <input
                         type="date"
-                        value={formData.eventDate}
+                        value={formData.eventDate || ""}
                         onChange={(e) => setFormData({ ...formData, eventDate: e.target.value })}
-                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all disabled:opacity-50"
                       />
                     </div>
 
@@ -279,13 +554,14 @@ export default function Contact() {
                       <select
                         value={formData.guestCount}
                         onChange={(e) => setFormData({ ...formData, guestCount: e.target.value })}
-                        className="w-full px-4 py-3 bg-black/80 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/80 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all disabled:opacity-50"
                       >
                         <option value="Under 250 Guests">Under 250 Guests</option>
-                        <option value="250-500 Guests">250 - 500 Guests</option>
-                        <option value="500-1000 Guests">500 - 1,000 Guests</option>
-                        <option value="1000-2500 Guests">1,000 - 2,500 Guests</option>
-                        <option value="2500+ Grand Gathering">2,500+ Grand Gathering</option>
+                        <option value="250 - 500 Guests">250 - 500 Guests</option>
+                        <option value="500 - 1,000 Guests">500 - 1,000 Guests</option>
+                        <option value="1,000 - 2,500 Guests">1,000 - 2,500 Guests</option>
+                        <option value="2,500+ Grand Gathering">2,500+ Grand Gathering</option>
                       </select>
                     </div>
 
@@ -295,10 +571,11 @@ export default function Contact() {
                       </label>
                       <input
                         type="text"
-                        value={formData.venueCity}
+                        value={formData.venueCity || ""}
                         onChange={(e) => setFormData({ ...formData, venueCity: e.target.value })}
-                        placeholder="e.g. Palace Grounds, Bengaluru"
-                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all"
+                        placeholder="Bengaluru"
+                        disabled={submissionState === "submitting"}
+                        className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all disabled:opacity-50"
                       />
                     </div>
                   </div>
@@ -309,20 +586,38 @@ export default function Contact() {
                     </label>
                     <textarea
                       rows={3}
-                      value={formData.notes}
+                      value={formData.notes || ""}
                       onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                       placeholder="Tell us about your preferred decor style, Muhurtha timing, catering requirements, or questions..."
-                      className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all resize-none"
+                      disabled={submissionState === "submitting"}
+                      className="w-full px-4 py-3 bg-black/60 border border-[#D4AF37]/30 rounded-lg text-white text-sm font-sans focus:outline-none focus:border-[#D4AF37] transition-all resize-none disabled:opacity-50"
                     />
                   </div>
 
-                  <button
-                    type="submit"
-                    className="w-full py-4 bg-gradient-to-r from-[#FFDF00] via-[#D4AF37] to-[#AA771C] text-black font-sans font-bold text-xs uppercase tracking-[0.2em] rounded-lg hover:brightness-110 active:scale-98 transition-all shadow-[0_10px_25px_rgba(212,175,55,0.3)] flex items-center justify-center gap-2 cursor-pointer"
-                  >
-                    <Send className="w-4 h-4" />
-                    Submit Event Inquiry &amp; Launch WhatsApp
-                  </button>
+                  <div className="pt-2">
+                    <button
+                      type="submit"
+                      disabled={submissionState === "submitting"}
+                      className="w-full py-4 bg-gradient-to-r from-[#FFDF00] via-[#D4AF37] to-[#AA771C] text-black font-sans font-bold text-xs uppercase tracking-[0.2em] rounded-lg hover:brightness-110 active:scale-98 transition-all shadow-[0_10px_25px_rgba(212,175,55,0.3)] flex items-center justify-center gap-2 cursor-pointer disabled:opacity-75 disabled:cursor-not-allowed"
+                    >
+                      {submissionState === "submitting" ? (
+                        <>
+                          <RefreshCw className="w-4 h-4 animate-spin" />
+                          <span>Dispatching Inquiry to Management...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Send className="w-4 h-4" />
+                          <span>Submit Event Inquiry to suryaevent.india@gmail.com</span>
+                          <ArrowRight className="w-4 h-4" />
+                        </>
+                      )}
+                    </button>
+                    
+                    <p className="text-[11px] text-center text-[#F5F5F0]/50 mt-3 font-sans">
+                      All details are securely transmitted to the management team at suryaevent.india@gmail.com.
+                    </p>
+                  </div>
                 </form>
               )}
             </div>
