@@ -35,6 +35,125 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "beautiful-wedding-within-budget",
+    title: "How to Plan a Beautiful Wedding Within Your Budget",
+    excerpt: "A memorable wedding does not have to depend on an unlimited budget. Discover how to plan thoughtfully and create the biggest visual impact.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A memorable wedding does not have to depend on an unlimited budget. What matters more is knowing where to spend, what deserves attention and which details can create the biggest visual impact.</p>
+        <p>With a little planning, even a carefully controlled budget can be turned into a celebration that feels personal, polished and thoughtfully designed.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Know Your Spending Limit First</h2>
+        <p>Before exploring décor ideas or venues, decide how much you are comfortable spending on the complete celebration.</p>
+        <p>Once you have a clear figure, divide it according to your priorities. This prevents one part of the wedding from taking up too much of the available budget.</p>
+        <p>A simple approach is to separate essential arrangements from optional additions.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Decide What Deserves More Attention</h2>
+        <p>Not every wedding needs the same things.</p>
+        <p>For some couples, the venue may be the biggest priority. Others may want to focus more on décor, photography, food or guest comfort.</p>
+        <p>Make a list of the elements that are most important to you and allocate your budget accordingly.</p>
+        <p>This gives your celebration a more intentional feel instead of adding different elements simply because they are available.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose the Venue According to the Celebration</h2>
+        <p>Your venue should match both your guest requirements and your overall spending plan.</p>
+        <p>Depending on the type of wedding you have in mind, options can include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Destination Wedding</li>
+          <li>5-Star Hotel</li>
+          <li>3-Star Hotel</li>
+          <li>Convention Hall</li>
+          <li>Palace Grounds</li>
+          <li>Bungalow Wedding</li>
+          <li>Resort Wedding</li>
+          <li>Garden and Water Pond Wedding</li>
+          <li>Villa Wedding</li>
+        </ul>
+        <p>The right venue can also reduce the need for excessive decoration because the existing surroundings may already provide a strong visual backdrop.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Venue Work for You</h2>
+        <p>Instead of decorating every possible area, identify the places where guests will spend the most time.</p>
+        <p>These may include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Entrance</li>
+          <li>Main stage</li>
+          <li>Guest seating</li>
+          <li>Dining area</li>
+          <li>Photography spot</li>
+          <li>Main pathways</li>
+          <li>Important lighting points</li>
+        </ul>
+        <p>Concentrating your décor in these areas can create a stronger overall impression without unnecessarily spreading the budget across the entire venue.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think in Terms of Visual Impact</h2>
+        <p>A few carefully planned elements can sometimes create more impact than a large number of unrelated decorations.</p>
+        <p>For example, a well-designed entrance can immediately establish the mood. You can <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">view our gallery</a> to see how specific setups completely transform a space. A thoughtfully decorated stage can become the main visual focus. Proper lighting can completely change how the venue appears after sunset.</p>
+        <p>This is where planning becomes more valuable than simply adding more décor.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Find a Décor Style That Fits Your Budget</h2>
+        <p>Start by deciding the mood you want to create.</p>
+        <p>It could be:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Elegant and sophisticated</li>
+          <li>Colourful and festive</li>
+          <li>Traditional and graceful</li>
+          <li>Modern and minimal</li>
+          <li>Natural and floral</li>
+        </ul>
+        <p>From there, select flowers, fabrics, furniture, lighting and decorative elements that support the same direction.</p>
+        <p>Wedding décor options are available starting from ₹1.25 lakhs, with the final setup depending on the scale and requirements. To understand what packages we offer, check our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Each Function Its Own Character</h2>
+        <p>You don't need an entirely new setup for every function. Small changes can create a completely different atmosphere.</p>
+        <p><strong>Haldi:</strong> Bright colours, flowers and playful decorative elements can create an energetic setting.</p>
+        <p><strong>Mehendi:</strong> Comfortable seating, colourful accents and artistic backgrounds can give the celebration a relaxed feel.</p>
+        <p><strong>Wedding Ceremony:</strong> A more elegant arrangement with coordinated flowers, stage décor and lighting can suit the traditional importance of the occasion.</p>
+        <p><strong>Reception:</strong> A refined stage, balanced lighting and coordinated decorative details can create a polished evening atmosphere.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Use What Your Venue Already Offers</h2>
+        <p>A garden, architectural feature, water area, open lawn or attractive entrance can become part of the wedding design.</p>
+        <p>Rather than covering every natural or architectural element, work around it.</p>
+        <p>This can make the setup feel more natural while also reducing unnecessary decoration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Lighting Is More Than Decoration</h2>
+        <p>Lighting affects the entire mood of an event.</p>
+        <p>Warm lighting can create an intimate atmosphere, while focused lighting can highlight the stage, entrance or important architectural details.</p>
+        <p>For outdoor celebrations especially, lighting also helps define different spaces after sunset.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Keep the Design Connected</h2>
+        <p>A wedding can have different functions without looking completely disconnected.</p>
+        <p>Choose a few recurring elements such as a colour family, floral style, fabric texture or lighting approach. Then adapt those elements according to each function.</p>
+        <p>This creates a sense of continuity without making every setup identical.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Avoid Last-Minute Spending</h2>
+        <p>Last-minute decisions often happen when important requirements have not been discussed early.</p>
+        <p>Finalize major requirements beforehand and leave some room in the budget for unexpected expenses.</p>
+        <p>A little flexibility can help you handle changes without disturbing the complete wedding plan.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">A Thoughtful Wedding Doesn't Need Excess</h2>
+        <p>A beautiful celebration is not about filling every corner with decoration.</p>
+        <p>It is about knowing which details matter and placing them where they can be appreciated.</p>
+        <p>With the right planning, your budget can support a wedding that feels complete without becoming unnecessarily complicated.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan a Celebration That Feels Like Yours</h2>
+        <p>Your wedding should reflect your priorities, your style and the kind of experience you want your guests to remember.</p>
+        <p>Surya Event can help bring those ideas together through venue planning, décor concepts and event arrangements. To see how we work closely with couples, read <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">more about us</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Budget. Your Priorities. Your Wedding.</h2>
+        <p>Start with what matters most, build around it and let every detail have a purpose.</p>
+        <p>For wedding planning and event arrangements, connect with Surya Event through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help you create a stunning celebration without compromising on the experience.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "October 6, 2026",
+    readTime: "6 min read",
+    author: "Surya Team",
+    image: "https://plus.unsplash.com/premium_photo-1673626579377-8dfda319246b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    likes: 105,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Beautiful wedding planned within budget"
+  },
+  {
     id: "wedding-planning-timeline",
     title: "Complete Wedding Planning Timeline: What to Plan Before Your Big Day",
     excerpt: "A simple timeline can make the entire process much easier. Instead of handling everything at the last moment, couples can work through each part of the celebration in a planned sequence.",
