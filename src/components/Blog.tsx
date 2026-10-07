@@ -35,6 +35,143 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "destination-outdoor-weddings-setting",
+    title: "Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting",
+    excerpt: "There is something special about celebrating a wedding in a setting that becomes part of the occasion itself. Discover how to plan and style outdoor and destination celebrations.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>There is something special about celebrating a wedding in a setting that becomes part of the occasion itself.</p>
+        <p>An open garden, a resort surrounded by greenery, a private villa or a destination away from the usual surroundings can give the wedding a completely different atmosphere.</p>
+        <p>But outdoor and destination celebrations also require thoughtful planning. The location, weather, lighting, guest movement and décor all need to work together.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Let the Location Set the Mood</h2>
+        <p>The first step is understanding what makes your chosen location special.</p>
+        <p>Is it the greenery around the venue? The architecture? An open lawn? A water feature? A beautiful view?</p>
+        <p>Instead of treating the surroundings as something separate, use them as part of the wedding experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Explore Different Settings</h2>
+        <p>There are many possibilities for creating a distinctive celebration.</p>
+        <p>Some popular choices include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Destination Weddings</li>
+          <li>Resort Weddings</li>
+          <li>Garden Weddings</li>
+          <li>Water Pond Weddings</li>
+          <li>Villa Weddings</li>
+          <li>Bungalow Weddings</li>
+          <li>Palace Grounds</li>
+          <li>5-Star Hotels</li>
+          <li>3-Star Hotels</li>
+        </ul>
+        <p>Each setting offers a different atmosphere, which means the décor approach can be adapted rather than following one fixed design.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build the Décor Around the Surroundings</h2>
+        <p>A natural outdoor venue may already have plenty of visual character.</p>
+        <p>Instead of covering it completely, complement it with flowers, fabrics, seating arrangements, lighting and carefully selected decorative pieces. You can <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">explore our event gallery</a> to see how we blend natural outdoor backdrops with custom decor.</p>
+        <p>For example, a garden can work beautifully with floral details, while a villa may suit a more elegant and sophisticated setup.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Entrance Part of the Experience</h2>
+        <p>The entrance is the first visual moment your guests experience.</p>
+        <p>A floral walkway, statement backdrop, coordinated lighting or a creative welcome arrangement can immediately establish the mood of the celebration.</p>
+        <p>The design does not need to be excessive. It simply needs to connect with the setting.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Photography Moments Naturally</h2>
+        <p>Outdoor venues offer many opportunities for memorable photographs.</p>
+        <p>Use existing features such as:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Gardens</li>
+          <li>Trees</li>
+          <li>Pathways</li>
+          <li>Architectural corners</li>
+          <li>Water areas</li>
+          <li>Open spaces</li>
+        </ul>
+        <p>A combination of natural surroundings and carefully placed décor can create attractive photography spots without making them feel artificial.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About Guest Movement</h2>
+        <p>An outdoor wedding can involve larger spaces than an indoor function, so guest movement becomes important.</p>
+        <p>Make sure people can easily understand where to go for:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Seating</li>
+          <li>Dining</li>
+          <li>Main ceremony</li>
+          <li>Photography</li>
+          <li>Rest areas</li>
+          <li>Other functions</li>
+        </ul>
+        <p>A well-organized layout allows guests to enjoy the venue instead of spending time figuring out where everything is.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan for Both Day and Night</h2>
+        <p>An outdoor celebration can look completely different during the day and after sunset.</p>
+        <p>During daylight, natural surroundings, flowers and colours may become the main visual elements.</p>
+        <p>At night, lighting takes over.</p>
+        <p>String lights, focused stage lighting, warm decorative illumination and pathway lights can give the same venue an entirely new character.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Stage That Belongs to the Setting</h2>
+        <p>The main stage does not always need to overpower the venue.</p>
+        <p>A stage can be designed to complement its surroundings through coordinated flowers, colours, textures and lighting.</p>
+        <p>Whether the setting is traditional, natural or contemporary, the stage should feel like part of the overall environment.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Different Functions Different Atmospheres</h2>
+        <p>One location can host several functions while still offering a different experience each time.</p>
+        <p><strong>Haldi:</strong> An open and colourful environment works well for the relaxed energy of a Haldi celebration.</p>
+        <p><strong>Mehendi:</strong> Comfortable seating, creative décor and intimate corners can create a more informal atmosphere.</p>
+        <p><strong>Wedding Ceremony:</strong> A graceful arrangement can place greater focus on the ceremony, with a thoughtfully designed stage and surrounding décor.</p>
+        <p><strong>Reception:</strong> As the evening progresses, lighting, stage design and elegant details can transform the same space into a more sophisticated setting.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Prepare for the Practical Side</h2>
+        <p>Outdoor celebrations are beautiful, but they also require practical preparation.</p>
+        <p>Consider:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Weather conditions</li>
+          <li>Guest seating</li>
+          <li>Shade requirements</li>
+          <li>Lighting</li>
+          <li>Power arrangements</li>
+          <li>Pathways</li>
+          <li>Dining setup</li>
+          <li>Comfortable movement between areas</li>
+        </ul>
+        <p>These details may not always be visible in photographs, but they have a major effect on the actual guest experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Keep Nature as Part of the Design</h2>
+        <p>One of the biggest advantages of an outdoor venue is its natural character.</p>
+        <p>Let greenery, open space, water features and architecture contribute to the visual story instead of trying to hide them behind decoration.</p>
+        <p>The result can feel more spacious, relaxed and connected to the location.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Turn a Destination Into an Experience</h2>
+        <p>A destination wedding is more than moving the ceremony to a different place.</p>
+        <p>The surroundings, arrival experience, décor, functions and guest interactions can all become part of the celebration.</p>
+        <p>When these elements are planned together, the location itself becomes one of the most memorable parts of the wedding.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor Options Starting From ₹1.25 Lakhs</h2>
+        <p>Wedding styling can be planned around different celebration sizes and requirements, with décor options beginning at ₹1.25 lakhs. To discover all our tailored packages and offerings, visit our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>The final arrangement can be shaped according to the venue, number of functions, preferred style and overall event requirements.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Location Part of Your Story</h2>
+        <p>The best outdoor celebrations don't simply decorate a beautiful place. They make the place feel like it belongs to the wedding.</p>
+        <p>Whether you choose a garden, resort, villa, palace ground or destination venue, thoughtful planning can turn the setting into an important part of your celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Outdoor Wedding With Surya Event</h2>
+        <p>From selecting the right setting to developing a décor concept that works with it, every decision contributes to the final atmosphere.</p>
+        <p>Explore your wedding possibilities with Surya Event and create a celebration that feels connected to its location. <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Learn more about Surya Event</a> and our approach to crafting memorable moments.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Location. Your Atmosphere. Your Celebration.</h2>
+        <p>Choose a setting that means something to you, then let the celebration grow around it.</p>
+        <p>For wedding planning and event arrangements, reach out through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help bring your destination or outdoor wedding vision to life seamlessly.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "October 7, 2026",
+    readTime: "6 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+    likes: 118,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Destination and outdoor wedding celebration decor"
+  },
+  {
     id: "beautiful-wedding-within-budget",
     title: "How to Plan a Beautiful Wedding Within Your Budget",
     excerpt: "A memorable wedding does not have to depend on an unlimited budget. Discover how to plan thoughtfully and create the biggest visual impact.",
