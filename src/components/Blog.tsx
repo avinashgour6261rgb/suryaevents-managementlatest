@@ -166,7 +166,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "October 7, 2026",
     readTime: "6 min read",
     author: "Surya Team",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+    image: "https://plus.unsplash.com/premium_photo-1673569490592-fdbffc9b8f67?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     likes: 118,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Destination and outdoor wedding celebration decor"
