@@ -63,7 +63,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>5-Star Hotels</li>
           <li>3-Star Hotels</li>
         </ul>
-        <p>Each setting offers a different atmosphere, which means the décor approach can be adapted rather than following one fixed design.</p>
+        <p>Each setting offers a different atmosphere. If you are evaluating venue capacities and amenities, explore our detailed guide on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a> to match your vision.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build the Décor Around the Surroundings</h2>
         <p>A natural outdoor venue may already have plenty of visual character.</p>
@@ -99,7 +99,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Rest areas</li>
           <li>Other functions</li>
         </ul>
-        <p>A well-organized layout allows guests to enjoy the venue instead of spending time figuring out where everything is.</p>
+        <p>A well-organized layout allows guests to enjoy the venue instead of spending time figuring out where everything is. To map out every phase smoothly without last-minute stress, follow our <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">complete wedding planning timeline</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan for Both Day and Night</h2>
         <p>An outdoor celebration can look completely different during the day and after sunset.</p>
@@ -205,7 +205,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Garden and Water Pond Wedding</li>
           <li>Villa Wedding</li>
         </ul>
-        <p>The right venue can also reduce the need for excessive decoration because the existing surroundings may already provide a strong visual backdrop.</p>
+        <p>The right venue can also reduce the need for excessive decoration because the existing surroundings may already provide a strong visual backdrop. Explore our review of the <a href="#blog-best-wedding-venues-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">best wedding venues and ideas</a> for practical comparisons.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Venue Work for You</h2>
         <p>Instead of decorating every possible area, identify the places where guests will spend the most time.</p>
@@ -236,7 +236,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Modern and minimal</li>
           <li>Natural and floral</li>
         </ul>
-        <p>From there, select flowers, fabrics, furniture, lighting and decorative elements that support the same direction.</p>
+        <p>From there, select flowers, fabrics, furniture, lighting and decorative elements that support the same direction. For thematic inspiration, check out our guide on <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">creative wedding décor ideas</a>.</p>
         <p>Wedding décor options are available starting from ₹1.25 lakhs, with the final setup depending on the scale and requirements. To understand what packages we offer, check our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Each Function Its Own Character</h2>
@@ -263,7 +263,7 @@ const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Avoid Last-Minute Spending</h2>
         <p>Last-minute decisions often happen when important requirements have not been discussed early.</p>
-        <p>Finalize major requirements beforehand and leave some room in the budget for unexpected expenses.</p>
+        <p>Finalize major requirements beforehand and leave some room in the budget for unexpected expenses. Aligning your milestones with a structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> prevents costly rush arrangements.</p>
         <p>A little flexibility can help you handle changes without disturbing the complete wedding plan.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">A Thoughtful Wedding Doesn't Need Excess</h2>
@@ -302,7 +302,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Begin With the Bigger Picture</h2>
         <p>Before booking anything, take some time to understand what you want your wedding to feel like.</p>
         <p>Do you imagine a traditional celebration, a modern gathering, a destination-style event, or an intimate family occasion?</p>
-        <p>Your answer will influence almost every decision that follows, including the venue, décor, seating, lighting and overall atmosphere.</p>
+        <p>Your answer will influence almost every decision that follows. For contemporary ideas and guest experiences, take a look at the <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends making celebrations memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build Your Guest List Early</h2>
         <p>The number of guests has a direct impact on your venue and event arrangements.</p>
@@ -341,7 +341,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Garden and Water Pond Wedding</li>
           <li>Villa Wedding</li>
         </ul>
-        <p>Consider the guest count, accessibility, atmosphere and type of celebration before making the final choice.</p>
+        <p>Consider the guest count, accessibility, atmosphere and type of celebration. If you're drawn to scenic outdoor lawns or resort properties, read our dedicated guide on <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor wedding styling</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Divide the Budget Into Clear Categories</h2>
         <p>Rather than looking at the wedding budget as one large amount, divide it into practical sections.</p>
@@ -356,7 +356,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Transportation</li>
           <li>Accommodation</li>
         </ul>
-        <p>This makes it easier to understand where your money is going and where adjustments can be made when required.</p>
+        <p>For actionable tips on optimizing spend across each category, explore our advice on <a href="#blog-beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to plan a beautiful wedding within your budget</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Décor a Clear Direction</h2>
         <p>Décor becomes much easier to plan when you have a defined visual direction.</p>
@@ -446,7 +446,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Your Wedding About the Guest Experience</h2>
         <p>Your guests are an important part of your wedding celebration. While beautiful décor creates the visual atmosphere, thoughtful planning can make guests feel more comfortable and involved throughout the event.</p>
         <p>Think about what your guests experience when they arrive, where they sit, how they move around the venue, what they eat, how they enjoy the entertainment, and what they remember after the celebration.</p>
-        <p>A wedding becomes more memorable when these small experiences are planned along with the main décor and arrangements.</p>
+        <p>A wedding becomes more memorable when these small experiences are planned along with the main décor and arrangements. To see how dedicated management elevates the entire celebration, explore <a href="#blog-why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why couples choose Surya Event</a> for their big day.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Warm Welcome for Your Guests</h2>
         <p>The wedding experience begins as soon as your guests arrive.</p>
@@ -489,7 +489,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Special Moments for Photography</h2>
         <p>Wedding photographs are more than just pictures of the ceremony. They capture the small moments that people remember long after the celebration is over.</p>
         <p>A beautifully planned photo corner can encourage guests to take pictures together. You can create a simple floral backdrop, personalized wall, decorative seating area, or a setup that matches your wedding theme.</p>
-        <p>Natural surroundings can also become part of the photography experience. Gardens, water features, elegant architecture, decorated pathways, and beautifully lit areas can provide different backgrounds throughout the celebration.</p>
+        <p>Natural surroundings can also become part of the photography experience. Gardens, water features, elegant architecture, decorated pathways, and beautifully lit areas can provide different backgrounds throughout the celebration. You can <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">browse our gallery</a> for visual inspiration from recent setups.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Every Function Feel Different</h2>
         <p>If your wedding includes multiple functions, each event does not have to look exactly the same.</p>
@@ -523,7 +523,8 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor That Matches Your Experience</h2>
         <p>The décor should support the kind of experience you want your guests to have.</p>
         <p>A grand celebration may require larger stage elements and impressive entrance décor, while an intimate event may benefit more from comfortable seating, warm lighting, personalized details, and smaller decorative installations.</p>
-        <p>At <strong>Surya Event, décor starts from ₹1.25 lakhs</strong>, allowing couples to plan their wedding setup according to their requirements, venue, functions, and preferred style.</p>
+        <p>For creative themes and styling inspirations that transform venues, read our guide on <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a>.</p>
+        <p>At <strong>Surya Event, décor starts from ₹1.25 lakhs</strong>, allowing couples to plan their wedding setup according to their requirements, venue, functions, and preferred style. You can view our customized packages in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>From stage and entrance décor to lighting, flowers, seating, and decorative details, the setup can be planned around the overall wedding experience.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding Around Your Story</h2>
@@ -540,7 +541,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Experience, Not Just the Event</h2>
         <p>A successful wedding brings many different elements together.</p>
         <p>The décor creates the visual identity. Lighting creates the atmosphere. Food creates part of the guest experience. Entertainment brings people together. Photography captures the memories. And thoughtful planning connects everything.</p>
-        <p>When these elements work together, the wedding feels more natural, organized, and personal.</p>
+        <p>When these elements work together, the wedding feels more natural, organized, and personal. Follow our <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> to structure every preparation milestone effortlessly.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Know More About Surya Event</h2>
         <p>Every wedding starts with an idea, but turning that idea into a complete celebration requires planning and coordination.</p>
@@ -576,7 +577,7 @@ const BLOG_POSTS: BlogPost[] = [
       <article className="space-y-4">
         <p>Planning a wedding is one of the most exciting experiences in life, but it also comes with many decisions. From selecting the right venue and décor to managing guests, functions, and arrangements, every detail needs proper planning.</p>
         <p>Your wedding should be more than just a beautifully decorated venue. It should be a celebration that reflects your personality, your family, and your story.</p>
-        <p>At Surya Event, we focus on creating wedding experiences that bring together the right venue, creative décor, thoughtful planning, and beautiful execution.</p>
+        <p>At Surya Event, we focus on creating wedding experiences that bring together the right venue, creative décor, thoughtful planning, and beautiful execution. <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Learn more about our background and philosophy</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Why Choose Surya Event?</h2>
         <p>Every wedding is different, and that is why we believe wedding planning should not follow a one-size-fits-all approach.</p>
@@ -594,19 +595,19 @@ const BLOG_POSTS: BlogPost[] = [
         <p>Destination Wedding<br />5-Star Hotels<br />3-Star Hotels<br />Convention Halls<br />Palace Grounds<br />Bungalow Wedding<br />Resort Wedding<br />Garden and Water Pond Weddings<br />Villa Wedding</p>
         <p>Each venue type offers a different experience.</p>
         <p>A luxury hotel can provide a sophisticated environment, while a resort can combine accommodation and celebrations. Palace grounds can offer a royal atmosphere, whereas a villa or bungalow can be ideal for a more private gathering.</p>
-        <p>The goal is to find a venue that suits your guest list, wedding style, and overall requirements.</p>
+        <p>The goal is to find a venue that suits your guest list, wedding style, and overall requirements. If you're exploring options, read our comprehensive advice on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Creative Wedding Décor</h2>
         <p>The right décor can completely transform a venue.</p>
         <p>From the entrance and stage to flowers, lighting, seating, backdrops, and decorative elements, every detail contributes to the overall appearance of your wedding.</p>
         <p>At Surya Event, décor can be planned according to the theme and atmosphere you want.</p>
-        <p>Whether you prefer elegant, traditional, modern, colourful, romantic, or royal décor, the setup can be customized around your celebration.</p>
+        <p>Whether you prefer elegant, traditional, modern, colourful, romantic, or royal décor, the setup can be customized around your celebration. Take a look at our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see these concepts brought to life.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Décor Starting From ₹1.25 Lakhs</h2>
         <p>Wedding décor is an important part of your celebration, but it should also be planned according to your budget.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>.</p>
         <p>The décor requirements can be planned based on your venue, number of functions, preferred theme, guest requirements, and design preferences.</p>
-        <p>From a beautifully designed stage to attractive entrance décor and lighting, the focus is on creating a setup that complements your celebration.</p>
+        <p>From a beautifully designed stage to attractive entrance décor and lighting, the focus is on creating a setup that complements your celebration. For smart budgeting tips, check out our guide on <a href="#blog-beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">planning a beautiful wedding within your budget</a>, or explore our full package options in our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Décor for Every Wedding Function</h2>
         <p>A wedding usually includes more than one function, and each event can have its own atmosphere.</p>
@@ -634,7 +635,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">8. Focus on Guest Experience</h2>
         <p>A wedding is also about your guests.</p>
         <p>From the venue layout and seating arrangement to dining areas, accommodation, accessibility, and overall flow, these details can influence how comfortable your guests feel.</p>
-        <p>A well-planned venue allows guests to move easily between different areas while enjoying the celebrations.</p>
+        <p>A well-planned venue allows guests to move easily between different areas while enjoying the celebrations. Discover more about creating engaging celebrations in our feature on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends</a>.</p>
         <p>This becomes particularly important for destination and multi-day weddings where guests may spend more time at the venue.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">9. Attention to the Details</h2>
@@ -652,7 +653,7 @@ const BLOG_POSTS: BlogPost[] = [
         <p>Even a beautiful venue can lose its charm without proper planning.</p>
         <p>Before finalizing your wedding setup, consider:</p>
         <p>Number of guests<br />Wedding functions<br />Venue size<br />Décor requirements<br />Seating arrangements<br />Lighting<br />Dining areas<br />Photography spaces<br />Guest accommodation<br />Overall budget</p>
-        <p>Planning these details in advance can help create a smoother wedding experience.</p>
+        <p>Planning these details in advance can help create a smoother wedding experience. Refer to our <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">complete wedding planning timeline</a> to stay organized from day one.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">From Venue Selection to Décor</h2>
         <p>Choosing a wedding venue is only the beginning.</p>
@@ -708,7 +709,7 @@ const BLOG_POSTS: BlogPost[] = [
         <p>A Destination Wedding gives you the opportunity to create a complete visual experience for your guests.</p>
         <p>You can give every function its own décor concept while maintaining a common wedding style.</p>
         <p>For example, a Mehendi function can feature colourful floral arrangements and comfortable seating, while the wedding ceremony can have elegant traditional décor. An evening reception can then use sophisticated lighting and a grand stage.</p>
-        <p>When the venue, décor, and functions are planned together, the entire destination wedding can feel more organized and visually beautiful.</p>
+        <p>When the venue, décor, and functions are planned together, the entire destination wedding can feel more organized and visually beautiful. Discover how to harmonize location and styling in our complete guide to <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor weddings</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Elegant Styling for 5-Star Hotels</h2>
         <p>A 5-star hotel already provides a luxurious environment, but customized décor can make the celebration feel even more personal.</p>
@@ -753,7 +754,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Use Nature for Garden and Water Pond Weddings</h2>
         <p>Outdoor venues can create some of the most beautiful wedding environments.</p>
         <p>For Garden and Water Pond Weddings, natural greenery and water features can become part of the overall décor.</p>
-        <p>Soft fairy lights, floral pathways, wooden seating, elegant mandaps, floating floral elements, and subtle lighting can create a peaceful and romantic atmosphere.</p>
+        <p>Soft fairy lights, floral pathways, wooden seating, elegant mandaps, floating floral elements, and subtle lighting can create a peaceful and romantic atmosphere. Visit our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">gallery</a> to see real outdoor setups where nature and decor blend seamlessly.</p>
         <p>The key to outdoor décor is balance. Instead of hiding the natural surroundings, use décor to enhance them.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create an Intimate Villa Wedding Setup</h2>
@@ -767,7 +768,7 @@ const BLOG_POSTS: BlogPost[] = [
         <p>That makes it one of the most important areas to style.</p>
         <p>Depending on your wedding theme, you can create an entrance using:</p>
         <p>Fresh flowers<br />Floral arches<br />Decorative panels<br />Traditional elements<br />Elegant lighting<br />Personalized signage<br />Drapes and fabric<br />Greenery</p>
-        <p>A well-designed entrance immediately establishes the mood for the rest of the celebration.</p>
+        <p>A well-designed entrance immediately establishes the mood for the rest of the celebration. Explore how personalized entry zones fit into <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Design a Stage That Becomes the Centre of Attention</h2>
         <p>The wedding stage is one of the most photographed areas of the venue.</p>
@@ -785,7 +786,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor Starting From ₹1.25 Lakhs</h2>
         <p>Your wedding décor should match both your vision and your budget.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, allowing you to plan a beautiful setup according to your requirements.</p>
-        <p>The décor package can be planned around the venue, wedding theme, number of functions, guest requirements, and preferred design style.</p>
+        <p>The décor package can be planned around the venue, wedding theme, number of functions, guest requirements, and preferred design style. Learn practical strategies for stunning setups within reach in our guide on <a href="#blog-beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">planning your wedding within budget</a>, or check out our full range in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>From entrance décor and stage design to flowers, lighting, seating, and decorative elements, every part of the setup can be considered as part of the overall wedding experience.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Every Function Look Different</h2>
@@ -798,7 +799,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose Décor That Matches Your Venue</h2>
         <p>One of the biggest mistakes in wedding décor is selecting a design without considering the venue.</p>
         <p>A grand palace may require a different styling approach compared with a villa or garden.</p>
-        <p>Before finalizing the décor, consider the venue's architecture, size, natural surroundings, ceiling height, lighting conditions, and available spaces.</p>
+        <p>Before finalizing the décor, consider the venue's architecture, size, natural surroundings, ceiling height, lighting conditions, and available spaces. Explore how venue architecture shapes design possibilities in our <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">venue selection guide</a>.</p>
         <p>The best décor design is one that works with the venue rather than trying to completely hide it.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Wedding Décor Should Tell Your Story</h2>
@@ -836,7 +837,7 @@ const BLOG_POSTS: BlogPost[] = [
       <article className="space-y-4">
         <p>Planning a wedding is an exciting journey filled with beautiful ideas, family celebrations, and unforgettable moments. But before you decide on flowers, outfits, food, or entertainment, one of the most important decisions is choosing the right wedding venue.</p>
         <p>The venue sets the foundation for your entire celebration. It influences the décor, guest experience, photography, functions, and even the overall mood of your wedding.</p>
-        <p>At Surya Event, we understand that every couple has a different vision for their special day. Whether you are planning a grand celebration or an intimate family function, the right venue can make your wedding experience even more memorable.</p>
+        <p>At Surya Event, we understand that every couple has a different vision for their special day. Whether you are planning a grand celebration or an intimate family function, the right venue can make your wedding experience even more memorable. <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Learn more about our team and coordination process</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">What Makes a Wedding Venue Perfect?</h2>
         <p>There is no universal answer to what makes a venue perfect. Your ideal venue depends on your guest list, wedding functions, location, theme, and budget.</p>
@@ -847,7 +848,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan a Beautiful Destination Wedding</h2>
         <p>A Destination Wedding can turn your wedding celebration into a complete experience for you and your guests.</p>
         <p>From beautiful resorts to luxury hotels and private properties, destination weddings offer plenty of opportunities for multiple functions in one location.</p>
-        <p>You can plan your Mehendi, Haldi, wedding ceremony, and reception around different areas of the property. With customized décor and thoughtful planning, the entire celebration can have one connected theme.</p>
+        <p>You can plan your Mehendi, Haldi, wedding ceremony, and reception around different areas of the property. With customized décor and thoughtful planning, the entire celebration can have one connected theme. Read our feature on creating memorable celebrations with <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor wedding settings</a>.</p>
         <p>A destination wedding is especially suitable for couples who want their wedding to feel like a memorable getaway for their families and friends.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Experience Luxury at 5-Star Hotels</h2>
@@ -887,7 +888,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Celebrate Outdoors With Garden and Water Pond Weddings</h2>
         <p>Outdoor weddings have their own charm.</p>
         <p>Garden and Water Pond Weddings can provide a naturally beautiful backdrop for your special day. Green surroundings, flowers, soft lighting, elegant seating, and a beautifully designed stage can create a peaceful wedding atmosphere.</p>
-        <p>Outdoor spaces also provide interesting options for photography and can make daytime and evening celebrations look completely different.</p>
+        <p>Outdoor spaces also provide interesting options for photography and can make daytime and evening celebrations look completely different. Browse our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">gallery</a> for inspiration on open-air garden and waterfront ceremonies.</p>
         <p>With proper planning and décor, nature itself can become part of your wedding design.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose Privacy With a Villa Wedding</h2>
@@ -898,7 +899,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor That Brings Your Venue to Life</h2>
         <p>Selecting the venue is only one part of wedding planning. The next step is transforming that venue into a space that represents your style.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>.</p>
-        <p>Décor can include the entrance, stage, floral arrangements, lighting, seating, backdrops, table settings, and other decorative elements.</p>
+        <p>Décor can include the entrance, stage, floral arrangements, lighting, seating, backdrops, table settings, and other decorative elements. Check out our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">creative wedding décor ideas</a> to visualize themes that suit your space, and see our full range in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>The same venue can look completely different depending on the décor concept. A simple space can become elegant, traditional, modern, royal, or romantic with the right design approach.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About Your Guests</h2>
@@ -912,7 +913,7 @@ const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start Planning Your Dream Wedding</h2>
         <p>Choosing a wedding venue can seem complicated because there are so many possibilities. But once you understand your requirements, the process becomes much easier.</p>
-        <p>Start by deciding your guest list and wedding style. Then consider the type of venue that fits your celebration. Once the venue is finalized, you can plan décor, seating, lighting, food, entertainment, and other arrangements around it.</p>
+        <p>Start by deciding your guest list and wedding style. Then consider the type of venue that fits your celebration. Once the venue is finalized, you can plan décor, seating, lighting, food, entertainment, and other arrangements around it. Structure your preparation milestones with our <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a>.</p>
         <p>At Surya Event, the goal is to help you turn your wedding vision into a celebration that feels personal and memorable.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Venue Sets the Stage. Your Story Makes It Special.</h2>
@@ -947,7 +948,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start With the Right Venue</h2>
         <p>The venue is one of the first and most important decisions when planning a wedding.</p>
         <p>Some couples dream of a beautiful Destination Wedding, while others prefer a convenient city venue. Some want a grand celebration with hundreds of guests, while others prefer an intimate wedding surrounded by their closest family and friends.</p>
-        <p>There is no single perfect venue for every wedding. The right choice depends on your wedding style, guest list, functions, location, and budget.</p>
+        <p>There is no single perfect venue for every wedding. The right choice depends on your wedding style, guest list, functions, location, and budget. For step-by-step tips on narrowing down locations, explore <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Luxury Wedding at 5-Star Hotels</h2>
         <p>If you are looking for a grand and luxurious celebration, 5-star hotels can provide an elegant setting for your special day.</p>
@@ -961,7 +962,7 @@ const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make It Grand at Convention Halls and Palace Grounds</h2>
         <p>For weddings with a large guest list, Convention Halls can provide the space required for seating, dining, stage setups, entertainment, and other wedding arrangements.</p>
-        <p>If you want your celebration to have a traditional and royal atmosphere, Palace Grounds can create an impressive setting. Elegant lighting, floral decorations, traditional elements, furniture, and customized stage décor can bring the entire venue together.</p>
+        <p>If you want your celebration to have a traditional and royal atmosphere, Palace Grounds can create an impressive setting. Elegant lighting, floral decorations, traditional elements, furniture, and customized stage décor can bring the entire venue together. View our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">photo gallery</a> to see grand hall and heritage transformations.</p>
         <p>The right décor can help turn a large space into a wedding environment that feels personal and memorable.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">A More Personal Bungalow Wedding</h2>
@@ -988,13 +989,13 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Beautiful Décor Starting From ₹1.25 Lakhs</h2>
         <p>Once your venue has been selected, décor becomes one of the most exciting parts of wedding planning.</p>
         <p>The right décor can completely transform the appearance and atmosphere of a venue. From the entrance and stage to flowers, lighting, seating, backdrops, and decorative elements, every detail contributes to the overall wedding experience.</p>
-        <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, giving couples an opportunity to plan a beautiful wedding setup according to their requirements and preferences.</p>
+        <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, giving couples an opportunity to plan a beautiful wedding setup according to their requirements and preferences. Find out how to allocate funds effectively in our advice on <a href="#blog-beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">planning a wedding within budget</a>, or check our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services page</a> for full offerings.</p>
         <p>Whether you are planning a grand celebration or an intimate function, décor can be customized around your wedding theme, venue, and overall vision.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding Around Your Style</h2>
         <p>Choosing a venue is only the beginning. You also need to think about the number of guests, wedding functions, accommodation, food, décor, photography areas, entertainment, and the overall flow of the celebration.</p>
         <p>A well-planned wedding brings all these elements together.</p>
-        <p>Instead of choosing a venue simply because it looks attractive, consider whether it suits your guest list, functions, budget, and wedding style. The right combination of venue and décor can make your celebration feel more organized and personal.</p>
+        <p>Instead of choosing a venue simply because it looks attractive, consider whether it suits your guest list, functions, budget, and wedding style. Learn how our team shapes every event around your personal taste in <a href="#blog-why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your First Step Towards a Memorable Wedding</h2>
         <p>Planning a wedding can feel overwhelming, especially when there are so many choices available.</p>
@@ -1029,9 +1030,9 @@ const BLOG_POSTS: BlogPost[] = [
         <p>Today, couples have many options when it comes to wedding venues. You can choose a luxury hotel, a beautiful resort, a palace, a garden, a villa, or even a private bungalow. With the right planning and décor, any place can be turned into a beautiful wedding venue.</p>
         <p>If you are looking for an experienced team to help plan and manage your wedding, you can learn more about <strong>Surya Event and its event planning services</strong> through our <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">About Us</a> page.</p>
 
-        <h2 className="text-2yxl font-serif text-[#D4AF37] mt-8 mb-4">Destination Wedding – Celebrate Your Special Day in Style</h2>
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Destination Wedding – Celebrate Your Special Day in Style</h2>
         <p>A <strong>Destination Wedding</strong> is a great choice for couples who want something different from a traditional wedding. You can invite your family and close friends to a beautiful location and enjoy the wedding celebrations together.</p>
-        <p>Destination weddings can be planned at resorts, hotels, villas, palaces, or other beautiful locations. The location, décor, food, entertainment, and guest experience can all be planned according to your wedding theme.</p>
+        <p>Destination weddings can be planned at resorts, hotels, villas, palaces, or other beautiful locations. The location, décor, food, entertainment, and guest experience can all be planned according to your wedding theme. For detailed styling tips for open settings and villas, read our guide on <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor weddings</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Wedding at 5-Star Hotels</h2>
         <p>For couples looking for a luxury wedding experience, <strong>5-star hotels</strong> are a popular choice. These venues offer comfortable rooms, beautiful banquet spaces, professional services, and excellent hospitality.</p>
@@ -1060,7 +1061,7 @@ const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Garden and Water Pond Weddings</h2>
         <p>Outdoor weddings are becoming a popular choice for couples who love natural surroundings.</p>
-        <p><strong>Garden and water pond weddings</strong> can create a fresh and beautiful atmosphere. Floral decorations, fairy lights, candles, seating arrangements, and a beautiful stage can make the outdoor space look magical.</p>
+        <p><strong>Garden and water pond weddings</strong> can create a fresh and beautiful atmosphere. Floral decorations, fairy lights, candles, seating arrangements, and a beautiful stage can make the outdoor space look magical. Take a look at our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see how open lawns and waterfronts are transformed.</p>
         <p>The natural background can also add a special touch to wedding photography.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Villa Wedding – A Private Celebration</h2>
@@ -1069,12 +1070,12 @@ const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Beautiful Décor Does Not Always Mean a Huge Budget</h2>
         <p>Many people think that beautiful wedding décor requires a very high budget. However, the right planning can make a big difference.</p>
-        <p>At Surya Event, <strong>decor starts from ₹1.25 lakhs</strong>, giving couples an option to plan attractive wedding décor while keeping their requirements and budget in mind.</p>
+        <p>At Surya Event, <strong>decor starts from ₹1.25 lakhs</strong>, giving couples an option to plan attractive wedding décor while keeping their requirements and budget in mind. Discover creative cost-saving approaches in our guide to <a href="#blog-beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">planning within budget</a>, or explore our full range of <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services</a>.</p>
         <p>The décor can be planned according to the venue, number of guests, wedding theme, and type of function. From floral arrangements and lighting to stage décor and entry setups, every element can be planned to match the overall wedding style.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding with the Right Team</h2>
         <p>Choosing the right venue is only the first step. A successful wedding also needs proper planning, creative décor, guest management, and attention to small details.</p>
-        <p>Whether you are planning a <strong>Destination Wedding, 5-star hotel wedding, 3-star hotel wedding, convention hall wedding, palace wedding, bungalow wedding, resort wedding, garden wedding, water pond wedding, or villa wedding</strong>, the right event planning team can help bring your idea to life.</p>
+        <p>Whether you are planning a <strong>Destination Wedding, 5-star hotel wedding, 3-star hotel wedding, convention hall wedding, palace wedding, bungalow wedding, resort wedding, garden wedding, water pond wedding, or villa wedding</strong>, the right event planning team can help bring your idea to life. Stay organized from start to finish with our comprehensive <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a>.</p>
         <p>Your wedding should feel personal, beautiful, and memorable. With the right venue, décor, and planning, you can create a celebration that you and your guests will remember for years.</p>
         <p>If you are ready to discuss your wedding requirements, venue, décor, or event planning needs, <strong><a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact Surya Event</a></strong> and start planning your celebration.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Start planning your dream wedding with Surya Event and turn your wedding vision into a beautiful celebration.</p>
@@ -1527,18 +1528,32 @@ export default function Blog() {
                 <div
                   className="prose prose-invert max-w-none text-sm md:text-base leading-relaxed text-[#F5F5F0]/85 font-light whitespace-pre-line"
                   onClick={(e) => {
-                    const target = e.target as HTMLElement;
-                    if (target.tagName === 'A') {
-                      const href = target.getAttribute('href');
-                      if (href && href.startsWith('#')) {
-                        e.preventDefault();
-                        setSelectedPost(null);
-                        setTimeout(() => {
-                          const element = document.querySelector(href);
-                          if (element) {
-                            element.scrollIntoView({ behavior: 'smooth' });
+                    const link = (e.target as HTMLElement).closest('a');
+                    if (link) {
+                      const href = link.getAttribute('href');
+                      if (href) {
+                        if (href.startsWith('#blog-')) {
+                          e.preventDefault();
+                          const targetBlogId = href.replace('#blog-', '');
+                          const found = BLOG_POSTS.find((p) => p.id === targetBlogId);
+                          if (found) {
+                            setSelectedPost(found);
+                            const modalScroll = link.closest('.overflow-y-auto');
+                            if (modalScroll) {
+                              modalScroll.scrollTo({ top: 0, behavior: 'smooth' });
+                            }
+                            return;
                           }
-                        }, 300);
+                        } else if (href.startsWith('#')) {
+                          e.preventDefault();
+                          setSelectedPost(null);
+                          setTimeout(() => {
+                            const element = document.querySelector(href);
+                            if (element) {
+                              element.scrollIntoView({ behavior: 'smooth' });
+                            }
+                          }, 300);
+                        }
                       }
                     }
                   }}
