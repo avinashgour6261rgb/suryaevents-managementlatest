@@ -35,6 +35,79 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "wedding-entertainment-ideas",
+    title: "Wedding Entertainment Ideas That Make Every Celebration More Memorable",
+    excerpt: "The laughter between family members, unexpected dance performances, and interactive activities often become the stories people talk about long after the celebration ends.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A wedding is remembered for more than its decorations and beautiful photographs. The laughter between family members, unexpected dance performances, interactive activities and special moments shared with guests often become the stories people talk about long after the celebration ends.</p>
+        <p>Entertainment brings energy to a wedding and gives guests more opportunities to participate. Whether you are planning a traditional ceremony or a modern celebration, the right activities can make every function feel more engaging.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start With the Mood of Your Celebration</h2>
+        <p>Every wedding has its own personality. Some couples prefer a lively celebration filled with music and dancing, while others want a relaxed atmosphere where family and friends can spend quality time together.</p>
+        <p>Think about the kind of experience you want to create before choosing entertainment. A high-energy performance may work beautifully for a reception, whereas softer music and interactive activities might suit a daytime family function or an open lawn. For couples celebrating in natural outdoor or villa environments, explore our advice on <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor wedding settings</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Sangeet a Celebration of Family</h2>
+        <p>The Sangeet is an opportunity for families to come together through music, dance and friendly performances.</p>
+        <p>You can include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Dance performances by family members</li>
+          <li>A couple's special dance</li>
+          <li>Friendly competitions between both families</li>
+          <li>A host who keeps the event moving</li>
+          <li>Short videos sharing memories of the couple</li>
+        </ul>
+        <p>A well-organized sequence helps every performance receive attention without making the evening feel too long.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring Guests Into the Celebration</h2>
+        <p>Entertainment becomes more enjoyable when guests are not just watching from their seats.</p>
+        <p>Interactive activities can include a wedding trivia round, a couple's quiz, a photo challenge or a fun family competition. These activities are especially useful when guests come from different cities or have not met before.</p>
+        <p>The idea is to encourage participation without making anyone feel uncomfortable. To see how modern couples are prioritizing attendee participation, discover our insights on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Special Moments During the Reception</h2>
+        <p>A reception offers plenty of opportunities for memorable experiences. Live music, a professional host, coordinated performances or a special entrance can add personality to the evening.</p>
+        <p>Consider including one or two signature moments rather than filling every part of the schedule with activities. A carefully timed surprise can often create a stronger impression than a packed programme. To see how lighting and staging elevate these highlights, explore our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose Music That Connects With Your Guests</h2>
+        <p>Music influences the energy of the entire event. A good selection can move naturally from welcoming guests to formal moments and then into dancing.</p>
+        <p>Consider the age groups attending, the cultural preferences of both families and the type of function. A balanced playlist helps everyone feel included.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Add Entertainment That Matches the Theme</h2>
+        <p>If your wedding includes a particular theme, let it influence the activities too.</p>
+        <p>A traditional celebration might include folk performances, while a contemporary reception could feature a live band or a DJ. Outdoor functions may also offer space for acoustic music or informal group activities.</p>
+        <p>You can explore different possibilities alongside our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a>, so the entertainment and visual atmosphere feel connected. Explore our complete event styling packages in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Keep the Event Running Smoothly</h2>
+        <p>Even exciting activities can lose their impact when the schedule is unclear.</p>
+        <p>Prepare a simple event sequence that covers guest arrival, performances, speeches, dinner and open dancing. Share the plan with the host, performers and event team so everyone understands when their part begins.</p>
+        <p>Allow small breaks between major activities to give guests time to relax and enjoy the occasion. Structuring your schedule with a comprehensive <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> ensures seamless transitions between every ceremony.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Don't Forget the Smaller Guests</h2>
+        <p>Children attending a wedding may enjoy having activities of their own. Depending on the venue and arrangements, you could consider simple games, drawing activities or a supervised activity corner.</p>
+        <p>Thoughtful additions like these can make the celebration more comfortable for families.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Entertainment Part of the Experience</h2>
+        <p>The best wedding entertainment feels like a natural part of the celebration rather than a collection of unrelated performances.</p>
+        <p>When the music, activities, timing and atmosphere work together, guests have more opportunities to connect and create memories.</p>
+        <p>For ideas that bring the different parts of your celebration together, explore <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event</a> and its event planning services.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Guests Something to Remember</h2>
+        <p>A wedding does not need a complicated entertainment programme to feel special. It needs moments that reflect the couple, bring people together and make the occasion enjoyable.</p>
+        <p>Plan activities around your guests, give important moments enough time and let the celebration unfold naturally.</p>
+        <p>For help planning your next wedding celebration, connect with the team through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event contact page</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help curate engaging entertainment that keeps your celebration lively and memorable.</p>
+      </article>
+    ),
+    category: "Wedding Trends",
+    date: "October 13, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1779308936221-89739e035a53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    likes: 124,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Wedding entertainment and celebration music"
+  },
+  {
     id: "destination-outdoor-weddings-setting",
     title: "Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting",
     excerpt: "There is something special about celebrating a wedding in a setting that becomes part of the occasion itself. Discover how to plan and style outdoor and destination celebrations.",
@@ -503,7 +576,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Entertainment Beyond Music and Dance</h2>
         <p>Music and dance are an important part of wedding celebrations, but entertainment can go beyond the traditional setup.</p>
         <p>Depending on your guests and wedding style, you can include interactive performances, family activities, games, photo experiences, or other forms of participation.</p>
-        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed.</p>
+        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed. For interactive activities, games, and music concepts, explore our guide on <a href="#blog-wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding entertainment ideas</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Comfortable Spaces for Guests</h2>
         <p>Not every guest wants to stand near the main stage throughout the celebration.</p>
