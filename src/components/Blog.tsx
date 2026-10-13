@@ -100,7 +100,7 @@ const BLOG_POSTS: BlogPost[] = [
     ),
     category: "Wedding Trends",
     date: "October 13, 2026",
-    readTime: "5 min read",
+    readTime: "4 min read",
     author: "Surya Team",
     image: "https://images.unsplash.com/photo-1779308936221-89739e035a53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     likes: 124,
