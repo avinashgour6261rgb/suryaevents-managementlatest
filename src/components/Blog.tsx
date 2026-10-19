@@ -35,6 +35,311 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "south-indian-wedding-feast-banana-leaf-dining",
+    title: "South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining",
+    excerpt: "Banana leaf dining is an essential tradition of South Indian celebrations. Discover key insights on seating layout, serving sequence, muhurtham coordination, and flawless dining logistics.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>For many South Indian families, a wedding feast is an essential part of the celebration. It brings guests together around familiar flavours, traditional hospitality and the joy of sharing a meal after an important ceremony.</p>
+        <p>Banana leaf dining is a well-known feature of many traditional South Indian functions. The experience involves more than preparing food: the seating layout, serving sequence, guest movement and coordination with the wedding schedule all contribute to how smoothly the meal takes place.</p>
+        <p>With careful preparation, traditional dining can remain an enjoyable part of the celebration without creating unnecessary delays or congestion.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Understand the Family's Dining Traditions</h2>
+        <p>Food customs differ across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh and Telangana, as well as between individual families.</p>
+        <p>Before finalizing the menu, discuss the family's preferences with the catering team. Consider the expected guest count, dietary requirements, meal timing and any dishes that are especially important to the occasion.</p>
+        <p>For traditional vegetarian celebrations, confirm the menu and serving arrangements well in advance. This helps the caterer plan ingredients, preparation space and the number of staff required.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Dining Layout Before the Wedding Day</h2>
+        <p>The dining area should accommodate guests comfortably while allowing servers to move safely and efficiently.</p>
+        <p>For banana leaf dining, consider the length and arrangement of the rows, the distance between seating areas and the pathways used by catering staff. Make sure guests can enter and leave without blocking the main routes.</p>
+        <p>If the ceremony and dining take place in different areas, provide clear directions and allow enough time for guests to move between them. Whether hosting at grand convention halls, luxury hotels or heritage grounds, explore our guide on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a> to ensure ample dining capacity.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Understand the Flow of a Traditional Meal</h2>
+        <p>A traditional South Indian feast may include a variety of rice preparations, vegetables, accompaniments, sweets and other dishes, depending on the region and family preferences.</p>
+        <p>The serving order can also vary. Coordinate the intended sequence with the caterer rather than assuming that every community follows the same arrangement.</p>
+        <p>When the service team understands the menu and the planned sequence, the meal can proceed more consistently across the dining area.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Guest Movement Comfortable</h2>
+        <p>Large wedding gatherings can create busy dining periods, particularly when the meal follows the main ceremony.</p>
+        <p>Consider whether guests will be seated in multiple batches, how elders will be assisted and where guests who need additional help should be accommodated.</p>
+        <p>Clear pathways, visible dining entrances and sufficient space for staff help reduce congestion. If the venue has multiple dining sections, signage or staff guidance can make it easier for guests to find the right area.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Muhurtham Schedule</h2>
+        <p>In many South Indian weddings, the timing of the main ceremony is determined by the family's traditions and the selected muhurtham. Dining arrangements should support that schedule.</p>
+        <p>Confirm the expected ceremony duration, the approximate time guests will arrive for the meal and when the catering team needs to be ready.</p>
+        <p>The caterer and event coordinator should communicate any timing changes promptly. This is particularly important for larger gatherings, where a small delay can affect several dining batches. Aligning your food service timings with a structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> ensures seamless transitions between rituals and dining batches.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Match the Dining Environment to the Celebration</h2>
+        <p>The dining area should feel like a natural part of the wedding rather than a separate, poorly coordinated space.</p>
+        <p>Depending on the venue, this may involve traditional welcome details, simple floral arrangements or a clean and organized seating layout. Keep decoration practical so it does not interfere with serving, cleaning or guest movement.</p>
+        <p>The main priority is a pleasant dining experience. Decorative features should support that goal instead of making the space difficult to use. If you are planning traditional floral entrances, banana sapling framing, or authentic brass urlis, browse our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Pay Attention to Cleanliness and Food Service</h2>
+        <p>A well-organized feast requires coordination behind the scenes.</p>
+        <p>Confirm that the catering team has sufficient preparation space, suitable food storage, clean serving equipment and an organized process for replacing or clearing used banana leaves.</p>
+        <p>Waste collection and cleaning should be planned so the dining area remains presentable throughout the service. Staff should also be aware of food-safety requirements and any venue-specific rules.</p>
+        <p>These operational details may not be the first things guests notice, but they strongly influence the overall experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Consider Different Guest Needs</h2>
+        <p>Wedding guests may include children, elderly relatives and people with specific dietary requirements.</p>
+        <p>Provide suitable seating and assistance where needed. Make sure guests can identify the dining area and ask staff for help without difficulty.</p>
+        <p>If a family member requires a different meal arrangement, discuss it with the caterer before the event rather than leaving it to be resolved during service.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Other Wedding Services</h2>
+        <p>The dining team needs to work in coordination with the venue staff and the people managing the ceremony.</p>
+        <p>For example, the event coordinator should know when the main ritual is expected to finish, while the catering team should be prepared for the arrival of guests. If photography or family activities continue after the ceremony, make sure they do not unintentionally delay the meal for everyone.</p>
+        <p>Surya Event Management lists traditional dining logistics among its end-to-end wedding offerings. You can learn more about our comprehensive <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> and explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> for inspiration when planning the overall celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Prepare a Dining Checklist</h2>
+        <p>Before the wedding day, confirm the important arrangements with the catering and event teams.</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Final guest estimate</li>
+          <li>Confirmed menu and serving sequence</li>
+          <li>Dining area layout</li>
+          <li>Seating and banana leaf requirements</li>
+          <li>Staff and service responsibilities</li>
+          <li>Drinking water arrangements</li>
+          <li>Cleaning and waste management</li>
+          <li>Special dietary needs</li>
+          <li>Timing in relation to the ceremony</li>
+        </ul>
+        <p>A shared checklist makes it easier to identify missing details before the guests arrive.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Preserve the Spirit of South Indian Hospitality</h2>
+        <p>A traditional wedding feast is an opportunity to welcome guests and share an important family occasion. The experience feels complete when the food, service and dining environment are organized with care.</p>
+        <p>By planning the layout, coordinating the meal with the ceremony and paying attention to guest comfort, families can preserve the familiar character of banana leaf dining while managing a large celebration effectively.</p>
+        <p>For help coordinating your wedding arrangements, learn more about <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management</a> or submit your requirements through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event enquiry section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management handle your dining logistics and venue coordination for a truly memorable traditional feast.</p>
+      </article>
+    ),
+    category: "Behind The Scenes",
+    date: "October 19, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.pexels.com/photos/35267192/pexels-photo-35267192.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 148,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Traditional South Indian wedding feast served on fresh banana leaf"
+  },
+  {
+    id: "engagement-ceremony-ideas-journey",
+    title: "Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey",
+    excerpt: "An engagement ceremony marks the beginning of an exciting new chapter. Discover creative themes, stage setups, and planning tips to make your celebration memorable.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>An engagement ceremony marks the beginning of an exciting new chapter for a couple and their families. It is a chance to celebrate their commitment, introduce family traditions and share a special moment with the people closest to them.</p>
+        <p>While some couples prefer a small family gathering, others choose a larger celebration with a stage, music, photography and carefully planned arrangements. Whatever the size, a well-organised engagement ceremony should reflect the couple's preferences and make guests feel welcome.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose a Theme That Reflects Your Story</h2>
+        <p>The theme sets the direction for the entire celebration. Some couples prefer a classic look with flowers and soft colours, while others choose a modern setup with bold shades, elegant seating and creative backdrops.</p>
+        <p>Before finalising the theme, consider the venue, guest count and time of day. An outdoor afternoon function may suit a fresh, natural look, while an evening ceremony can feature warm lighting and a more formal setting. If you're exploring distinctive aesthetics, take inspiration from our guide on <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">creative wedding décor ideas</a>.</p>
+        <p>The aim is to create a setting that feels personal rather than following every popular trend.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan a Stage for the Ring Exchange</h2>
+        <p>The ring exchange is usually one of the most important moments of an engagement ceremony. The stage should provide enough space for the couple, their families and the photographer to move comfortably.</p>
+        <p>A coordinated backdrop, suitable seating and balanced lighting can make this area stand out without making it feel overcrowded. Keep the main design visible from the guest seating area so everyone can enjoy the ceremony. You can <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">view our event gallery</a> to see elegant stage and floral setups tailored for intimate ceremonies.</p>
+        <p>You can also include the couple's names or a simple personal message to make the setting more meaningful.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Guest Seating Comfortable</h2>
+        <p>Guests should be able to watch the ceremony without struggling to see the stage. Arrange seating according to the venue layout and leave clear pathways for movement.</p>
+        <p>If elderly relatives are attending, consider easy access to their seats. For larger gatherings, make sure the entrance, seating and refreshments areas are clearly arranged.</p>
+        <p>These practical details help the ceremony run smoothly and allow families to focus on the celebration. For venue options ranging from private bungalows and villas to luxury banquet halls, explore our guide on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect venue</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Ring Exchange and Family Moments</h2>
+        <p>A simple programme helps everyone understand what happens next. You may begin with the arrival of guests, followed by the couple's entrance, the ring exchange, family photographs and refreshments.</p>
+        <p>Discuss the sequence with both families before the event. If there are traditional rituals or special performances, include enough time for them rather than trying to fit everything into a short schedule.</p>
+        <p>A little planning can prevent confusion during the most important moments. Aligning your milestones with a structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> prevents last-minute rush and keeps every function organized.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Add Personal Touches Without Overcomplicating the Event</h2>
+        <p>Personal details can make an engagement ceremony feel more connected to the couple. A photograph display, a favourite song or a short message from family members can add meaning without requiring an elaborate setup.</p>
+        <p>Choose details that suit the couple's personality and the atmosphere they want to create. A few thoughtful additions often work better than too many competing ideas. To ensure these moments are documented beautifully, check out our insights on <a href="#blog-wedding-photography-trends-moments" className="text-[#D4AF37] no-underline hover:text-white transition-colors">candid wedding photography trends</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring the Arrangements Together</h2>
+        <p>An engagement ceremony involves several connected elements, including the stage, seating, lighting, guest movement and timing. Planning these together helps the celebration feel organised from arrival to the final photographs.</p>
+        <p>For ideas and information about event arrangements, explore <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event</a>. You can also explore our tailored decor packages starting from ₹1.25 lakhs in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Begin Your Wedding Journey With a Celebration to Remember</h2>
+        <p>An engagement is not just a formal announcement. It is a meaningful occasion for two families to come together and celebrate what lies ahead.</p>
+        <p>With a suitable plan, personal details and careful coordination, the ceremony can feel warm, welcoming and memorable.</p>
+        <p>If you are planning an upcoming function, visit the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event contact section</a> to enquire about your event requirements.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help design a memorable engagement ceremony that sets the perfect tone for your wedding journey.</p>
+      </article>
+    ),
+    category: "Wedding Trends",
+    date: "October 15, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1591203281954-23fa2ff8ef18?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    likes: 142,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Engagement ceremony ring exchange and decor setup"
+  },
+  {
+    id: "wedding-photography-trends-moments",
+    title: "Wedding Photography Trends: Creating Beautiful Moments Beyond the Main Stage",
+    excerpt: "Wedding photographs preserve moments that may pass in a few seconds but remain meaningful for years. Discover how to create an environment where natural, candid memories and creative photographs come together.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>Wedding photographs preserve moments that may pass in a few seconds but remain meaningful for years. A shared smile, a family member's reaction, a quiet moment before the ceremony or an energetic dance with friends can tell a more personal story than a posed photograph alone.</p>
+        <p>Today's wedding celebrations offer many ways to capture these memories. With thoughtful preparation, couples can create an environment where natural moments and creative photographs come together.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Focus on Moments, Not Just Poses</h2>
+        <p>Traditional portraits remain an important part of wedding photography, but candid moments bring another dimension to the collection.</p>
+        <p>Conversations between relatives, laughter during the Mehendi, emotional reactions during the ceremony and spontaneous dance-floor moments can capture the personality of the celebration.</p>
+        <p>Allow time for these interactions instead of scheduling every minute around formal photographs. For ideas on bringing high energy and lively interaction to the dance floor, explore our advice on <a href="#blog-wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding entertainment ideas</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Comfortable Photography Environment</h2>
+        <p>People are generally more relaxed when they know where photographs will take place and when they will be needed.</p>
+        <p>Plan a convenient area for family portraits and let important family members know when they should be available. This reduces unnecessary waiting and makes group photographs easier to organize.</p>
+        <p>Keep the space accessible without blocking the main guest pathways.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give the Couple a Few Distinctive Backdrops</h2>
+        <p>A wedding does not need dozens of photography spots. A few well-planned backgrounds can provide enough variety.</p>
+        <p>Possible ideas include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>A floral backdrop for couple portraits</li>
+          <li>A natural garden setting</li>
+          <li>An elegant architectural feature</li>
+          <li>A decorative entrance</li>
+          <li>A softly illuminated evening corner</li>
+        </ul>
+        <p>The chosen locations should complement the celebration rather than compete with it. You can <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">explore our event gallery</a> to see how distinctive photo zones and stage backdrops are designed in real venues.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Use Lighting to Shape the Mood</h2>
+        <p>Lighting has a significant effect on how photographs look.</p>
+        <p>Natural daylight can create soft, bright images, while evening lighting can introduce warmth and atmosphere. Stage lighting, decorative lights and illuminated pathways can also provide different visual effects.</p>
+        <p>Discuss important photography moments with the event and photography teams so the lighting supports both the guests and the camera.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Capture the Details That Tell Your Story</h2>
+        <p>Some of the most meaningful photographs focus on small details.</p>
+        <p>These might include the wedding invitation, floral arrangements, jewellery, ceremony accessories, table settings or a personal item with sentimental value.</p>
+        <p>Preparing these details in advance allows the photographer to capture them without interrupting the main programme.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Family Photographs Without Rushing</h2>
+        <p>Family portraits often involve many combinations of relatives, which can make the process longer than expected.</p>
+        <p>Create a short list of essential group photographs beforehand. Start with the most important combinations and keep someone familiar with both families available to help gather people.</p>
+        <p>This approach can save time while making sure important memories are not missed.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Let Each Function Have Its Own Visual Story</h2>
+        <p>Different wedding functions naturally create different photographic opportunities.</p>
+        <p><strong>Haldi:</strong> Bright colours, playful moments and interactions between family members can bring energy to the photographs.</p>
+        <p><strong>Mehendi:</strong> Henna details, relaxed conversations, colourful outfits and decorative elements can provide a more intimate visual story.</p>
+        <p><strong>Wedding Ceremony:</strong> Focus on important rituals, family reactions, meaningful exchanges and the moments surrounding the ceremony.</p>
+        <p><strong>Reception:</strong> Evening portraits, stage photographs, guest interactions and dance-floor moments can create a different atmosphere from the earlier functions.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Space for Unplanned Moments</h2>
+        <p>Not every memorable photograph needs to be arranged in advance.</p>
+        <p>Leave some time between formal activities so the photographer can capture natural interactions. A relaxed conversation or an unexpected reunion may become one of the couple's favourite memories.</p>
+        <p>A balanced schedule makes room for these moments without delaying important ceremonies. To structure each ritual seamlessly without rush, check our <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">complete wedding planning timeline</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Photography With the Event Setup</h2>
+        <p>The photography team should understand the event schedule, important rituals and locations before the celebration begins.</p>
+        <p>Share the timings for the couple's entrance, family portraits, stage activities and other major moments. Also identify any restricted areas or venue rules that may affect photography.</p>
+        <p>If you are still developing the overall look of your celebration, explore these <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a> to consider how the setting and photography areas can complement each other. Tailored styling and backdrop packages are also detailed in our <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About Guest Experience Too</h2>
+        <p>Photography arrangements should not make guests feel as though they are constantly being directed.</p>
+        <p>Keep major walkways clear, avoid blocking the stage view and ensure that designated photo areas do not interfere with dining or other activities.</p>
+        <p>When the setup is convenient, guests can participate naturally and enjoy the occasion. Discover more about guest-friendly layouts and welcoming spaces in our feature on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Collection That Feels Personal</h2>
+        <p>Trends can provide inspiration, but the best wedding photographs reflect the people and relationships involved.</p>
+        <p>Choose a mix of traditional portraits, candid interactions, detail shots and creative couple photographs. This gives the final collection variety while keeping it connected to the actual celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Setting Part of the Memory</h2>
+        <p>The venue, lighting and décor can help tell the story of the day. A meaningful architectural detail, a garden pathway or a beautifully arranged ceremony space can provide context that makes photographs feel more personal. If you are considering outdoor lawns, resorts, or heritage venues, read our tips on <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor wedding settings</a>.</p>
+        <p>For inspiration on bringing the different elements of a wedding together, visit <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event</a> and discover our hands-on coordination.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Preserve the Moments That Matter</h2>
+        <p>A wedding passes quickly, but photographs allow couples and their families to revisit the emotions and experiences long after the event.</p>
+        <p>With a little coordination, suitable lighting and enough room for natural interactions, you can create a collection that feels authentic rather than overly staged.</p>
+        <p>For wedding planning and event arrangement enquiries, connect through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event contact page</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help you coordinate venue spaces, lighting, and décor that make every photograph memorable.</p>
+      </article>
+    ),
+    category: "Wedding Trends",
+    date: "October 14, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1577362227095-696968dfd590?q=80&w=1135&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    likes: 136,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Wedding photography trends and candid moments"
+  },
+  {
+    id: "wedding-entertainment-ideas",
+    title: "Wedding Entertainment Ideas That Make Every Celebration More Memorable",
+    excerpt: "The laughter between family members, unexpected dance performances, and interactive activities often become the stories people talk about long after the celebration ends.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A wedding is remembered for more than its decorations and beautiful photographs. The laughter between family members, unexpected dance performances, interactive activities and special moments shared with guests often become the stories people talk about long after the celebration ends.</p>
+        <p>Entertainment brings energy to a wedding and gives guests more opportunities to participate. Whether you are planning a traditional ceremony or a modern celebration, the right activities can make every function feel more engaging.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start With the Mood of Your Celebration</h2>
+        <p>Every wedding has its own personality. Some couples prefer a lively celebration filled with music and dancing, while others want a relaxed atmosphere where family and friends can spend quality time together.</p>
+        <p>Think about the kind of experience you want to create before choosing entertainment. A high-energy performance may work beautifully for a reception, whereas softer music and interactive activities might suit a daytime family function or an open lawn. For couples celebrating in natural outdoor or villa environments, explore our advice on <a href="#blog-destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">destination and outdoor wedding settings</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Sangeet a Celebration of Family</h2>
+        <p>The Sangeet is an opportunity for families to come together through music, dance and friendly performances.</p>
+        <p>You can include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Dance performances by family members</li>
+          <li>A couple's special dance</li>
+          <li>Friendly competitions between both families</li>
+          <li>A host who keeps the event moving</li>
+          <li>Short videos sharing memories of the couple</li>
+        </ul>
+        <p>A well-organized sequence helps every performance receive attention without making the evening feel too long.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring Guests Into the Celebration</h2>
+        <p>Entertainment becomes more enjoyable when guests are not just watching from their seats.</p>
+        <p>Interactive activities can include a wedding trivia round, a couple's quiz, a photo challenge or a fun family competition. These activities are especially useful when guests come from different cities or have not met before.</p>
+        <p>The idea is to encourage participation without making anyone feel uncomfortable. To see how modern couples are prioritizing attendee participation, discover our insights on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Special Moments During the Reception</h2>
+        <p>A reception offers plenty of opportunities for memorable experiences. Live music, a professional host, coordinated performances or a special entrance can add personality to the evening.</p>
+        <p>Consider including one or two signature moments rather than filling every part of the schedule with activities. A carefully timed surprise can often create a stronger impression than a packed programme. To see how lighting and staging elevate these highlights, explore our <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose Music That Connects With Your Guests</h2>
+        <p>Music influences the energy of the entire event. A good selection can move naturally from welcoming guests to formal moments and then into dancing.</p>
+        <p>Consider the age groups attending, the cultural preferences of both families and the type of function. A balanced playlist helps everyone feel included.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Add Entertainment That Matches the Theme</h2>
+        <p>If your wedding includes a particular theme, let it influence the activities too.</p>
+        <p>A traditional celebration might include folk performances, while a contemporary reception could feature a live band or a DJ. Outdoor functions may also offer space for acoustic music or informal group activities.</p>
+        <p>You can explore different possibilities alongside our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a>, so the entertainment and visual atmosphere feel connected. Explore our complete event styling packages in the <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Keep the Event Running Smoothly</h2>
+        <p>Even exciting activities can lose their impact when the schedule is unclear.</p>
+        <p>Prepare a simple event sequence that covers guest arrival, performances, speeches, dinner and open dancing. Share the plan with the host, performers and event team so everyone understands when their part begins.</p>
+        <p>Allow small breaks between major activities to give guests time to relax and enjoy the occasion. Structuring your schedule with a comprehensive <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> ensures seamless transitions between every ceremony.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Don't Forget the Smaller Guests</h2>
+        <p>Children attending a wedding may enjoy having activities of their own. Depending on the venue and arrangements, you could consider simple games, drawing activities or a supervised activity corner.</p>
+        <p>Thoughtful additions like these can make the celebration more comfortable for families.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Entertainment Part of the Experience</h2>
+        <p>The best wedding entertainment feels like a natural part of the celebration rather than a collection of unrelated performances.</p>
+        <p>When the music, activities, timing and atmosphere work together, guests have more opportunities to connect and create memories.</p>
+        <p>For ideas that bring the different parts of your celebration together, explore <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event</a> and its event planning services.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Guests Something to Remember</h2>
+        <p>A wedding does not need a complicated entertainment programme to feel special. It needs moments that reflect the couple, bring people together and make the occasion enjoyable.</p>
+        <p>Plan activities around your guests, give important moments enough time and let the celebration unfold naturally.</p>
+        <p>For help planning your next wedding celebration, connect with the team through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event contact page</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event help curate engaging entertainment that keeps your celebration lively and memorable.</p>
+      </article>
+    ),
+    category: "Wedding Trends",
+    date: "October 13, 2026",
+    readTime: "4 min read",
+    author: "Surya Team",
+    image: "https://images.unsplash.com/photo-1779308936221-89739e035a53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    likes: 124,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Wedding entertainment and celebration music"
+  },
+  {
     id: "destination-outdoor-weddings-setting",
     title: "Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting",
     excerpt: "There is something special about celebrating a wedding in a setting that becomes part of the occasion itself. Discover how to plan and style outdoor and destination celebrations.",
@@ -503,7 +808,7 @@ const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Entertainment Beyond Music and Dance</h2>
         <p>Music and dance are an important part of wedding celebrations, but entertainment can go beyond the traditional setup.</p>
         <p>Depending on your guests and wedding style, you can include interactive performances, family activities, games, photo experiences, or other forms of participation.</p>
-        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed.</p>
+        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed. For interactive activities, games, and music concepts, explore our guide on <a href="#blog-wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding entertainment ideas</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Comfortable Spaces for Guests</h2>
         <p>Not every guest wants to stand near the main stage throughout the celebration.</p>
