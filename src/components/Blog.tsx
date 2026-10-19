@@ -35,6 +35,93 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "south-indian-wedding-feast-banana-leaf-dining",
+    title: "South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining",
+    excerpt: "Banana leaf dining is an essential tradition of South Indian celebrations. Discover key insights on seating layout, serving sequence, muhurtham coordination, and flawless dining logistics.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>For many South Indian families, a wedding feast is an essential part of the celebration. It brings guests together around familiar flavours, traditional hospitality and the joy of sharing a meal after an important ceremony.</p>
+        <p>Banana leaf dining is a well-known feature of many traditional South Indian functions. The experience involves more than preparing food: the seating layout, serving sequence, guest movement and coordination with the wedding schedule all contribute to how smoothly the meal takes place.</p>
+        <p>With careful preparation, traditional dining can remain an enjoyable part of the celebration without creating unnecessary delays or congestion.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Understand the Family's Dining Traditions</h2>
+        <p>Food customs differ across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh and Telangana, as well as between individual families.</p>
+        <p>Before finalizing the menu, discuss the family's preferences with the catering team. Consider the expected guest count, dietary requirements, meal timing and any dishes that are especially important to the occasion.</p>
+        <p>For traditional vegetarian celebrations, confirm the menu and serving arrangements well in advance. This helps the caterer plan ingredients, preparation space and the number of staff required.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Dining Layout Before the Wedding Day</h2>
+        <p>The dining area should accommodate guests comfortably while allowing servers to move safely and efficiently.</p>
+        <p>For banana leaf dining, consider the length and arrangement of the rows, the distance between seating areas and the pathways used by catering staff. Make sure guests can enter and leave without blocking the main routes.</p>
+        <p>If the ceremony and dining take place in different areas, provide clear directions and allow enough time for guests to move between them. Whether hosting at grand convention halls, luxury hotels or heritage grounds, explore our guide on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a> to ensure ample dining capacity.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Understand the Flow of a Traditional Meal</h2>
+        <p>A traditional South Indian feast may include a variety of rice preparations, vegetables, accompaniments, sweets and other dishes, depending on the region and family preferences.</p>
+        <p>The serving order can also vary. Coordinate the intended sequence with the caterer rather than assuming that every community follows the same arrangement.</p>
+        <p>When the service team understands the menu and the planned sequence, the meal can proceed more consistently across the dining area.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Guest Movement Comfortable</h2>
+        <p>Large wedding gatherings can create busy dining periods, particularly when the meal follows the main ceremony.</p>
+        <p>Consider whether guests will be seated in multiple batches, how elders will be assisted and where guests who need additional help should be accommodated.</p>
+        <p>Clear pathways, visible dining entrances and sufficient space for staff help reduce congestion. If the venue has multiple dining sections, signage or staff guidance can make it easier for guests to find the right area.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Muhurtham Schedule</h2>
+        <p>In many South Indian weddings, the timing of the main ceremony is determined by the family's traditions and the selected muhurtham. Dining arrangements should support that schedule.</p>
+        <p>Confirm the expected ceremony duration, the approximate time guests will arrive for the meal and when the catering team needs to be ready.</p>
+        <p>The caterer and event coordinator should communicate any timing changes promptly. This is particularly important for larger gatherings, where a small delay can affect several dining batches. Aligning your food service timings with a structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> ensures seamless transitions between rituals and dining batches.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Match the Dining Environment to the Celebration</h2>
+        <p>The dining area should feel like a natural part of the wedding rather than a separate, poorly coordinated space.</p>
+        <p>Depending on the venue, this may involve traditional welcome details, simple floral arrangements or a clean and organized seating layout. Keep decoration practical so it does not interfere with serving, cleaning or guest movement.</p>
+        <p>The main priority is a pleasant dining experience. Decorative features should support that goal instead of making the space difficult to use. If you are planning traditional floral entrances, banana sapling framing, or authentic brass urlis, browse our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Pay Attention to Cleanliness and Food Service</h2>
+        <p>A well-organized feast requires coordination behind the scenes.</p>
+        <p>Confirm that the catering team has sufficient preparation space, suitable food storage, clean serving equipment and an organized process for replacing or clearing used banana leaves.</p>
+        <p>Waste collection and cleaning should be planned so the dining area remains presentable throughout the service. Staff should also be aware of food-safety requirements and any venue-specific rules.</p>
+        <p>These operational details may not be the first things guests notice, but they strongly influence the overall experience.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Consider Different Guest Needs</h2>
+        <p>Wedding guests may include children, elderly relatives and people with specific dietary requirements.</p>
+        <p>Provide suitable seating and assistance where needed. Make sure guests can identify the dining area and ask staff for help without difficulty.</p>
+        <p>If a family member requires a different meal arrangement, discuss it with the caterer before the event rather than leaving it to be resolved during service.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Other Wedding Services</h2>
+        <p>The dining team needs to work in coordination with the venue staff and the people managing the ceremony.</p>
+        <p>For example, the event coordinator should know when the main ritual is expected to finish, while the catering team should be prepared for the arrival of guests. If photography or family activities continue after the ceremony, make sure they do not unintentionally delay the meal for everyone.</p>
+        <p>Surya Event Management lists traditional dining logistics among its end-to-end wedding offerings. You can learn more about our comprehensive <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> and explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> for inspiration when planning the overall celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Prepare a Dining Checklist</h2>
+        <p>Before the wedding day, confirm the important arrangements with the catering and event teams.</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Final guest estimate</li>
+          <li>Confirmed menu and serving sequence</li>
+          <li>Dining area layout</li>
+          <li>Seating and banana leaf requirements</li>
+          <li>Staff and service responsibilities</li>
+          <li>Drinking water arrangements</li>
+          <li>Cleaning and waste management</li>
+          <li>Special dietary needs</li>
+          <li>Timing in relation to the ceremony</li>
+        </ul>
+        <p>A shared checklist makes it easier to identify missing details before the guests arrive.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Preserve the Spirit of South Indian Hospitality</h2>
+        <p>A traditional wedding feast is an opportunity to welcome guests and share an important family occasion. The experience feels complete when the food, service and dining environment are organized with care.</p>
+        <p>By planning the layout, coordinating the meal with the ceremony and paying attention to guest comfort, families can preserve the familiar character of banana leaf dining while managing a large celebration effectively.</p>
+        <p>For help coordinating your wedding arrangements, learn more about <a href="#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management</a> or submit your requirements through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event enquiry section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management handle your dining logistics and venue coordination for a truly memorable traditional feast.</p>
+      </article>
+    ),
+    category: "Behind The Scenes",
+    date: "October 19, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.pexels.com/photos/35267192/pexels-photo-35267192.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 148,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "Traditional South Indian wedding feast served on fresh banana leaf"
+  },
+  {
     id: "engagement-ceremony-ideas-journey",
     title: "Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey",
     excerpt: "An engagement ceremony marks the beginning of an exciting new chapter. Discover creative themes, stage setups, and planning tips to make your celebration memorable.",
