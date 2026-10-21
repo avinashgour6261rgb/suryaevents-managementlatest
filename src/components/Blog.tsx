@@ -107,7 +107,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "October 21, 2026",
     readTime: "5 min read",
     author: "Surya Team",
-    image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=1200",
+    image: "https://images.pexels.com/photos/12431906/pexels-photo-12431906.jpeg?auto=compress&cs=tinysrgb&w=1200",
     likes: 154,
     instagramTag: "@_surya_event_management._",
     imageAlt: "Traditional South Indian wedding Muhurtha and reception stage coordination in Bengaluru"
