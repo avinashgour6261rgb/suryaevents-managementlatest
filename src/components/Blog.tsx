@@ -35,6 +35,219 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "south-indian-pre-wedding-ceremony-styling",
+    title: "One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity",
+    excerpt: "Discover how to give Nischayathartha, Mehendi and Sangeet celebrations distinct styles through stage design, floral details, seating and event-specific arrangements.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A wedding celebration may include several occasions before the main ceremony, but each one brings a different kind of excitement. Nischayathartha marks an important family milestone, Mehendi creates a relaxed atmosphere for gathering together, and Sangeet brings music and performances into the celebration.</p>
+        <p>Although these events are connected to the same wedding, they do not need to look or feel identical. Giving each celebration its own identity helps create variety while keeping the overall wedding experience connected.</p>
+        <p>For families planning pre-wedding events in Bengaluru and Karnataka, the key is to understand the purpose of each occasion and choose arrangements that suit it.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Nischayathartha: Focus on the Couple and Families</h2>
+        <p>Nischayathartha, commonly known as an engagement ceremony in many South Indian communities, is an occasion for the families to come together and celebrate the couple's commitment.</p>
+        <p>The arrangement should support the main activities rather than compete with them. A well-positioned stage, suitable seating and thoughtful ring tray styling can help establish a clear focal point. For creative inspiration on ring exchange themes and floral backdrops, explore our dedicated guide to <a href="#blog-engagement-ceremony-ideas-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">engagement ceremony ideas for a memorable journey</a>.</p>
+        <p>Before finalizing the setup, consider the number of guests, the available space and whether the ceremony includes family exchanges or other planned activities.</p>
+        <p>Decorative details can be selected to suit the family's preferred style. The overall result should feel welcoming and organized, with enough space for the couple, immediate family members and photographs.</p>
+        <p>Surya Event Management offers <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Nischayathartha stage and ring tray styling</a> as part of its pre-wedding ceremony services.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Mehendi: Create a Relaxed and Colourful Setting</h2>
+        <p>Mehendi celebrations often have a different atmosphere from the formal engagement ceremony. Guests may spend more time talking, participating in activities and enjoying the gathering.</p>
+        <p>Colorful seating, floral swings and decorative details can help create a setting suited to this more relaxed occasion. The arrangement should also allow guests to move comfortably between seating areas and the activities planned for the event. For practical tips on arranging guest circulation across venues, read our guide on <a href="#blog-south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+        <p>Instead of using too many decorative elements, choose a consistent set of colors and details that work together. Seating and floral styling can provide visual interest while keeping the space functional.</p>
+        <p>It is also worth considering the number of guests who will participate in the activities and how much room they require.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Sangeet: Design Around Music and Movement</h2>
+        <p>Sangeet celebrations place greater emphasis on music, performances and audience participation. As a result, the event setup needs to support both the visual theme and the activities taking place.</p>
+        <p>Audio-visual arrangements, suitable lighting and a well-planned dance floor can help create an engaging atmosphere. The layout should allow performers to move safely while guests have a clear view of the programme. Discover interactive ideas for family dance performances and emcee coordination in our feature on <a href="#blog-wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding entertainment ideas that elevate your celebration</a>.</p>
+        <p>When planning a Sangeet event, consider the sequence of performances, the available floor space and the placement of technical equipment.</p>
+        <p>The stage and decorative setup should complement the programme without obstructing performers or the audience. Surya Event Management includes <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Sangeet audio-visuals and dance floor arrangements</a> within its pre-wedding offerings.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Make Each Event Different Without Losing Continuity</h2>
+        <p>Giving each celebration its own identity does not mean every event needs a completely unrelated design.</p>
+        <p>A few consistent elements can connect the celebrations. These may include selected colors, a similar floral approach or decorative details that complement the family's overall preferences.</p>
+        <p>The main difference should come from how the space is used. An engagement may need a clear ceremonial focal point, Mehendi may benefit from flexible seating, and Sangeet may require more room for performances. To see how pre-wedding rituals link seamlessly to sacred Muhurtha rituals and grand receptions, review our advice on <a href="#blog-traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating traditional South Indian weddings</a>.</p>
+        <p>This approach creates variety while helping the celebrations feel like parts of the same wedding journey.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Match the Setup to the Guest Experience</h2>
+        <p>The number and type of activities at each event should influence the layout.</p>
+        <p>For an engagement, guests may gather around the main stage. At a Mehendi celebration, they may prefer to sit in smaller groups. During Sangeet, guests may move between their seats and the dance floor.</p>
+        <p>Thinking about these activities in advance helps determine where seating, decoration and technical equipment should be placed. If outstation relatives and grandparents are attending multiple functions, ensure seamless arrivals by checking our guide on <a href="#blog-south-indian-wedding-guest-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">welcoming outstation wedding guests with thoughtful hospitality</a>.</p>
+        <p>The layout should also provide clear walking routes and enough space for guests to participate without overcrowding the event area.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Coordinate Setup Times Between Events</h2>
+        <p>When several pre-wedding celebrations are planned, the arrangements may need to be prepared or changed within a limited schedule.</p>
+        <p>The event team should know when the venue is available, which decorations are required for each function and whether the same space will be used more than once. Keeping milestones synchronized through a structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a> ensures smooth vendor handover and on-time readiness.</p>
+        <p>A shared schedule can help coordinate the installation of stage elements, floral decorations, seating and audio-visual equipment. It also provides time to check that the setup is ready before guests arrive.</p>
+        <p>Families can explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for visual references to the company's event styling and stage arrangements.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>Engagement, Mehendi and Sangeet each contribute something different to a South Indian wedding celebration. Nischayathartha brings families together, Mehendi offers a relaxed setting for guests, and Sangeet creates opportunities for music and performances.</p>
+        <p>By planning each event around its purpose, families can create distinct experiences without losing the connection between the celebrations. Discover our full-spectrum production philosophy in <a href="#blog-why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event Management</a>.</p>
+        <p>Surya Event Management provides pre-wedding ceremony arrangements, including engagement styling, floral seating, Sangeet audio-visuals and dance floor setups for celebrations across Bengaluru and Karnataka.</p>
+        <p>To discuss arrangements for your upcoming functions, visit the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management curate unique, unforgettable identities for your Engagement, Mehendi, and Sangeet celebrations.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "October 28, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.pexels.com/photos/30215307/pexels-photo-30215307.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 188,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "South Indian engagement, Mehendi and Sangeet pre-wedding ceremony styling in Bengaluru"
+  },
+  {
+    id: "south-indian-wedding-guest-hospitality",
+    title: "Welcoming Outstation Guests to a South Indian Wedding: A Guide to Thoughtful Hospitality",
+    excerpt: "Learn how to coordinate guest accommodation, airport transfers, railway pickups and hospitality for South Indian weddings in Bengaluru and Karnataka.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A South Indian wedding often brings relatives and friends together from different cities. Some guests may arrive a day before the ceremony, while others may travel with children or elderly family members who need additional assistance.</p>
+        <p>For the hosts, welcoming everyone is an important part of the celebration. However, managing arrivals, accommodation, transportation and event timings can become challenging when many guests are travelling from different locations.</p>
+        <p>Thoughtful hospitality planning helps guests understand where they need to go, when they need to arrive and whom they can contact if they require assistance. It also allows the family to focus more on the wedding itself instead of handling every travel-related question individually.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Understand Where Your Guests Are Travelling From</h2>
+        <p>The first step is to understand the approximate number of guests travelling from outside the wedding city.</p>
+        <p>Some relatives may arrive by train, others by air, and some may make their own road arrangements. Collecting basic travel information in advance helps the family estimate accommodation requirements and identify where transport coordination may be useful.</p>
+        <p>A simple guest list can include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Guest or family group name.</li>
+          <li>Expected arrival date and time.</li>
+          <li>Arrival point, such as the airport or railway station.</li>
+          <li>Accommodation requirements.</li>
+          <li>Contact details for coordination.</li>
+        </ul>
+        <p>The purpose is not to make the process complicated. It is to avoid confusion when several families arrive around the same time.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Coordinate Accommodation Before the Event</h2>
+        <p>Accommodation becomes especially important when the wedding programme includes multiple ceremonies or guests need to arrive well before the main event.</p>
+        <p>Families should consider the distance between the accommodation and the venue, the expected check-in times and the number of guests who need rooms. It is also useful to identify suitable arrangements for elderly relatives and families travelling with children. If you are currently finalizing your celebration venues, review our recommendations on <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a> to ensure convenient lodging options nearby.</p>
+        <p>Sharing clear accommodation details before the journey helps guests prepare. Where possible, provide the property name, location, check-in information and a contact person who can assist with questions.</p>
+        <p>Surya Event Management includes guest accommodation coordination within its <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding packages</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Plan Airport and Railway Station Transfers</h2>
+        <p>Guests unfamiliar with Bengaluru or another wedding destination may need help reaching their accommodation or the event venue.</p>
+        <p>Airport and railway station transfers should therefore be considered alongside the wedding schedule. The number of vehicles, expected arrival times and distance to the accommodation can affect the coordination plan.</p>
+        <p>For group arrivals, it can be helpful to identify a designated contact person and share transport details with guests in advance.</p>
+        <p>If multiple arrivals are expected, keep a record of the planned pickups and allow reasonable flexibility for travel delays. Avoid scheduling every transfer too tightly, especially when guests are arriving from different cities.</p>
+        <p>Clear communication can reduce uncertainty and make the arrival experience more comfortable.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Share the Wedding Schedule Clearly</h2>
+        <p>Guests may need to attend more than one event, such as an engagement, the main wedding ceremony and the reception (explore our guide on <a href="#blog-south-indian-pre-wedding-ceremony-styling" className="text-[#D4AF37] no-underline hover:text-white transition-colors">giving Engagement, Mehendi, and Sangeet celebrations their own identity</a>). If the schedule is unclear, they may miss an important function or arrive at the wrong location.</p>
+        <p>Prepare a simple itinerary that includes:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Event names and dates.</li>
+          <li>Venue addresses.</li>
+          <li>Arrival times for guests.</li>
+          <li>Any important instructions shared by the family.</li>
+          <li>Contact details for event-related assistance.</li>
+        </ul>
+        <p>For a traditional South Indian wedding, the main ceremony may have a specific schedule coordinated with the priest. To align ritual timings with guest arrivals smoothly, explore our guide on <a href="#blog-traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating South Indian weddings from Muhurtha to reception</a> and consult our structured <a href="#blog-wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a>. Guests should receive clear information about when they are expected to arrive, while the family and event team coordinate ceremony rituals separately.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Consider the Needs of Different Age Groups</h2>
+        <p>A wedding gathering may include grandparents, young children and guests with different mobility needs. Hospitality arrangements should take these differences into account.</p>
+        <p>Consider how easily guests can move between the entrance, seating areas and ceremony space. Provide clear directions and avoid unnecessary walking where practical. For layout strategies that prevent congestion and assist elderly attendees, explore our advice on <a href="#blog-south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+        <p>When planning hospitality around dining for multi-generational guests, check our specialized guide to <a href="#blog-south-indian-wedding-feast-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding feast planning and banana leaf dining</a>.</p>
+        <p>It is also useful to identify someone who can assist elderly relatives or answer questions from guests who are unfamiliar with the venue.</p>
+        <p>These small arrangements can make a significant difference to how comfortable guests feel throughout the celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Keep Hospitality Connected with the Main Event Plan</h2>
+        <p>Guest arrangements should not be managed separately from the rest of the wedding schedule. Accommodation check-ins, vehicle arrivals and transfers between venues can affect when guests reach the ceremony or reception.</p>
+        <p>A coordinated plan helps the event team understand when guests are expected and where assistance may be needed. It also makes it easier to communicate changes if timings or travel arrangements are updated. Whether guests are arriving for morning rituals or an evening gala with illuminated stage styling—as explored in our feature on <a href="#blog-south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">stage architecture and lighting for South Indian wedding receptions</a>—timely hospitality keeps the entire schedule seamless.</p>
+        <p>Surya Event Management's <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding services</a> include venue coordination, catering, photography and guest hospitality, helping families bring several event requirements into one plan.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">7. Make Important Information Easy to Find</h2>
+        <p>Guests should not have to contact multiple family members to find basic information. A single message or digital itinerary can include the event schedule, venue location, accommodation details and a hospitality contact.</p>
+        <p>For larger celebrations, the family can also nominate a point of contact for travel-related questions and another for ceremony-related queries.</p>
+        <p>Keeping communication organized allows guests to make their own arrangements more confidently and reduces repeated questions during the busiest days of the celebration.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>Guest hospitality is an important part of a South Indian wedding, especially when relatives and friends travel from different cities. Accommodation, airport and railway transfers, event schedules and clear communication all contribute to a smoother experience.</p>
+        <p>When these arrangements are considered early and coordinated with the wedding programme, guests can focus on enjoying the celebration and spending time with the family. Learn how our dedicated team ensures seamless execution on our <a href="#blog-why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event Management</a> page.</p>
+        <p>Surya Event Management offers end-to-end wedding coordination and guest hospitality support across Bengaluru and Karnataka. Families can share their event requirements through the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">official contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management handle outstation guest hospitality, transfers, and accommodations for a relaxed, joyful celebration.</p>
+      </article>
+    ),
+    category: "Behind The Scenes",
+    date: "October 27, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.pexels.com/photos/33417233/pexels-photo-33417233.jpeg",
+    likes: 184,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "South Indian wedding guest hospitality, accommodation and travel planning in Bengaluru"
+  },
+  {
+    id: "south-indian-wedding-reception-stage-lighting",
+    title: "How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception",
+    excerpt: "Explore how stage structures, floral canopies and ambient lighting can transform a South Indian wedding reception in Bengaluru into a visually striking celebration.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>A grand wedding reception is remembered not only for the gathering itself but also for the atmosphere created around it. The stage, entrance, lighting and decorative structures work together to establish the visual identity of the celebration.</p>
+        <p>In South Indian weddings, reception designs can range from traditional floral arrangements to elaborate illuminated structures. The right approach depends on the venue, the family's preferences and the scale of the event. A well-designed reception space should look impressive while remaining comfortable for guests and practical for photographs and stage activities.</p>
+        <p>For families planning a reception in Bengaluru or across Karnataka, understanding how these elements work together can make it easier to choose a design that suits the occasion.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Start with the Shape of the Stage</h2>
+        <p>The stage is usually one of the main visual features of a reception. Its shape and structure influence how the entire area looks, from the entrance to the seating arrangements.</p>
+        <p>Some celebrations suit a broad, symmetrical stage, while others may benefit from layered structures or sculpted architectural details. Floral canopies can add softness, whereas defined geometric structures can create a more contemporary appearance. For practical venue layout advice across every corner of your venue, read our guide on <a href="#blog-south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+        <p>The design should take the actual venue dimensions into account. A stage that is too large can dominate the available space, while a structure that is too small may not create the desired visual impact in a large hall.</p>
+        <p>Before finalizing a design, consider the stage width, height, available floor space and the visibility of the couple from different seating areas.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Use Lighting to Create Depth</h2>
+        <p>Lighting can change how a reception stage appears throughout the event. It highlights architectural details, draws attention to floral arrangements and helps establish the atmosphere of the celebration.</p>
+        <p>Warm ambient lighting can complement traditional wedding styling, while carefully positioned LED lights can emphasize the shape of the stage and its decorative elements.</p>
+        <p>The objective is not to use as many lights as possible. Instead, lighting should support the design without becoming visually distracting.</p>
+        <p>A few important considerations include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Highlighting the main stage without making it excessively bright.</li>
+          <li>Keeping lighting balanced across the backdrop.</li>
+          <li>Avoiding harsh glare in areas used for photography.</li>
+          <li>Coordinating decorative lighting with the venue's existing illumination.</li>
+        </ul>
+        <p>These details can help the reception maintain a consistent appearance from guest arrival through the main stage programme. To see how modern couples are infusing contemporary illumination styles, explore our insights on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding reception trends</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Balance Floral Canopies with Structural Details</h2>
+        <p>Floral canopies can soften the appearance of a grand reception stage. They can be used alongside sculpted structures to create a balance between natural floral elements and architectural design.</p>
+        <p>The flowers, colors and arrangement style should complement one another. A floral canopy can become the main feature, or it can be used as a supporting detail around a more structured backdrop. For inspiration on authentic South Indian florals and marigold-jasmine backdrops, take a look at our <a href="#blog-wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">creative wedding décor ideas</a>.</p>
+        <p>The final design should also suit the venue. Large structures require sufficient space, suitable installation arrangements and coordination with the venue team.</p>
+        <p>Surya Event Management offers custom sculpted stage structures, floral canopies and ambient lighting as part of its <a href="#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Grand Reception Structures services</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Make the Entrance and Stage Feel Connected</h2>
+        <p>The reception entrance creates the first visual impression, while the stage becomes a central point during the event. When these areas use completely unrelated styles, the overall setting may feel disconnected.</p>
+        <p>A coordinated approach can connect them through selected colors, lighting styles or decorative materials. The entrance does not need to copy the stage design exactly; it simply needs to complement it.</p>
+        <p>Glass runways and mirror-finish aisles may also be considered where the venue layout and event requirements make them suitable. To ensure a seamless flow between early rituals and the evening celebration, review our step-by-step breakdown on <a href="#blog-traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating South Indian weddings from Muhurtha to reception</a>.</p>
+        <p>The important point is to treat the entrance, walkway and stage as parts of the same environment rather than separate decoration projects.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Think About Photography and Guest Visibility</h2>
+        <p>A reception stage serves several purposes. It is a decorative focal point, a place where the couple meets guests and an important setting for photographs.</p>
+        <p>A design that looks attractive from the front may not work as well from the sides. Guests seated farther away should still have a reasonable view, and photographers should have enough room to capture important moments.</p>
+        <p>During the design process, consider the placement of the couple, the backdrop's visual details and the surrounding space. Decorative structures should not obstruct movement or make it difficult for guests to approach the stage. For key tips on optimizing stage backdrops for couple and family portraits, check our guide on <a href="#blog-wedding-photography-trends-moments" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding photography trends and capturing candid moments</a>.</p>
+        <p>This practical planning helps maintain both the visual quality and usability of the reception setup. When hosting out-of-town guests and elderly relatives, smooth movement around the stage is vital—read our advice on <a href="#blog-south-indian-wedding-guest-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">welcoming outstation wedding guests with thoughtful hospitality</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Match the Design to the Venue</h2>
+        <p>A reception held in a grand ballroom may require a different design approach from one held at a heritage property or an outdoor venue.</p>
+        <p>The ceiling height, existing architecture, available installation space and lighting conditions can all influence the final result. Instead of selecting a design without considering the location, it is useful to assess the venue first and then develop the stage concept around it. If you are comparing banquet halls or convention centres, discover <a href="#blog-choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a>.</p>
+        <p>Families can explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> to view examples of reception structures, floral styling and illuminated event settings.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>A successful South Indian wedding reception stage brings architecture, floral styling and lighting together in a way that suits the venue and the celebration. Every element should contribute to the overall appearance without compromising guest comfort or practical requirements.</p>
+        <p>With careful attention to proportions, lighting and visual consistency, families can create a reception setting that feels distinctive and well coordinated. Learn more about our hands-on coordination philosophy in <a href="#blog-why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event Management</a>.</p>
+        <p>Surya Event Management provides grand reception structures and customized event styling for celebrations across Bengaluru and Karnataka. To discuss your reception requirements, visit the <a href="#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management contact section</a>.</p>
+        <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management transform your reception stage with architectural grandeur and captivating ambient lighting.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "October 26, 2026",
+    readTime: "5 min read",
+    author: "Surya Team",
+    image: "https://images.pexels.com/photos/32854450/pexels-photo-32854450.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 172,
+    instagramTag: "@_surya_event_management._",
+    imageAlt: "South Indian wedding reception stage architecture and ambient lighting in Bengaluru"
+  },
+  {
     id: "south-indian-wedding-venue-space-planning",
     title: "Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding",
     excerpt: "Discover how to plan wedding entrances, Muhurtha spaces, reception stages and guest areas for a coordinated South Indian wedding in Bengaluru.",
@@ -61,7 +274,7 @@ const BLOG_POSTS: BlogPost[] = [
         <p>Custom stage structures, floral canopies and ambient lighting can be combined according to the setting. Glass runways or mirror-finish aisles may also be considered where the venue layout allows them.</p>
         <p>Before confirming the design, consider the stage dimensions, guest seating, photography angles and movement around the stage. Lighting should support the overall appearance without becoming uncomfortable for guests or interfering with photography.</p>
         <p>A coordinated design can make the reception area visually impressive while keeping it practical for the event.</p>
-        <p>Families can browse the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for examples of reception structures, floral arrangements and lighting setups, or explore upcoming aesthetics in our feature on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding reception trends</a>.</p>
+        <p>Families can browse the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for examples of reception structures, floral arrangements and lighting setups, explore upcoming aesthetics in our feature on <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding reception trends</a>, or learn how to elevate your stage setup in our specialized feature on <a href="#blog-south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding reception stage architecture and lighting</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Keep Guest Movement in Mind</h2>
         <p>A wedding venue needs to accommodate more than the ceremony itself. Guests may arrive at different times, move between event areas, meet family members and gather for photographs.</p>
@@ -139,7 +352,7 @@ const BLOG_POSTS: BlogPost[] = [
           <li>Warm lighting and LED ambient effects.</li>
           <li>Glass runways and mirror-finish aisles where suitable.</li>
         </ul>
-        <p>The stage design, lighting and entrance should work together so the venue feels coordinated. Families can explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see examples of reception stages, floral arrangements and lighting styles featured by Surya Event Management. To see how contemporary couples are styling their grand evening celebrations, explore the latest <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding reception trends</a>.</p>
+        <p>The stage design, lighting and entrance should work together so the venue feels coordinated. Families can explore the <a href="#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see examples of reception stages, floral arrangements and lighting styles featured by Surya Event Management. To see how contemporary couples are styling their grand evening celebrations, explore the latest <a href="#blog-2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding reception trends</a> or discover how <a href="#blog-south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">stage architecture and lighting shape a grand reception</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Coordinating Pre-Wedding Ceremonies</h2>
         <p>A South Indian wedding celebration may include several events before the main wedding day. Nischayathartha, Mehendi, Sangeet and Haldi can each have different arrangements and requirements.</p>
@@ -285,7 +498,7 @@ const BLOG_POSTS: BlogPost[] = [
     fullContent: (
       <article className="space-y-4">
         <p>An engagement ceremony marks the beginning of an exciting new chapter for a couple and their families. It is a chance to celebrate their commitment, introduce family traditions and share a special moment with the people closest to them.</p>
-        <p>While some couples prefer a small family gathering, others choose a larger celebration with a stage, music, photography and carefully planned arrangements. Whatever the size, a well-organised engagement ceremony should reflect the couple's preferences and make guests feel welcome.</p>
+        <p>While some couples prefer a small family gathering, others choose a larger celebration with a stage, music, photography and carefully planned arrangements. Whatever the size, a well-organised engagement ceremony should reflect the couple's preferences and make guests feel welcome. For ideas on styling your engagement alongside other pre-wedding milestones, explore our guide on <a href="#blog-south-indian-pre-wedding-ceremony-styling" className="text-[#D4AF37] no-underline hover:text-white transition-colors">giving Engagement, Mehendi, and Sangeet celebrations distinct identities</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose a Theme That Reflects Your Story</h2>
         <p>The theme sets the direction for the entire celebration. Some couples prefer a classic look with flowers and soft colours, while others choose a modern setup with bold shades, elegant seating and creative backdrops.</p>
