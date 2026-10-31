@@ -42,11 +42,15 @@ export default function BlogPostPage() {
         setPost(found);
         setLikesCount(found.likes);
         setIsLiked(false);
+        // If visited via an old alias or short slug, upgrade address bar to the full title URL
+        if (found.id !== id) {
+          navigate(`/blog/${found.id}`, { replace: true });
+        }
       } else {
         setPost(null);
       }
     }
-  }, [id]);
+  }, [id, navigate]);
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
