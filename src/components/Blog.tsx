@@ -45,44 +45,44 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Nischayathartha: Focus on the Couple and Families</h2>
         <p>Nischayathartha, commonly known as an engagement ceremony in many South Indian communities, is an occasion for the families to come together and celebrate the couple's commitment.</p>
-        <p>The arrangement should support the main activities rather than compete with them. A well-positioned stage, suitable seating and thoughtful ring tray styling can help establish a clear focal point. For creative inspiration on ring exchange themes and floral backdrops, explore our dedicated guide to <a href="/blog/engagement-ceremony-ideas-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a>.</p>
+        <p>The arrangement should support the main activities rather than compete with them. A well-positioned stage, suitable seating and thoughtful ring tray styling can help establish a clear focal point. For creative inspiration on ring exchange themes and floral backdrops, explore our dedicated guide to <a href="/blog/engagement-ceremony-ideas-for-a-beautiful-beginning-to-your-wedding-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a>.</p>
         <p>Before finalizing the setup, consider the number of guests, the available space and whether the ceremony includes family exchanges or other planned activities.</p>
         <p>Decorative details can be selected to suit the family's preferred style. The overall result should feel welcoming and organized, with enough space for the couple, immediate family members and photographs.</p>
         <p>Surya Event Management offers <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Nischayathartha stage and ring tray styling</a> as part of its pre-wedding ceremony services.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Mehendi: Create a Relaxed and Colourful Setting</h2>
         <p>Mehendi celebrations often have a different atmosphere from the formal engagement ceremony. Guests may spend more time talking, participating in activities and enjoying the gathering.</p>
-        <p>Colorful seating, floral swings and decorative details can help create a setting suited to this more relaxed occasion. The arrangement should also allow guests to move comfortably between seating areas and the activities planned for the event. For practical tips on arranging guest circulation across venues, read our guide on <a href="/blog/south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
+        <p>Colorful seating, floral swings and decorative details can help create a setting suited to this more relaxed occasion. The arrangement should also allow guests to move comfortably between seating areas and the activities planned for the event. For practical tips on arranging guest circulation across venues, read our guide on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
         <p>Instead of using too many decorative elements, choose a consistent set of colors and details that work together. Seating and floral styling can provide visual interest while keeping the space functional.</p>
         <p>It is also worth considering the number of guests who will participate in the activities and how much room they require.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Sangeet: Design Around Music and Movement</h2>
         <p>Sangeet celebrations place greater emphasis on music, performances and audience participation. As a result, the event setup needs to support both the visual theme and the activities taking place.</p>
-        <p>Audio-visual arrangements, suitable lighting and a well-planned dance floor can help create an engaging atmosphere. The layout should allow performers to move safely while guests have a clear view of the programme. Discover interactive ideas for family dance performances and emcee coordination in our feature on <a href="/blog/wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
+        <p>Audio-visual arrangements, suitable lighting and a well-planned dance floor can help create an engaging atmosphere. The layout should allow performers to move safely while guests have a clear view of the programme. Discover interactive ideas for family dance performances and emcee coordination in our feature on <a href="/blog/wedding-entertainment-ideas-that-make-every-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
         <p>When planning a Sangeet event, consider the sequence of performances, the available floor space and the placement of technical equipment.</p>
         <p>The stage and decorative setup should complement the programme without obstructing performers or the audience. Surya Event Management includes <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Sangeet audio-visuals and dance floor arrangements</a> within its pre-wedding offerings.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Make Each Event Different Without Losing Continuity</h2>
         <p>Giving each celebration its own identity does not mean every event needs a completely unrelated design.</p>
         <p>A few consistent elements can connect the celebrations. These may include selected colors, a similar floral approach or decorative details that complement the family's overall preferences.</p>
-        <p>The main difference should come from how the space is used. An engagement may need a clear ceremonial focal point, Mehendi may benefit from flexible seating, and Sangeet may require more room for performances. To see how pre-wedding rituals link seamlessly to sacred Muhurtha rituals and grand receptions, review our advice on <a href="/blog/traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
+        <p>The main difference should come from how the space is used. An engagement may need a clear ceremonial focal point, Mehendi may benefit from flexible seating, and Sangeet may require more room for performances. To see how pre-wedding rituals link seamlessly to sacred Muhurtha rituals and grand receptions, review our advice on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
         <p>This approach creates variety while helping the celebrations feel like parts of the same wedding journey.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Match the Setup to the Guest Experience</h2>
         <p>The number and type of activities at each event should influence the layout.</p>
         <p>For an engagement, guests may gather around the main stage. At a Mehendi celebration, they may prefer to sit in smaller groups. During Sangeet, guests may move between their seats and the dance floor.</p>
-        <p>Thinking about these activities in advance helps determine where seating, decoration and technical equipment should be placed. If outstation relatives and grandparents are attending multiple functions, ensure seamless arrivals by checking our guide on <a href="/blog/south-indian-wedding-guest-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Welcoming Outstation Guests to a South Indian Wedding: A Guide to Thoughtful Hospitality</a>.</p>
+        <p>Thinking about these activities in advance helps determine where seating, decoration and technical equipment should be placed. If outstation relatives and grandparents are attending multiple functions, ensure seamless arrivals by checking our guide on <a href="/blog/welcoming-outstation-guests-to-a-south-indian-wedding-a-guide-to-thoughtful-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Welcoming Outstation Guests to a South Indian Wedding: A Guide to Thoughtful Hospitality</a>.</p>
         <p>The layout should also provide clear walking routes and enough space for guests to participate without overcrowding the event area.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Coordinate Setup Times Between Events</h2>
         <p>When several pre-wedding celebrations are planned, the arrangements may need to be prepared or changed within a limited schedule.</p>
-        <p>The event team should know when the venue is available, which decorations are required for each function and whether the same space will be used more than once. Keeping milestones synchronized through a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures smooth vendor handover and on-time readiness.</p>
+        <p>The event team should know when the venue is available, which decorations are required for each function and whether the same space will be used more than once. Keeping milestones synchronized through a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures smooth vendor handover and on-time readiness.</p>
         <p>A shared schedule can help coordinate the installation of stage elements, floral decorations, seating and audio-visual equipment. It also provides time to check that the setup is ready before guests arrive.</p>
         <p>Families can explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for visual references to the company's event styling and stage arrangements.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
         <p>Engagement, Mehendi and Sangeet each contribute something different to a South Indian wedding celebration. Nischayathartha brings families together, Mehendi offers a relaxed setting for guests, and Sangeet creates opportunities for music and performances.</p>
-        <p>By planning each event around its purpose, families can create distinct experiences without losing the connection between the celebrations. Discover our full-spectrum production philosophy in <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
+        <p>By planning each event around its purpose, families can create distinct experiences without losing the connection between the celebrations. Discover our full-spectrum production philosophy in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
         <p>Surya Event Management provides pre-wedding ceremony arrangements, including engagement styling, floral seating, Sangeet audio-visuals and dance floor setups for celebrations across Bengaluru and Karnataka.</p>
         <p>To discuss arrangements for your upcoming functions, visit the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management contact section</a>.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management curate unique, unforgettable identities for your Engagement, Mehendi, and Sangeet celebrations.</p>
@@ -123,7 +123,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Coordinate Accommodation Before the Event</h2>
         <p>Accommodation becomes especially important when the wedding programme includes multiple ceremonies or guests need to arrive well before the main event.</p>
-        <p>Families should consider the distance between the accommodation and the venue, the expected check-in times and the number of guests who need rooms. It is also useful to identify suitable arrangements for elderly relatives and families travelling with children. If you are currently finalizing your celebration venues, review our recommendations on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to ensure convenient lodging options nearby.</p>
+        <p>Families should consider the distance between the accommodation and the venue, the expected check-in times and the number of guests who need rooms. It is also useful to identify suitable arrangements for elderly relatives and families travelling with children. If you are currently finalizing your celebration venues, review our recommendations on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to ensure convenient lodging options nearby.</p>
         <p>Sharing clear accommodation details before the journey helps guests prepare. Where possible, provide the property name, location, check-in information and a contact person who can assist with questions.</p>
         <p>Surya Event Management includes guest accommodation coordination within its <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding packages</a>.</p>
 
@@ -135,7 +135,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>Clear communication can reduce uncertainty and make the arrival experience more comfortable.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Share the Wedding Schedule Clearly</h2>
-        <p>Guests may need to attend more than one event, such as an engagement, the main wedding ceremony and the reception (explore our guide on <a href="/blog/south-indian-pre-wedding-ceremony-styling" className="text-[#D4AF37] no-underline hover:text-white transition-colors">One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity</a>). If the schedule is unclear, they may miss an important function or arrive at the wrong location.</p>
+        <p>Guests may need to attend more than one event, such as an engagement, the main wedding ceremony and the reception (explore our guide on <a href="/blog/one-wedding-different-celebrations-giving-engagement-mehendi-and-sangeet-their-own-identity" className="text-[#D4AF37] no-underline hover:text-white transition-colors">One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity</a>). If the schedule is unclear, they may miss an important function or arrive at the wrong location.</p>
         <p>Prepare a simple itinerary that includes:</p>
         <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
           <li>Event names and dates.</li>
@@ -144,18 +144,18 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Any important instructions shared by the family.</li>
           <li>Contact details for event-related assistance.</li>
         </ul>
-        <p>For a traditional South Indian wedding, the main ceremony may have a specific schedule coordinated with the priest. To align ritual timings with guest arrivals smoothly, explore our guide on <a href="/blog/traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a> and consult our structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>. Guests should receive clear information about when they are expected to arrive, while the family and event team coordinate ceremony rituals separately.</p>
+        <p>For a traditional South Indian wedding, the main ceremony may have a specific schedule coordinated with the priest. To align ritual timings with guest arrivals smoothly, explore our guide on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a> and consult our structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>. Guests should receive clear information about when they are expected to arrive, while the family and event team coordinate ceremony rituals separately.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Consider the Needs of Different Age Groups</h2>
         <p>A wedding gathering may include grandparents, young children and guests with different mobility needs. Hospitality arrangements should take these differences into account.</p>
-        <p>Consider how easily guests can move between the entrance, seating areas and ceremony space. Provide clear directions and avoid unnecessary walking where practical. For layout strategies that prevent congestion and assist elderly attendees, explore our advice on <a href="/blog/south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
-        <p>When planning hospitality around dining for multi-generational guests, check our specialized guide to <a href="/blog/south-indian-wedding-feast-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>.</p>
+        <p>Consider how easily guests can move between the entrance, seating areas and ceremony space. Provide clear directions and avoid unnecessary walking where practical. For layout strategies that prevent congestion and assist elderly attendees, explore our advice on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
+        <p>When planning hospitality around dining for multi-generational guests, check our specialized guide to <a href="/blog/south-indian-wedding-feast-planning-the-art-of-traditional-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>.</p>
         <p>It is also useful to identify someone who can assist elderly relatives or answer questions from guests who are unfamiliar with the venue.</p>
         <p>These small arrangements can make a significant difference to how comfortable guests feel throughout the celebration.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Keep Hospitality Connected with the Main Event Plan</h2>
         <p>Guest arrangements should not be managed separately from the rest of the wedding schedule. Accommodation check-ins, vehicle arrivals and transfers between venues can affect when guests reach the ceremony or reception.</p>
-        <p>A coordinated plan helps the event team understand when guests are expected and where assistance may be needed. It also makes it easier to communicate changes if timings or travel arrangements are updated. Whether guests are arriving for morning rituals or an evening gala with illuminated stage styling—as explored in our feature on <a href="/blog/south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>—timely hospitality keeps the entire schedule seamless.</p>
+        <p>A coordinated plan helps the event team understand when guests are expected and where assistance may be needed. It also makes it easier to communicate changes if timings or travel arrangements are updated. Whether guests are arriving for morning rituals or an evening gala with illuminated stage styling—as explored in our feature on <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>—timely hospitality keeps the entire schedule seamless.</p>
         <p>Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding services</a> include venue coordination, catering, photography and guest hospitality, helping families bring several event requirements into one plan.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">7. Make Important Information Easy to Find</h2>
@@ -165,7 +165,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
         <p>Guest hospitality is an important part of a South Indian wedding, especially when relatives and friends travel from different cities. Accommodation, airport and railway transfers, event schedules and clear communication all contribute to a smoother experience.</p>
-        <p>When these arrangements are considered early and coordinated with the wedding programme, guests can focus on enjoying the celebration and spending time with the family. Learn how our dedicated team ensures seamless execution on our <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> page.</p>
+        <p>When these arrangements are considered early and coordinated with the wedding programme, guests can focus on enjoying the celebration and spending time with the family. Learn how our dedicated team ensures seamless execution on our <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> page.</p>
         <p>Surya Event Management offers end-to-end wedding coordination and guest hospitality support across Bengaluru and Karnataka. Families can share their event requirements through the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">official contact section</a>.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management handle outstation guest hospitality, transfers, and accommodations for a relaxed, joyful celebration.</p>
       </article>
@@ -192,7 +192,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Start with the Shape of the Stage</h2>
         <p>The stage is usually one of the main visual features of a reception. Its shape and structure influence how the entire area looks, from the entrance to the seating arrangements.</p>
-        <p>Some celebrations suit a broad, symmetrical stage, while others may benefit from layered structures or sculpted architectural details. Floral canopies can add softness, whereas defined geometric structures can create a more contemporary appearance. For practical venue layout advice across every corner of your venue, read our guide on <a href="/blog/south-indian-wedding-venue-space-planning" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
+        <p>Some celebrations suit a broad, symmetrical stage, while others may benefit from layered structures or sculpted architectural details. Floral canopies can add softness, whereas defined geometric structures can create a more contemporary appearance. For practical venue layout advice across every corner of your venue, read our guide on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Beyond the Wedding Stage: Making Every Space Count at a South Indian Wedding</a>.</p>
         <p>The design should take the actual venue dimensions into account. A stage that is too large can dominate the available space, while a structure that is too small may not create the desired visual impact in a large hall.</p>
         <p>Before finalizing a design, consider the stage width, height, available floor space and the visibility of the couple from different seating areas.</p>
 
@@ -207,34 +207,34 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Avoiding harsh glare in areas used for photography.</li>
           <li>Coordinating decorative lighting with the venue's existing illumination.</li>
         </ul>
-        <p>These details can help the reception maintain a consistent appearance from guest arrival through the main stage programme. To see how modern couples are infusing contemporary illumination styles, explore our insights on <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>These details can help the reception maintain a consistent appearance from guest arrival through the main stage programme. To see how modern couples are infusing contemporary illumination styles, explore our insights on <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Balance Floral Canopies with Structural Details</h2>
         <p>Floral canopies can soften the appearance of a grand reception stage. They can be used alongside sculpted structures to create a balance between natural floral elements and architectural design.</p>
-        <p>The flowers, colors and arrangement style should complement one another. A floral canopy can become the main feature, or it can be used as a supporting detail around a more structured backdrop. For inspiration on authentic South Indian florals and marigold-jasmine backdrops, take a look at our <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>The flowers, colors and arrangement style should complement one another. A floral canopy can become the main feature, or it can be used as a supporting detail around a more structured backdrop. For inspiration on authentic South Indian florals and marigold-jasmine backdrops, take a look at our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>The final design should also suit the venue. Large structures require sufficient space, suitable installation arrangements and coordination with the venue team.</p>
         <p>Surya Event Management offers custom sculpted stage structures, floral canopies and ambient lighting as part of its <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Grand Reception Structures services</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Make the Entrance and Stage Feel Connected</h2>
         <p>The reception entrance creates the first visual impression, while the stage becomes a central point during the event. When these areas use completely unrelated styles, the overall setting may feel disconnected.</p>
         <p>A coordinated approach can connect them through selected colors, lighting styles or decorative materials. The entrance does not need to copy the stage design exactly; it simply needs to complement it.</p>
-        <p>Glass runways and mirror-finish aisles may also be considered where the venue layout and event requirements make them suitable. To ensure a seamless flow between early rituals and the evening celebration, review our step-by-step breakdown on <a href="/blog/traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
+        <p>Glass runways and mirror-finish aisles may also be considered where the venue layout and event requirements make them suitable. To ensure a seamless flow between early rituals and the evening celebration, review our step-by-step breakdown on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
         <p>The important point is to treat the entrance, walkway and stage as parts of the same environment rather than separate decoration projects.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Think About Photography and Guest Visibility</h2>
         <p>A reception stage serves several purposes. It is a decorative focal point, a place where the couple meets guests and an important setting for photographs.</p>
         <p>A design that looks attractive from the front may not work as well from the sides. Guests seated farther away should still have a reasonable view, and photographers should have enough room to capture important moments.</p>
-        <p>During the design process, consider the placement of the couple, the backdrop's visual details and the surrounding space. Decorative structures should not obstruct movement or make it difficult for guests to approach the stage. For key tips on optimizing stage backdrops for couple and family portraits, check our guide on <a href="/blog/wedding-photography-trends-moments" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Photography Trends: Creating Beautiful Moments Beyond the Main Stage</a>.</p>
-        <p>This practical planning helps maintain both the visual quality and usability of the reception setup. When hosting out-of-town guests and elderly relatives, smooth movement around the stage is vital—read our advice on <a href="/blog/south-indian-wedding-guest-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Welcoming Outstation Guests to a South Indian Wedding: A Guide to Thoughtful Hospitality</a>.</p>
+        <p>During the design process, consider the placement of the couple, the backdrop's visual details and the surrounding space. Decorative structures should not obstruct movement or make it difficult for guests to approach the stage. For key tips on optimizing stage backdrops for couple and family portraits, check our guide on <a href="/blog/wedding-photography-trends-creating-beautiful-moments-beyond-the-main-stage" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Photography Trends: Creating Beautiful Moments Beyond the Main Stage</a>.</p>
+        <p>This practical planning helps maintain both the visual quality and usability of the reception setup. When hosting out-of-town guests and elderly relatives, smooth movement around the stage is vital—read our advice on <a href="/blog/welcoming-outstation-guests-to-a-south-indian-wedding-a-guide-to-thoughtful-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Welcoming Outstation Guests to a South Indian Wedding: A Guide to Thoughtful Hospitality</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Match the Design to the Venue</h2>
         <p>A reception held in a grand ballroom may require a different design approach from one held at a heritage property or an outdoor venue.</p>
-        <p>The ceiling height, existing architecture, available installation space and lighting conditions can all influence the final result. Instead of selecting a design without considering the location, it is useful to assess the venue first and then develop the stage concept around it. If you are comparing banquet halls or convention centres, discover <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>The ceiling height, existing architecture, available installation space and lighting conditions can all influence the final result. Instead of selecting a design without considering the location, it is useful to assess the venue first and then develop the stage concept around it. If you are comparing banquet halls or convention centres, discover <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
         <p>Families can explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> to view examples of reception structures, floral styling and illuminated event settings.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
         <p>A successful South Indian wedding reception stage brings architecture, floral styling and lighting together in a way that suits the venue and the celebration. Every element should contribute to the overall appearance without compromising guest comfort or practical requirements.</p>
-        <p>With careful attention to proportions, lighting and visual consistency, families can create a reception setting that feels distinctive and well coordinated. Learn more about our hands-on coordination philosophy in <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
+        <p>With careful attention to proportions, lighting and visual consistency, families can create a reception setting that feels distinctive and well coordinated. Learn more about our hands-on coordination philosophy in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
         <p>Surya Event Management provides grand reception structures and customized event styling for celebrations across Bengaluru and Karnataka. To discuss your reception requirements, visit the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management contact section</a>.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management transform your reception stage with architectural grandeur and captivating ambient lighting.</p>
       </article>
@@ -261,7 +261,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Make the Entrance the Beginning of the Experience</h2>
         <p>The entrance gives guests their first impression of the wedding. Rather than treating it as a separate decorative feature, families can plan it as the beginning of the celebration's overall visual theme.</p>
-        <p>Traditional South Indian elements such as banana saplings, fresh floral arrangements and silk drapery can help create a welcoming entrance. The design can then carry selected colors, flowers or materials into the main ceremony and reception areas. To explore unique theme palettes and floral doorway concepts, take inspiration from our guide on <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>Traditional South Indian elements such as banana saplings, fresh floral arrangements and silk drapery can help create a welcoming entrance. The design can then carry selected colors, flowers or materials into the main ceremony and reception areas. To explore unique theme palettes and floral doorway concepts, take inspiration from our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>Practical considerations are equally important. The entrance should allow guests to move comfortably, avoid unnecessary congestion and provide a clear route towards the event space.</p>
         <p>The aim is to create a welcoming arrival without making the entrance difficult to navigate.</p>
 
@@ -269,14 +269,14 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>The Muhurtha area has a specific purpose: it needs to accommodate the ceremony and the people involved in it. Its arrangement should therefore be guided by the family's traditions, the priest's requirements and the venue's available space.</p>
         <p>Fresh jasmine and marigolds, traditional floral structures and silk drapery can help establish the desired setting. Banana saplings and other traditional elements may also be included according to the family's preferences.</p>
         <p>Instead of filling every available area with decoration, it is better to maintain a clear and functional ceremony space. The couple, priest and participating family members should have enough room, while guests should be able to view the proceedings comfortably.</p>
-        <p>Explore Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding and Muhurtha services</a> for traditional ceremony arrangements, and discover our in-depth breakdown on <a href="/blog/traditional-south-indian-wedding-coordination" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
+        <p>Explore Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding and Muhurtha services</a> for traditional ceremony arrangements, and discover our in-depth breakdown on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Coordinate a Traditional South Indian Wedding from Muhurtha to Reception</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Design the Reception Stage Around the Venue</h2>
         <p>A reception stage should complement the venue's architecture, dimensions and lighting conditions. A design that works well in a large banquet hall may not have the same effect in a smaller indoor space or an outdoor venue.</p>
         <p>Custom stage structures, floral canopies and ambient lighting can be combined according to the setting. Glass runways or mirror-finish aisles may also be considered where the venue layout allows them.</p>
         <p>Before confirming the design, consider the stage dimensions, guest seating, photography angles and movement around the stage. Lighting should support the overall appearance without becoming uncomfortable for guests or interfering with photography.</p>
         <p>A coordinated design can make the reception area visually impressive while keeping it practical for the event.</p>
-        <p>Families can browse the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for examples of reception structures, floral arrangements and lighting setups, explore upcoming aesthetics in our feature on <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>, or learn how to elevate your stage setup in our specialized feature on <a href="/blog/south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>.</p>
+        <p>Families can browse the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management gallery</a> for examples of reception structures, floral arrangements and lighting setups, explore upcoming aesthetics in our feature on <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>, or learn how to elevate your stage setup in our specialized feature on <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Keep Guest Movement in Mind</h2>
         <p>A wedding venue needs to accommodate more than the ceremony itself. Guests may arrive at different times, move between event areas, meet family members and gather for photographs.</p>
@@ -289,11 +289,11 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Safe movement around decorative structures and lighting equipment.</li>
           <li>Suitable arrangements for elderly guests and families with children.</li>
         </ul>
-        <p>These details are particularly useful when several hundred guests are expected. The objective is not simply to fit everyone into the venue, but to make the celebration easier to experience. If you are currently evaluating convention halls, palace lawns or open-air resorts, check our advice on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>These details are particularly useful when several hundred guests are expected. The objective is not simply to fit everyone into the venue, but to make the celebration easier to experience. If you are currently evaluating convention halls, palace lawns or open-air resorts, check our advice on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Create a Consistent Look Across Different Ceremonies</h2>
         <p>South Indian wedding celebrations may include an engagement, Mehendi, Sangeet, the main wedding and a reception. Each event has a different atmosphere and may require a different arrangement.</p>
-        <p>The engagement can feature a dedicated stage and ring tray styling. Mehendi may use colorful seating and floral swings, while Sangeet may require audio-visual arrangements and a dance floor. For design ideas tailored to intimate pre-wedding milestones, explore our guide on <a href="/blog/engagement-ceremony-ideas-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a>.</p>
+        <p>The engagement can feature a dedicated stage and ring tray styling. Mehendi may use colorful seating and floral swings, while Sangeet may require audio-visual arrangements and a dance floor. For design ideas tailored to intimate pre-wedding milestones, explore our guide on <a href="/blog/engagement-ceremony-ideas-for-a-beautiful-beginning-to-your-wedding-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a>.</p>
         <p>These individual designs do not need to look identical. Instead, families can select a few consistent elements, such as a color palette or floral style, to create a connection between the events.</p>
         <p>A shared planning schedule also helps coordinate setup requirements, venue access and event timings.</p>
         <p>Learn more about the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">pre-wedding ceremony services offered by Surya Event Management</a>.</p>
@@ -301,7 +301,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Connect Event Styling with the Complete Wedding Plan</h2>
         <p>Visual arrangements are only one part of a wedding. Venue booking, catering, photography, accommodation and guest transfers also need to fit into the overall schedule.</p>
         <p>For example, the time required to prepare a reception stage should be considered alongside venue access and other vendor activities. Guest accommodation and transport may also need advance coordination when relatives are travelling from different cities.</p>
-        <p>For traditional dining coordination, especially multi-course sit-down meals, explore our insights on <a href="/blog/south-indian-wedding-feast-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>. Maintaining a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> keeps each vendor aligned.</p>
+        <p>For traditional dining coordination, especially multi-course sit-down meals, explore our insights on <a href="/blog/south-indian-wedding-feast-planning-the-art-of-traditional-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>. Maintaining a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> keeps each vendor aligned.</p>
         <p>A combined plan helps families understand which arrangements are required, when each team needs access and how the different responsibilities fit together.</p>
         <p>Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding packages</a> cover venue coordination, catering, photography and guest hospitality, helping families plan multiple aspects of the celebration together.</p>
 
@@ -313,7 +313,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
         <p>A well-planned South Indian wedding is about more than creating one impressive stage. The entrance, Muhurtha area, reception, guest seating and supporting arrangements should work together to create a coordinated experience.</p>
-        <p>By considering the purpose of each space, the movement of guests and the requirements of every ceremony, families can make better use of their venue while maintaining the traditional character of the celebration. Learn more about our hands-on coordination philosophy in <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
+        <p>By considering the purpose of each space, the movement of guests and the requirements of every ceremony, families can make better use of their venue while maintaining the traditional character of the celebration. Learn more about our hands-on coordination philosophy in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
         <p>Surya Event Management works with families across Bengaluru and Karnataka on traditional weddings, reception structures, pre-wedding ceremonies and end-to-end event arrangements.</p>
         <p>To discuss your wedding requirements, visit the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event Management contact section</a> and share your event details.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management optimize every space of your wedding venue for a seamless, beautifully styled celebration.</p>
@@ -341,7 +341,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Planning the Traditional Muhurtha Setup</h2>
         <p>The Muhurtha ceremony is an important part of many South Indian weddings. Its arrangements should reflect the family's traditions while providing a suitable space for the ceremony and the people participating in it.</p>
-        <p>Traditional elements such as fresh jasmine, marigolds, banana saplings and silk drapery can help create an authentic setting. Their placement should complement the mandapam without making the ceremony area crowded. For creative inspiration on mandap setups, jasmine canopies and authentic brass urlis, check our <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>Traditional elements such as fresh jasmine, marigolds, banana saplings and silk drapery can help create an authentic setting. Their placement should complement the mandapam without making the ceremony area crowded. For creative inspiration on mandap setups, jasmine canopies and authentic brass urlis, check our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>Before finalizing the setup, families should consider the venue layout, available space, floral requirements and priest coordination. The ceremony schedule should be discussed with the priest so that the arrangements are ready at the appropriate time.</p>
         <p>Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Weddings and Muhurtha services</a> focus on traditional ceremony setups, floral structures and coordination for ritual timings.</p>
 
@@ -355,11 +355,11 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Warm lighting and LED ambient effects.</li>
           <li>Glass runways and mirror-finish aisles where suitable.</li>
         </ul>
-        <p>The stage design, lighting and entrance should work together so the venue feels coordinated. Families can explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see examples of reception stages, floral arrangements and lighting styles featured by Surya Event Management. To see how contemporary couples are styling their grand evening celebrations, explore the latest <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a> or discover how <a href="/blog/south-indian-wedding-reception-stage-lighting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>.</p>
+        <p>The stage design, lighting and entrance should work together so the venue feels coordinated. Families can explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see examples of reception stages, floral arrangements and lighting styles featured by Surya Event Management. To see how contemporary couples are styling their grand evening celebrations, explore the latest <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a> or discover how <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How Stage Architecture and Lighting Shape a Grand South Indian Wedding Reception</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Coordinating Pre-Wedding Ceremonies</h2>
         <p>A South Indian wedding celebration may include several events before the main wedding day. Nischayathartha, Mehendi, Sangeet and Haldi can each have different arrangements and requirements.</p>
-        <p>For an engagement, the stage and ring tray presentation can be planned around the family's preferred style. Explore our specialized guide on <a href="/blog/engagement-ceremony-ideas-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a> for creative stage backdrops and ring exchange concepts. Mehendi celebrations may include colorful seating and floral swings, while Sangeet events can require audio-visual arrangements and a suitable dance floor.</p>
+        <p>For an engagement, the stage and ring tray presentation can be planned around the family's preferred style. Explore our specialized guide on <a href="/blog/engagement-ceremony-ideas-for-a-beautiful-beginning-to-your-wedding-journey" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Engagement Ceremony Ideas for a Beautiful Beginning to Your Wedding Journey</a> for creative stage backdrops and ring exchange concepts. Mehendi celebrations may include colorful seating and floral swings, while Sangeet events can require audio-visual arrangements and a suitable dance floor.</p>
         <p>Planning these events together helps maintain consistency while allowing each ceremony to have its own character.</p>
         <p>A shared schedule can also help the family coordinate venue access, setup time and the movement of guests between activities. Surya Event Management includes these celebrations within its <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">pre-wedding ceremony services</a>.</p>
 
@@ -375,7 +375,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Organizing airport or railway station transfers where required.</li>
           <li>Sharing the event schedule with the relevant teams.</li>
         </ul>
-        <p>When coordinating catering, especially the sacred Muhurtham meal, explore our comprehensive guide to <a href="/blog/south-indian-wedding-feast-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>. If you are comparing heritage resorts, convention halls, or palace lawns, read our advice on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>When coordinating catering, especially the sacred Muhurtham meal, explore our comprehensive guide to <a href="/blog/south-indian-wedding-feast-planning-the-art-of-traditional-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian Wedding Feast Planning: The Art of Traditional Banana Leaf Dining</a>. If you are comparing heritage resorts, convention halls, or palace lawns, read our advice on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
         <p>Surya Event Management's <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding packages</a> cover venue coordination, catering, photography, hospitality and planning support for celebrations across Bengaluru and South India.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Including Traditional Family Ceremonies in the Celebration Plan</h2>
@@ -386,8 +386,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Bringing Every Arrangement Together with One Plan</h2>
         <p>A wedding includes multiple teams and moving parts. The Muhurtha setup, reception stage, floral work, lighting, catering and hospitality must all fit within the venue's schedule and the family's requirements.</p>
-        <p>A practical planning process begins by listing the ceremonies and services required. The family can then discuss the venue, budget, design preferences and timing before the arrangements are finalized. Aligning all milestones with a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures that priests, decorators, and caterers move in perfect harmony.</p>
-        <p>It is also useful to identify one point of contact for coordination. This makes it easier to communicate updates, confirm setup progress and address unexpected changes. Discover how our dedicated team ensures flawless execution on our <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> feature.</p>
+        <p>A practical planning process begins by listing the ceremonies and services required. The family can then discuss the venue, budget, design preferences and timing before the arrangements are finalized. Aligning all milestones with a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures that priests, decorators, and caterers move in perfect harmony.</p>
+        <p>It is also useful to identify one point of contact for coordination. This makes it easier to communicate updates, confirm setup progress and address unexpected changes. Discover how our dedicated team ensures flawless execution on our <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> feature.</p>
         <p>With a clear plan, families can spend more time participating in the celebration instead of managing individual arrangements throughout the day.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
@@ -426,7 +426,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Dining Layout Before the Wedding Day</h2>
         <p>The dining area should accommodate guests comfortably while allowing servers to move safely and efficiently.</p>
         <p>For banana leaf dining, consider the length and arrangement of the rows, the distance between seating areas and the pathways used by catering staff. Make sure guests can enter and leave without blocking the main routes.</p>
-        <p>If the ceremony and dining take place in different areas, provide clear directions and allow enough time for guests to move between them. Whether hosting at grand convention halls, luxury hotels or heritage grounds, explore our guide on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to ensure ample dining capacity.</p>
+        <p>If the ceremony and dining take place in different areas, provide clear directions and allow enough time for guests to move between them. Whether hosting at grand convention halls, luxury hotels or heritage grounds, explore our guide on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to ensure ample dining capacity.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Understand the Flow of a Traditional Meal</h2>
         <p>A traditional South Indian feast may include a variety of rice preparations, vegetables, accompaniments, sweets and other dishes, depending on the region and family preferences.</p>
@@ -441,12 +441,12 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Muhurtham Schedule</h2>
         <p>In many South Indian weddings, the timing of the main ceremony is determined by the family's traditions and the selected muhurtham. Dining arrangements should support that schedule.</p>
         <p>Confirm the expected ceremony duration, the approximate time guests will arrive for the meal and when the catering team needs to be ready.</p>
-        <p>The caterer and event coordinator should communicate any timing changes promptly. This is particularly important for larger gatherings, where a small delay can affect several dining batches. Aligning your food service timings with a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures seamless transitions between rituals and dining batches.</p>
+        <p>The caterer and event coordinator should communicate any timing changes promptly. This is particularly important for larger gatherings, where a small delay can affect several dining batches. Aligning your food service timings with a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures seamless transitions between rituals and dining batches.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Match the Dining Environment to the Celebration</h2>
         <p>The dining area should feel like a natural part of the wedding rather than a separate, poorly coordinated space.</p>
         <p>Depending on the venue, this may involve traditional welcome details, simple floral arrangements or a clean and organized seating layout. Keep decoration practical so it does not interfere with serving, cleaning or guest movement.</p>
-        <p>The main priority is a pleasant dining experience. Decorative features should support that goal instead of making the space difficult to use. If you are planning traditional floral entrances, banana sapling framing, or authentic brass urlis, browse our <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>The main priority is a pleasant dining experience. Decorative features should support that goal instead of making the space difficult to use. If you are planning traditional floral entrances, banana sapling framing, or authentic brass urlis, browse our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Pay Attention to Cleanliness and Food Service</h2>
         <p>A well-organized feast requires coordination behind the scenes.</p>
@@ -503,11 +503,11 @@ export const BLOG_POSTS: BlogPost[] = [
     fullContent: (
       <article className="space-y-4">
         <p>An engagement ceremony marks the beginning of an exciting new chapter for a couple and their families. It is a chance to celebrate their commitment, introduce family traditions and share a special moment with the people closest to them.</p>
-        <p>While some couples prefer a small family gathering, others choose a larger celebration with a stage, music, photography and carefully planned arrangements. Whatever the size, a well-organised engagement ceremony should reflect the couple's preferences and make guests feel welcome. For ideas on styling your engagement alongside other pre-wedding milestones, explore our guide on <a href="/blog/south-indian-pre-wedding-ceremony-styling" className="text-[#D4AF37] no-underline hover:text-white transition-colors">One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity</a>.</p>
+        <p>While some couples prefer a small family gathering, others choose a larger celebration with a stage, music, photography and carefully planned arrangements. Whatever the size, a well-organised engagement ceremony should reflect the couple's preferences and make guests feel welcome. For ideas on styling your engagement alongside other pre-wedding milestones, explore our guide on <a href="/blog/one-wedding-different-celebrations-giving-engagement-mehendi-and-sangeet-their-own-identity" className="text-[#D4AF37] no-underline hover:text-white transition-colors">One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose a Theme That Reflects Your Story</h2>
         <p>The theme sets the direction for the entire celebration. Some couples prefer a classic look with flowers and soft colours, while others choose a modern setup with bold shades, elegant seating and creative backdrops.</p>
-        <p>Before finalising the theme, consider the venue, guest count and time of day. An outdoor afternoon function may suit a fresh, natural look, while an evening ceremony can feature warm lighting and a more formal setting. If you're exploring distinctive aesthetics, take inspiration from our guide on <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>Before finalising the theme, consider the venue, guest count and time of day. An outdoor afternoon function may suit a fresh, natural look, while an evening ceremony can feature warm lighting and a more formal setting. If you're exploring distinctive aesthetics, take inspiration from our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>The aim is to create a setting that feels personal rather than following every popular trend.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan a Stage for the Ring Exchange</h2>
@@ -518,16 +518,16 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Guest Seating Comfortable</h2>
         <p>Guests should be able to watch the ceremony without struggling to see the stage. Arrange seating according to the venue layout and leave clear pathways for movement.</p>
         <p>If elderly relatives are attending, consider easy access to their seats. For larger gatherings, make sure the entrance, seating and refreshments areas are clearly arranged.</p>
-        <p>These practical details help the ceremony run smoothly and allow families to focus on the celebration. For venue options ranging from private bungalows and villas to luxury banquet halls, explore our guide on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>These practical details help the ceremony run smoothly and allow families to focus on the celebration. For venue options ranging from private bungalows and villas to luxury banquet halls, explore our guide on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Ring Exchange and Family Moments</h2>
         <p>A simple programme helps everyone understand what happens next. You may begin with the arrival of guests, followed by the couple's entrance, the ring exchange, family photographs and refreshments.</p>
         <p>Discuss the sequence with both families before the event. If there are traditional rituals or special performances, include enough time for them rather than trying to fit everything into a short schedule.</p>
-        <p>A little planning can prevent confusion during the most important moments. Aligning your milestones with a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> prevents last-minute rush and keeps every function organized.</p>
+        <p>A little planning can prevent confusion during the most important moments. Aligning your milestones with a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> prevents last-minute rush and keeps every function organized.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Add Personal Touches Without Overcomplicating the Event</h2>
         <p>Personal details can make an engagement ceremony feel more connected to the couple. A photograph display, a favourite song or a short message from family members can add meaning without requiring an elaborate setup.</p>
-        <p>Choose details that suit the couple's personality and the atmosphere they want to create. A few thoughtful additions often work better than too many competing ideas. To ensure these moments are documented beautifully, check out our insights on <a href="/blog/wedding-photography-trends-moments" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Photography Trends: Creating Beautiful Moments Beyond the Main Stage</a>.</p>
+        <p>Choose details that suit the couple's personality and the atmosphere they want to create. A few thoughtful additions often work better than too many competing ideas. To ensure these moments are documented beautifully, check out our insights on <a href="/blog/wedding-photography-trends-creating-beautiful-moments-beyond-the-main-stage" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Photography Trends: Creating Beautiful Moments Beyond the Main Stage</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring the Arrangements Together</h2>
         <p>An engagement ceremony involves several connected elements, including the stage, seating, lighting, guest movement and timing. Planning these together helps the celebration feel organised from arrival to the final photographs.</p>
@@ -562,7 +562,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Focus on Moments, Not Just Poses</h2>
         <p>Traditional portraits remain an important part of wedding photography, but candid moments bring another dimension to the collection.</p>
         <p>Conversations between relatives, laughter during the Mehendi, emotional reactions during the ceremony and spontaneous dance-floor moments can capture the personality of the celebration.</p>
-        <p>Allow time for these interactions instead of scheduling every minute around formal photographs. For ideas on bringing high energy and lively interaction to the dance floor, explore our advice on <a href="/blog/wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
+        <p>Allow time for these interactions instead of scheduling every minute around formal photographs. For ideas on bringing high energy and lively interaction to the dance floor, explore our advice on <a href="/blog/wedding-entertainment-ideas-that-make-every-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Comfortable Photography Environment</h2>
         <p>People are generally more relaxed when they know where photographs will take place and when they will be needed.</p>
@@ -606,24 +606,24 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Space for Unplanned Moments</h2>
         <p>Not every memorable photograph needs to be arranged in advance.</p>
         <p>Leave some time between formal activities so the photographer can capture natural interactions. A relaxed conversation or an unexpected reunion may become one of the couple's favourite memories.</p>
-        <p>A balanced schedule makes room for these moments without delaying important ceremonies. To structure each ritual seamlessly without rush, check our <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
+        <p>A balanced schedule makes room for these moments without delaying important ceremonies. To structure each ritual seamlessly without rush, check our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Photography With the Event Setup</h2>
         <p>The photography team should understand the event schedule, important rituals and locations before the celebration begins.</p>
         <p>Share the timings for the couple's entrance, family portraits, stage activities and other major moments. Also identify any restricted areas or venue rules that may affect photography.</p>
-        <p>If you are still developing the overall look of your celebration, explore these <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a> to consider how the setting and photography areas can complement each other. Tailored styling and backdrop packages are also detailed in our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>If you are still developing the overall look of your celebration, explore these <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a> to consider how the setting and photography areas can complement each other. Tailored styling and backdrop packages are also detailed in our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About Guest Experience Too</h2>
         <p>Photography arrangements should not make guests feel as though they are constantly being directed.</p>
         <p>Keep major walkways clear, avoid blocking the stage view and ensure that designated photo areas do not interfere with dining or other activities.</p>
-        <p>When the setup is convenient, guests can participate naturally and enjoy the occasion. Discover more about guest-friendly layouts and welcoming spaces in our feature on <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>When the setup is convenient, guests can participate naturally and enjoy the occasion. Discover more about guest-friendly layouts and welcoming spaces in our feature on <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Collection That Feels Personal</h2>
         <p>Trends can provide inspiration, but the best wedding photographs reflect the people and relationships involved.</p>
         <p>Choose a mix of traditional portraits, candid interactions, detail shots and creative couple photographs. This gives the final collection variety while keeping it connected to the actual celebration.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Setting Part of the Memory</h2>
-        <p>The venue, lighting and décor can help tell the story of the day. A meaningful architectural detail, a garden pathway or a beautifully arranged ceremony space can provide context that makes photographs feel more personal. If you are considering outdoor lawns, resorts, or heritage venues, read our tips on <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>The venue, lighting and décor can help tell the story of the day. A meaningful architectural detail, a garden pathway or a beautifully arranged ceremony space can provide context that makes photographs feel more personal. If you are considering outdoor lawns, resorts, or heritage venues, read our tips on <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
         <p>For inspiration on bringing the different elements of a wedding together, visit <a href="/#about" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event</a> and discover our hands-on coordination.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Preserve the Moments That Matter</h2>
@@ -654,7 +654,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start With the Mood of Your Celebration</h2>
         <p>Every wedding has its own personality. Some couples prefer a lively celebration filled with music and dancing, while others want a relaxed atmosphere where family and friends can spend quality time together.</p>
-        <p>Think about the kind of experience you want to create before choosing entertainment. A high-energy performance may work beautifully for a reception, whereas softer music and interactive activities might suit a daytime family function or an open lawn. For couples celebrating in natural outdoor or villa environments, explore our advice on <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>Think about the kind of experience you want to create before choosing entertainment. A high-energy performance may work beautifully for a reception, whereas softer music and interactive activities might suit a daytime family function or an open lawn. For couples celebrating in natural outdoor or villa environments, explore our advice on <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Sangeet a Celebration of Family</h2>
         <p>The Sangeet is an opportunity for families to come together through music, dance and friendly performances.</p>
@@ -671,7 +671,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Bring Guests Into the Celebration</h2>
         <p>Entertainment becomes more enjoyable when guests are not just watching from their seats.</p>
         <p>Interactive activities can include a wedding trivia round, a couple's quiz, a photo challenge or a fun family competition. These activities are especially useful when guests come from different cities or have not met before.</p>
-        <p>The idea is to encourage participation without making anyone feel uncomfortable. To see how modern couples are prioritizing attendee participation, discover our insights on <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>The idea is to encourage participation without making anyone feel uncomfortable. To see how modern couples are prioritizing attendee participation, discover our insights on <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Special Moments During the Reception</h2>
         <p>A reception offers plenty of opportunities for memorable experiences. Live music, a professional host, coordinated performances or a special entrance can add personality to the evening.</p>
@@ -684,12 +684,12 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Add Entertainment That Matches the Theme</h2>
         <p>If your wedding includes a particular theme, let it influence the activities too.</p>
         <p>A traditional celebration might include folk performances, while a contemporary reception could feature a live band or a DJ. Outdoor functions may also offer space for acoustic music or informal group activities.</p>
-        <p>You can explore different possibilities alongside our <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>, so the entertainment and visual atmosphere feel connected. Explore our complete event styling packages in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>You can explore different possibilities alongside our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>, so the entertainment and visual atmosphere feel connected. Explore our complete event styling packages in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Keep the Event Running Smoothly</h2>
         <p>Even exciting activities can lose their impact when the schedule is unclear.</p>
         <p>Prepare a simple event sequence that covers guest arrival, performances, speeches, dinner and open dancing. Share the plan with the host, performers and event team so everyone understands when their part begins.</p>
-        <p>Allow small breaks between major activities to give guests time to relax and enjoy the occasion. Structuring your schedule with a comprehensive <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures seamless transitions between every ceremony.</p>
+        <p>Allow small breaks between major activities to give guests time to relax and enjoy the occasion. Structuring your schedule with a comprehensive <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> ensures seamless transitions between every ceremony.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Don't Forget the Smaller Guests</h2>
         <p>Children attending a wedding may enjoy having activities of their own. Depending on the venue and arrangements, you could consider simple games, drawing activities or a supervised activity corner.</p>
@@ -746,7 +746,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>5-Star Hotels</li>
           <li>3-Star Hotels</li>
         </ul>
-        <p>Each setting offers a different atmosphere. If you are evaluating venue capacities and amenities, explore our detailed guide on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to match your vision.</p>
+        <p>Each setting offers a different atmosphere. If you are evaluating venue capacities and amenities, explore our detailed guide on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a> to match your vision.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build the Décor Around the Surroundings</h2>
         <p>A natural outdoor venue may already have plenty of visual character.</p>
@@ -782,7 +782,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Rest areas</li>
           <li>Other functions</li>
         </ul>
-        <p>A well-organized layout allows guests to enjoy the venue instead of spending time figuring out where everything is. To map out every phase smoothly without last-minute stress, follow our <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
+        <p>A well-organized layout allows guests to enjoy the venue instead of spending time figuring out where everything is. To map out every phase smoothly without last-minute stress, follow our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan for Both Day and Night</h2>
         <p>An outdoor celebration can look completely different during the day and after sunset.</p>
@@ -889,7 +889,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Garden and Water Pond Wedding</li>
           <li>Villa Wedding</li>
         </ul>
-        <p>The right venue can also reduce the need for excessive decoration because the existing surroundings may already provide a strong visual backdrop. Explore our review of the <a href="/blog/best-wedding-venues-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Best Wedding Venues and Ideas for Your Dream Wedding</a> for practical comparisons.</p>
+        <p>The right venue can also reduce the need for excessive decoration because the existing surroundings may already provide a strong visual backdrop. Explore our review of the <a href="/blog/best-wedding-venues-and-ideas-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Best Wedding Venues and Ideas for Your Dream Wedding</a> for practical comparisons.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make the Venue Work for You</h2>
         <p>Instead of decorating every possible area, identify the places where guests will spend the most time.</p>
@@ -920,7 +920,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Modern and minimal</li>
           <li>Natural and floral</li>
         </ul>
-        <p>From there, select flowers, fabrics, furniture, lighting and decorative elements that support the same direction. For thematic inspiration, check out our guide on <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>From there, select flowers, fabrics, furniture, lighting and decorative elements that support the same direction. For thematic inspiration, check out our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>Wedding décor options are available starting from ₹1.25 lakhs, with the final setup depending on the scale and requirements. To understand what packages we offer, check our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Each Function Its Own Character</h2>
@@ -947,7 +947,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Avoid Last-Minute Spending</h2>
         <p>Last-minute decisions often happen when important requirements have not been discussed early.</p>
-        <p>Finalize major requirements beforehand and leave some room in the budget for unexpected expenses. Aligning your milestones with a structured <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> prevents costly rush arrangements.</p>
+        <p>Finalize major requirements beforehand and leave some room in the budget for unexpected expenses. Aligning your milestones with a structured <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> prevents costly rush arrangements.</p>
         <p>A little flexibility can help you handle changes without disturbing the complete wedding plan.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">A Thoughtful Wedding Doesn't Need Excess</h2>
@@ -987,7 +987,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Begin With the Bigger Picture</h2>
         <p>Before booking anything, take some time to understand what you want your wedding to feel like.</p>
         <p>Do you imagine a traditional celebration, a modern gathering, a destination-style event, or an intimate family occasion?</p>
-        <p>Your answer will influence almost every decision that follows. For contemporary ideas and guest experiences, take a look at the <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>Your answer will influence almost every decision that follows. For contemporary ideas and guest experiences, take a look at the <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Build Your Guest List Early</h2>
         <p>The number of guests has a direct impact on your venue and event arrangements.</p>
@@ -1026,7 +1026,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Garden and Water Pond Wedding</li>
           <li>Villa Wedding</li>
         </ul>
-        <p>Consider the guest count, accessibility, atmosphere and type of celebration. If you're drawn to scenic outdoor lawns or resort properties, read our dedicated guide on <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>Consider the guest count, accessibility, atmosphere and type of celebration. If you're drawn to scenic outdoor lawns or resort properties, read our dedicated guide on <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Divide the Budget Into Clear Categories</h2>
         <p>Rather than looking at the wedding budget as one large amount, divide it into practical sections.</p>
@@ -1041,7 +1041,7 @@ export const BLOG_POSTS: BlogPost[] = [
           <li>Transportation</li>
           <li>Accommodation</li>
         </ul>
-        <p>For actionable tips on optimizing spend across each category, explore our advice on <a href="/blog/beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>.</p>
+        <p>For actionable tips on optimizing spend across each category, explore our advice on <a href="/blog/how-to-plan-a-beautiful-wedding-within-your-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Give Your Décor a Clear Direction</h2>
         <p>Décor becomes much easier to plan when you have a defined visual direction.</p>
@@ -1132,7 +1132,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Your Wedding About the Guest Experience</h2>
         <p>Your guests are an important part of your wedding celebration. While beautiful décor creates the visual atmosphere, thoughtful planning can make guests feel more comfortable and involved throughout the event.</p>
         <p>Think about what your guests experience when they arrive, where they sit, how they move around the venue, what they eat, how they enjoy the entertainment, and what they remember after the celebration.</p>
-        <p>A wedding becomes more memorable when these small experiences are planned along with the main décor and arrangements. To see how dedicated management elevates the entire celebration, explore <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> for their big day.</p>
+        <p>A wedding becomes more memorable when these small experiences are planned along with the main décor and arrangements. To see how dedicated management elevates the entire celebration, explore <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a> for their big day.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create a Warm Welcome for Your Guests</h2>
         <p>The wedding experience begins as soon as your guests arrive.</p>
@@ -1189,7 +1189,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Entertainment Beyond Music and Dance</h2>
         <p>Music and dance are an important part of wedding celebrations, but entertainment can go beyond the traditional setup.</p>
         <p>Depending on your guests and wedding style, you can include interactive performances, family activities, games, photo experiences, or other forms of participation.</p>
-        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed. For interactive activities, games, and music concepts, explore our guide on <a href="/blog/wedding-entertainment-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
+        <p>The entertainment should complement the celebration rather than interrupt it. A well-planned schedule can give guests enough time to enjoy the food, conversations, functions, photography, and entertainment without making the event feel rushed. For interactive activities, games, and music concepts, explore our guide on <a href="/blog/wedding-entertainment-ideas-that-make-every-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Entertainment Ideas That Make Every Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Create Comfortable Spaces for Guests</h2>
         <p>Not every guest wants to stand near the main stage throughout the celebration.</p>
@@ -1209,7 +1209,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor That Matches Your Experience</h2>
         <p>The décor should support the kind of experience you want your guests to have.</p>
         <p>A grand celebration may require larger stage elements and impressive entrance décor, while an intimate event may benefit more from comfortable seating, warm lighting, personalized details, and smaller decorative installations.</p>
-        <p>For creative themes and styling inspirations that transform venues, read our guide on <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>For creative themes and styling inspirations that transform venues, read our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>At <strong>Surya Event, décor starts from ₹1.25 lakhs</strong>, allowing couples to plan their wedding setup according to their requirements, venue, functions, and preferred style. You can view our customized packages in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>From stage and entrance décor to lighting, flowers, seating, and decorative details, the setup can be planned around the overall wedding experience.</p>
 
@@ -1227,7 +1227,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan the Experience, Not Just the Event</h2>
         <p>A successful wedding brings many different elements together.</p>
         <p>The décor creates the visual identity. Lighting creates the atmosphere. Food creates part of the guest experience. Entertainment brings people together. Photography captures the memories. And thoughtful planning connects everything.</p>
-        <p>When these elements work together, the wedding feels more natural, organized, and personal. Follow our <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> to structure every preparation milestone effortlessly.</p>
+        <p>When these elements work together, the wedding feels more natural, organized, and personal. Follow our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> to structure every preparation milestone effortlessly.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Know More About Surya Event</h2>
         <p>Every wedding starts with an idea, but turning that idea into a complete celebration requires planning and coordination.</p>
@@ -1282,7 +1282,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>Destination Wedding<br />5-Star Hotels<br />3-Star Hotels<br />Convention Halls<br />Palace Grounds<br />Bungalow Wedding<br />Resort Wedding<br />Garden and Water Pond Weddings<br />Villa Wedding</p>
         <p>Each venue type offers a different experience.</p>
         <p>A luxury hotel can provide a sophisticated environment, while a resort can combine accommodation and celebrations. Palace grounds can offer a royal atmosphere, whereas a villa or bungalow can be ideal for a more private gathering.</p>
-        <p>The goal is to find a venue that suits your guest list, wedding style, and overall requirements. If you're exploring options, read our comprehensive advice on <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>The goal is to find a venue that suits your guest list, wedding style, and overall requirements. If you're exploring options, read our comprehensive advice on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Creative Wedding Décor</h2>
         <p>The right décor can completely transform a venue.</p>
@@ -1294,7 +1294,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>Wedding décor is an important part of your celebration, but it should also be planned according to your budget.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>.</p>
         <p>The décor requirements can be planned based on your venue, number of functions, preferred theme, guest requirements, and design preferences.</p>
-        <p>From a beautifully designed stage to attractive entrance décor and lighting, the focus is on creating a setup that complements your celebration. For smart budgeting tips, check out our guide on <a href="/blog/beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or explore our full package options in our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>From a beautifully designed stage to attractive entrance décor and lighting, the focus is on creating a setup that complements your celebration. For smart budgeting tips, check out our guide on <a href="/blog/how-to-plan-a-beautiful-wedding-within-your-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or explore our full package options in our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Décor for Every Wedding Function</h2>
         <p>A wedding usually includes more than one function, and each event can have its own atmosphere.</p>
@@ -1322,7 +1322,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">8. Focus on Guest Experience</h2>
         <p>A wedding is also about your guests.</p>
         <p>From the venue layout and seating arrangement to dining areas, accommodation, accessibility, and overall flow, these details can influence how comfortable your guests feel.</p>
-        <p>A well-planned venue allows guests to move easily between different areas while enjoying the celebrations. Discover more about creating engaging celebrations in our feature on <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>A well-planned venue allows guests to move easily between different areas while enjoying the celebrations. Discover more about creating engaging celebrations in our feature on <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
         <p>This becomes particularly important for destination and multi-day weddings where guests may spend more time at the venue.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">9. Attention to the Details</h2>
@@ -1340,7 +1340,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>Even a beautiful venue can lose its charm without proper planning.</p>
         <p>Before finalizing your wedding setup, consider:</p>
         <p>Number of guests<br />Wedding functions<br />Venue size<br />Décor requirements<br />Seating arrangements<br />Lighting<br />Dining areas<br />Photography spaces<br />Guest accommodation<br />Overall budget</p>
-        <p>Planning these details in advance can help create a smoother wedding experience. Refer to our <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> to stay organized from day one.</p>
+        <p>Planning these details in advance can help create a smoother wedding experience. Refer to our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a> to stay organized from day one.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">From Venue Selection to Décor</h2>
         <p>Choosing a wedding venue is only the beginning.</p>
@@ -1397,7 +1397,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>A Destination Wedding gives you the opportunity to create a complete visual experience for your guests.</p>
         <p>You can give every function its own décor concept while maintaining a common wedding style.</p>
         <p>For example, a Mehendi function can feature colourful floral arrangements and comfortable seating, while the wedding ceremony can have elegant traditional décor. An evening reception can then use sophisticated lighting and a grand stage.</p>
-        <p>When the venue, décor, and functions are planned together, the entire destination wedding can feel more organized and visually beautiful. Discover how to harmonize location and styling in our complete guide to <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>When the venue, décor, and functions are planned together, the entire destination wedding can feel more organized and visually beautiful. Discover how to harmonize location and styling in our complete guide to <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Elegant Styling for 5-Star Hotels</h2>
         <p>A 5-star hotel already provides a luxurious environment, but customized décor can make the celebration feel even more personal.</p>
@@ -1456,7 +1456,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <p>That makes it one of the most important areas to style.</p>
         <p>Depending on your wedding theme, you can create an entrance using:</p>
         <p>Fresh flowers<br />Floral arches<br />Decorative panels<br />Traditional elements<br />Elegant lighting<br />Personalized signage<br />Drapes and fabric<br />Greenery</p>
-        <p>A well-designed entrance immediately establishes the mood for the rest of the celebration. Explore how personalized entry zones fit into <a href="/blog/2026-wedding-trends-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
+        <p>A well-designed entrance immediately establishes the mood for the rest of the celebration. Explore how personalized entry zones fit into <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 Wedding Trends That Can Make Your Celebration More Memorable</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Design a Stage That Becomes the Centre of Attention</h2>
         <p>The wedding stage is one of the most photographed areas of the venue.</p>
@@ -1474,7 +1474,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor Starting From ₹1.25 Lakhs</h2>
         <p>Your wedding décor should match both your vision and your budget.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, allowing you to plan a beautiful setup according to your requirements.</p>
-        <p>The décor package can be planned around the venue, wedding theme, number of functions, guest requirements, and preferred design style. Learn practical strategies for stunning setups within reach in our guide on <a href="/blog/beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or check out our full range in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>The décor package can be planned around the venue, wedding theme, number of functions, guest requirements, and preferred design style. Learn practical strategies for stunning setups within reach in our guide on <a href="/blog/how-to-plan-a-beautiful-wedding-within-your-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or check out our full range in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>From entrance décor and stage design to flowers, lighting, seating, and decorative elements, every part of the setup can be considered as part of the overall wedding experience.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Make Every Function Look Different</h2>
@@ -1487,7 +1487,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Choose Décor That Matches Your Venue</h2>
         <p>One of the biggest mistakes in wedding décor is selecting a design without considering the venue.</p>
         <p>A grand palace may require a different styling approach compared with a villa or garden.</p>
-        <p>Before finalizing the décor, consider the venue's architecture, size, natural surroundings, ceiling height, lighting conditions, and available spaces. Explore how venue architecture shapes design possibilities in our <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>Before finalizing the décor, consider the venue's architecture, size, natural surroundings, ceiling height, lighting conditions, and available spaces. Explore how venue architecture shapes design possibilities in our <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
         <p>The best décor design is one that works with the venue rather than trying to completely hide it.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Wedding Décor Should Tell Your Story</h2>
@@ -1537,7 +1537,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan a Beautiful Destination Wedding</h2>
         <p>A Destination Wedding can turn your wedding celebration into a complete experience for you and your guests.</p>
         <p>From beautiful resorts to luxury hotels and private properties, destination weddings offer plenty of opportunities for multiple functions in one location.</p>
-        <p>You can plan your Mehendi, Haldi, wedding ceremony, and reception around different areas of the property. With customized décor and thoughtful planning, the entire celebration can have one connected theme. Read our feature on creating memorable celebrations with <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>You can plan your Mehendi, Haldi, wedding ceremony, and reception around different areas of the property. With customized décor and thoughtful planning, the entire celebration can have one connected theme. Read our feature on creating memorable celebrations with <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
         <p>A destination wedding is especially suitable for couples who want their wedding to feel like a memorable getaway for their families and friends.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Experience Luxury at 5-Star Hotels</h2>
@@ -1588,7 +1588,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Décor That Brings Your Venue to Life</h2>
         <p>Selecting the venue is only one part of wedding planning. The next step is transforming that venue into a space that represents your style.</p>
         <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>.</p>
-        <p>Décor can include the entrance, stage, floral arrangements, lighting, seating, backdrops, table settings, and other decorative elements. Check out our <a href="/blog/wedding-decor-ideas" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a> to visualize themes that suit your space, and see our full range in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
+        <p>Décor can include the entrance, stage, floral arrangements, lighting, seating, backdrops, table settings, and other decorative elements. Check out our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a> to visualize themes that suit your space, and see our full range in the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services section</a>.</p>
         <p>The same venue can look completely different depending on the décor concept. A simple space can become elegant, traditional, modern, royal, or romantic with the right design approach.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Think About Your Guests</h2>
@@ -1602,7 +1602,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start Planning Your Dream Wedding</h2>
         <p>Choosing a wedding venue can seem complicated because there are so many possibilities. But once you understand your requirements, the process becomes much easier.</p>
-        <p>Start by deciding your guest list and wedding style. Then consider the type of venue that fits your celebration. Once the venue is finalized, you can plan décor, seating, lighting, food, entertainment, and other arrangements around it. Structure your preparation milestones with our <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
+        <p>Start by deciding your guest list and wedding style. Then consider the type of venue that fits your celebration. Once the venue is finalized, you can plan décor, seating, lighting, food, entertainment, and other arrangements around it. Structure your preparation milestones with our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
         <p>At Surya Event, the goal is to help you turn your wedding vision into a celebration that feels personal and memorable.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your Venue Sets the Stage. Your Story Makes It Special.</h2>
@@ -1638,7 +1638,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Start With the Right Venue</h2>
         <p>The venue is one of the first and most important decisions when planning a wedding.</p>
         <p>Some couples dream of a beautiful Destination Wedding, while others prefer a convenient city venue. Some want a grand celebration with hundreds of guests, while others prefer an intimate wedding surrounded by their closest family and friends.</p>
-        <p>There is no single perfect venue for every wedding. The right choice depends on your wedding style, guest list, functions, location, and budget. For step-by-step tips on narrowing down locations, explore <a href="/blog/choose-perfect-wedding-venue" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
+        <p>There is no single perfect venue for every wedding. The right choice depends on your wedding style, guest list, functions, location, and budget. For step-by-step tips on narrowing down locations, explore <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Choose the Perfect Wedding Venue for Your Big Day</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Luxury Wedding at 5-Star Hotels</h2>
         <p>If you are looking for a grand and luxurious celebration, 5-star hotels can provide an elegant setting for your special day.</p>
@@ -1679,13 +1679,13 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Beautiful Décor Starting From ₹1.25 Lakhs</h2>
         <p>Once your venue has been selected, décor becomes one of the most exciting parts of wedding planning.</p>
         <p>The right décor can completely transform the appearance and atmosphere of a venue. From the entrance and stage to flowers, lighting, seating, backdrops, and decorative elements, every detail contributes to the overall wedding experience.</p>
-        <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, giving couples an opportunity to plan a beautiful wedding setup according to their requirements and preferences. Find out how to allocate funds effectively in our advice on <a href="/blog/beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or check our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services page</a> for full offerings.</p>
+        <p>At Surya Event, <strong>décor starts from ₹1.25 lakhs</strong>, giving couples an opportunity to plan a beautiful wedding setup according to their requirements and preferences. Find out how to allocate funds effectively in our advice on <a href="/blog/how-to-plan-a-beautiful-wedding-within-your-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or check our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services page</a> for full offerings.</p>
         <p>Whether you are planning a grand celebration or an intimate function, décor can be customized around your wedding theme, venue, and overall vision.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding Around Your Style</h2>
         <p>Choosing a venue is only the beginning. You also need to think about the number of guests, wedding functions, accommodation, food, décor, photography areas, entertainment, and the overall flow of the celebration.</p>
         <p>A well-planned wedding brings all these elements together.</p>
-        <p>Instead of choosing a venue simply because it looks attractive, consider whether it suits your guest list, functions, budget, and wedding style. Learn how our team shapes every event around your personal taste in <a href="/blog/why-choose-surya-event" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
+        <p>Instead of choosing a venue simply because it looks attractive, consider whether it suits your guest list, functions, budget, and wedding style. Learn how our team shapes every event around your personal taste in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Why Choose Surya Event for Your Dream Wedding?</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Your First Step Towards a Memorable Wedding</h2>
         <p>Planning a wedding can feel overwhelming, especially when there are so many choices available.</p>
@@ -1723,7 +1723,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Destination Wedding – Celebrate Your Special Day in Style</h2>
         <p>A <strong>Destination Wedding</strong> is a great choice for couples who want something different from a traditional wedding. You can invite your family and close friends to a beautiful location and enjoy the wedding celebrations together.</p>
-        <p>Destination weddings can be planned at resorts, hotels, villas, palaces, or other beautiful locations. The location, décor, food, entertainment, and guest experience can all be planned according to your wedding theme. For detailed styling tips for open settings and villas, read our guide on <a href="/blog/destination-outdoor-weddings-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
+        <p>Destination weddings can be planned at resorts, hotels, villas, palaces, or other beautiful locations. The location, décor, food, entertainment, and guest experience can all be planned according to your wedding theme. For detailed styling tips for open settings and villas, read our guide on <a href="/blog/destination-and-outdoor-weddings-how-to-create-a-beautiful-celebration-in-the-right-setting" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Destination and Outdoor Weddings: How to Create a Beautiful Celebration in the Right Setting</a>.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Wedding at 5-Star Hotels</h2>
         <p>For couples looking for a luxury wedding experience, <strong>5-star hotels</strong> are a popular choice. These venues offer comfortable rooms, beautiful banquet spaces, professional services, and excellent hospitality.</p>
@@ -1761,12 +1761,12 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Beautiful Décor Does Not Always Mean a Huge Budget</h2>
         <p>Many people think that beautiful wedding décor requires a very high budget. However, the right planning can make a big difference.</p>
-        <p>At Surya Event, <strong>decor starts from ₹1.25 lakhs</strong>, giving couples an option to plan attractive wedding décor while keeping their requirements and budget in mind. Discover creative cost-saving approaches in our guide to <a href="/blog/beautiful-wedding-within-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or explore our full range of <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services</a>.</p>
+        <p>At Surya Event, <strong>decor starts from ₹1.25 lakhs</strong>, giving couples an option to plan attractive wedding décor while keeping their requirements and budget in mind. Discover creative cost-saving approaches in our guide to <a href="/blog/how-to-plan-a-beautiful-wedding-within-your-budget" className="text-[#D4AF37] no-underline hover:text-white transition-colors">How to Plan a Beautiful Wedding Within Your Budget</a>, or explore our full range of <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">services</a>.</p>
         <p>The décor can be planned according to the venue, number of guests, wedding theme, and type of function. From floral arrangements and lighting to stage décor and entry setups, every element can be planned to match the overall wedding style.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Plan Your Wedding with the Right Team</h2>
         <p>Choosing the right venue is only the first step. A successful wedding also needs proper planning, creative décor, guest management, and attention to small details.</p>
-        <p>Whether you are planning a <strong>Destination Wedding, 5-star hotel wedding, 3-star hotel wedding, convention hall wedding, palace wedding, bungalow wedding, resort wedding, garden wedding, water pond wedding, or villa wedding</strong>, the right event planning team can help bring your idea to life. Stay organized from start to finish with our comprehensive <a href="/blog/wedding-planning-timeline" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
+        <p>Whether you are planning a <strong>Destination Wedding, 5-star hotel wedding, 3-star hotel wedding, convention hall wedding, palace wedding, bungalow wedding, resort wedding, garden wedding, water pond wedding, or villa wedding</strong>, the right event planning team can help bring your idea to life. Stay organized from start to finish with our comprehensive <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Complete Wedding Planning Timeline: What to Plan Before Your Big Day</a>.</p>
         <p>Your wedding should feel personal, beautiful, and memorable. With the right venue, décor, and planning, you can create a celebration that you and your guests will remember for years.</p>
         <p>If you are ready to discuss your wedding requirements, venue, décor, or event planning needs, <strong><a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact Surya Event</a></strong> and start planning your celebration.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Start planning your dream wedding with Surya Event and turn your wedding vision into a beautiful celebration.</p>
@@ -1786,15 +1786,27 @@ export const BLOG_POSTS: BlogPost[] = [
     aliases: ["royal-heritage-weddings-2026"],
     title: "Top South Indian Wedding Trends: Muhurtha & Stage Structures",
     excerpt: "Discover how traditional weddings in Bengaluru and across South India are blending authentic ritual spaces with modern lighting and floral arches.",
-    fullContent: `South Indian wedding celebrations are evolving into beautifully detailed experiences. Couples and families seeking elegance in Bengaluru and Karnataka are creating unforgettable memories rooted in deep heritage.
+    fullContent: (
+      <article className="space-y-4">
+        <p>South Indian wedding celebrations are evolving into beautifully detailed experiences. Couples and families seeking elegance in Bengaluru and Karnataka are creating unforgettable memories rooted in deep cultural heritage.</p>
+        <p>Today's celebrations blend time-honored rituals with modern aesthetics, from temple-inspired mandapams to contemporary illuminated receptions.</p>
 
-Key highlights shaping current South Indian celebrations:
-1. Traditional Muhurtha: Creating sacred spaces adorned with fresh marigolds, fragrant jasmine (mogra), banana trees, and handcrafted brass oil lamps.
-2. Grand Reception Structures: Building illuminated 50-foot backdrops featuring crystal canopies, glass walkways, and lush orchid overlays.
-3. Live Nadaswaram & Carnatic Music: Pairing classical live musical ensembles with balanced acoustics for a divine ceremony ambience.
-4. Authentic Dining Experiences: Serving traditional grand feasts on fresh banana leaves with complete warm hospitality.
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Traditional Muhurtha Mandapam Trends</h2>
+        <p>Sacred spaces adorned with fresh marigolds, fragrant jasmine (mogra), banana trees, and handcrafted brass oil lamps create an authentic ritual atmosphere. For a comprehensive walkthrough on planning these sacred rituals, check our guide on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating a traditional South Indian wedding from Muhurtha to reception</a>.</p>
 
-At Surya Event Management, our decades of hands-on experience enable us to plan, design, and manage every ceremony seamlessly.`,
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Grand Reception Structures & Architectural Lighting</h2>
+        <p>Evening receptions are featuring custom-designed 50-foot backdrops with crystal canopies, glass runways, and warm ambient LED lighting that emphasize stage symmetry. Discover how structure and illumination transform receptions in our feature on <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how stage architecture and lighting shape a grand reception</a>, or explore our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">reception styling services</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Live Nadaswaram, Carnatic Ensembles & Entertainment</h2>
+        <p>Pairing classical live musical ensembles with balanced acoustics establishes a divine ceremony ambience. For evening Sangeet celebrations, modern couples are infusing family dance performances and emcee-led entertainment—explore creative ideas in our article on <a href="/blog/wedding-entertainment-ideas-that-make-every-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding entertainment ideas that elevate your celebration</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Authentic Dining on Fresh Banana Leaves</h2>
+        <p>Serving traditional grand feasts on fresh plantain leaves remains an irreplaceable South Indian tradition. Learn about dining seating flow and serving logistics in our specialized guide to <a href="/blog/south-indian-wedding-feast-planning-the-art-of-traditional-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding feast planning and banana leaf dining</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>At Surya Event Management, our decades of hands-on experience enable us to plan, design, and manage every ceremony seamlessly. Browse our <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> to see live setups, or visit our <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact page</a> to discuss your wedding plans.</p>
+      </article>
+    ),
     category: "Wedding Trends",
     date: "July 28, 2026",
     readTime: "5 min read",
@@ -1808,15 +1820,26 @@ At Surya Event Management, our decades of hands-on experience enable us to plan,
     aliases: ["pan-india-destination-logistics"],
     title: "End-to-End Wedding Management in Bengaluru: Stress-Free Family Celebrations",
     excerpt: "How Surya Event Management manages priest scheduling, hall decor, guest hospitality, and dining logistics with complete care.",
-    fullContent: `Managing a South Indian wedding requires thorough organization and warm hospitality. From the morning Muhurtha to the evening Reception, every timing must be handled carefully.
+    fullContent: (
+      <article className="space-y-4">
+        <p>Managing a South Indian wedding requires thorough organization and warm hospitality. From the morning Muhurtha to the evening Reception, every timing must be handled carefully so families can enjoy the rituals without anxiety.</p>
 
-Our End-to-End Management Includes:
-• Dedicated Host Coordinators for family elders and arriving guests.
-• Complete venue styling including stage backdrops, entrance arches, and dining arrangements.
-• Generator power backups and professional audio-visual setups for Sangeet and Reception.
-• Full support for family milestone ceremonies including Engagement (Nischayathartha), Seemantha, and Namakarana.
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Coordinating Sacred Ceremonies & Priests</h2>
+        <p>Timely readiness for Muhurtham rituals requires close coordination with the family priest, decorators, and caterers. To learn how we synchronize all ritual steps, read our guide on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating South Indian weddings from Muhurtha to reception</a>.</p>
 
-Surya Event Management takes full responsibility so that families can stay relaxed and cherish every ritual together.`,
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Dedicated Host Coordinators for Outstation Guests</h2>
+        <p>When relatives travel across Karnataka or from other cities, seamless airport/railway transfers, comfortable hotel accommodation, and clear itineraries keep everyone relaxed. Explore our advice on <a href="/blog/welcoming-outstation-guests-to-a-south-indian-wedding-a-guide-to-thoughtful-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">welcoming outstation wedding guests with thoughtful hospitality</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Complete Venue Space Planning & Traffic Flow</h2>
+        <p>A successful wedding ensures clear movement between entrances, guest dining halls, photo zones, and the main stage. Find practical layout recommendations in our article on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Pre-Wedding Milestones & Family Functions</h2>
+        <p>Engagement (Nischayathartha), Mehendi, Sangeet, and traditional Seemantha ceremonies each deserve their own distinctive styling. Discover creative ideas in our feature on <a href="/blog/one-wedding-different-celebrations-giving-engagement-mehendi-and-sangeet-their-own-identity" className="text-[#D4AF37] no-underline hover:text-white transition-colors">giving Engagement, Mehendi, and Sangeet celebrations distinct identities</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>Surya Event Management takes full operational responsibility—from stage décor and power backups to hospitality and vendor supervision. Keep all milestones aligned with our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding planning timeline</a>, or visit our <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact section</a> to begin planning with our Bengaluru team.</p>
+      </article>
+    ),
     category: "Behind The Scenes",
     date: "July 20, 2026",
     readTime: "4 min read",
@@ -1830,14 +1853,24 @@ Surya Event Management takes full responsibility so that families can stay relax
     aliases: ["bespoke-floral-decor-mastery"],
     title: "Fresh Floral Styling for Muhurtha & Sangeet Stages",
     excerpt: "An inside look into our floral design process—combining traditional marigolds, mogra, and lotus urlis with contemporary elegance.",
-    fullContent: `Floral decoration is central to traditional South Indian celebrations. It provides a fragrant, welcoming atmosphere for every guest.
+    fullContent: (
+      <article className="space-y-4">
+        <p>Floral decoration is central to traditional South Indian celebrations. It provides a fragrant, welcoming atmosphere for every guest and forms the visual identity of the wedding rituals.</p>
+        <p>In our Bengaluru celebrations, thousands of fresh marigolds, jasmine garlands, and exotic blooms are crafted on custom wooden and brass structures overnight to ensure pristine freshness.</p>
 
-In our recent Bengaluru celebrations, thousands of fresh marigolds and jasmine garlands were crafted on custom wooden and brass structures overnight.
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Welcoming Floral Entrances with Brass Urlis</h2>
+        <p>Traditional entrance walkways paired with banana sapling arches, lotus brass urlis, and floating rose petals set the mood upon arrival. Discover how entrance decor connects with the entire venue in our guide on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
 
-Key Floral Touchpoints:
-• Welcoming Entrances: Banana sapling arches paired with lotus brass urlis and floating petals.
-• Sacred Muhurtha Framing: Elegant draping in gold and temple red with dense marigold borders.
-• Fresh Scent Experience: Sourcing fresh blooms directly from regional Karnataka growers to ensure pristine beauty.`,
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Sacred Muhurtha Framing with Marigold & Mogra</h2>
+        <p>Rich gold and temple-red drapes framed by dense marigold tassels and fragrant mogra strings create an auspicious mandapam for the sacred rituals. Read how authentic floral styling supports ceremony coordination in our guide to <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating South Indian weddings from Muhurtha to reception</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Contemporary Stage Florals & Canopies for Receptions</h2>
+        <p>For evening receptions and Sangeet stages, sculpted floral canopies combining white orchids, hydrangeas, and soft ambient lighting soften large stage backdrops. Explore design concepts in our features on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas</a> and <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">reception stage architecture and lighting</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>By sourcing blooms directly from regional Karnataka growers, Surya Event Management ensures radiant, long-lasting floral artistry for all ceremonies. View examples in our <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a>, explore our <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">floral styling services</a>, or reach out through our <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact page</a>.</p>
+      </article>
+    ),
     category: "Decor & Styling",
     date: "July 12, 2026",
     readTime: "3 min read",

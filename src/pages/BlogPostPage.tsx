@@ -253,19 +253,63 @@ export default function BlogPostPage() {
           className="prose prose-invert max-w-none text-base sm:text-lg leading-relaxed text-[#F5F5F0]/85 font-light whitespace-pre-line space-y-6"
           onClick={(e) => {
             const link = (e.target as HTMLElement).closest("a");
-            if (link) {
-              const href = link.getAttribute("href");
-              if (href) {
-                if (href.startsWith("#blog-")) {
-                  e.preventDefault();
-                  const targetBlogId = href.replace("#blog-", "");
-                  navigate(`/blog/${targetBlogId}`);
-                  window.scrollTo({ top: 0, behavior: "smooth" });
-                } else if (href.startsWith("#")) {
-                  e.preventDefault();
-                  navigate("/" + href);
-                }
+            if (!link) return;
+
+            const href = link.getAttribute("href");
+            if (!href) return;
+
+            // 1. External links (Instagram, Facebook, external domains)
+            if (href.startsWith("http://") || href.startsWith("https://")) {
+              if (
+                href.includes("suryaevents-managementlatest.vercel.app") ||
+                href.includes("suryaevent.com")
+              ) {
+                e.preventDefault();
+                const url = new URL(href);
+                const targetPath = url.pathname + url.hash;
+                navigate(targetPath);
+                return;
               }
+              link.setAttribute("target", "_blank");
+              link.setAttribute("rel", "noopener noreferrer");
+              return;
+            }
+
+            // 2. Link to another blog post (e.g. /blog/... or #blog-...)
+            if (href.startsWith("/blog/") || href.startsWith("#blog-")) {
+              e.preventDefault();
+              let blogSlug = href.startsWith("/blog/")
+                ? href.replace("/blog/", "")
+                : href.replace("#blog-", "");
+
+              blogSlug = blogSlug.split("#")[0].split("?")[0];
+              const targetPost = getBlogPostById(blogSlug);
+              const finalSlug = targetPost ? targetPost.id : blogSlug;
+
+              navigate(`/blog/${finalSlug}`);
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              return;
+            }
+
+            // 3. Link to a home page section (e.g. /#services, /#contact, #services, #contact)
+            if (href.startsWith("/#") || href.startsWith("#")) {
+              e.preventDefault();
+              const hash = href.startsWith("/#") ? href.replace("/", "") : href;
+              navigate("/" + hash);
+
+              setTimeout(() => {
+                const element = document.querySelector(hash);
+                if (element) {
+                  element.scrollIntoView({ behavior: "smooth" });
+                }
+              }, 120);
+              return;
+            }
+
+            // 4. Any other internal route
+            if (href.startsWith("/")) {
+              e.preventDefault();
+              navigate(href);
             }
           }}
         >
