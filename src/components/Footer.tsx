@@ -4,6 +4,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const handleLinkClick = (href: string) => {
+    if (window.location.pathname !== "/") {
+      window.location.href = "/" + href;
+      return;
+    }
     const targetElement = document.querySelector(href);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: "smooth" });

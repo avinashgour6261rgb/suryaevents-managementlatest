@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { motion } from "motion/react";
 import {
   Sparkles,
   Instagram,
@@ -9,16 +10,12 @@ import {
   User,
   Clock,
   ArrowRight,
-  BookOpen,
-  Share2,
   Heart,
-  X,
   Tag,
-  Facebook,
-  ArrowLeft
+  Facebook
 } from "lucide-react";
 
-interface BlogPost {
+export interface BlogPost {
   id: string;
   title: string;
   excerpt: string;
@@ -33,7 +30,7 @@ interface BlogPost {
   imageAlt?: string;
 }
 
-const BLOG_POSTS: BlogPost[] = [
+export const BLOG_POSTS: BlogPost[] = [
   {
     id: "south-indian-pre-wedding-ceremony-styling",
     title: "One Wedding, Different Celebrations: Giving Engagement, Mehendi and Sangeet Their Own Identity",
@@ -1829,9 +1826,17 @@ Key Floral Touchpoints:
   }
 ];
 
+export function getBlogPostById(id: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.id === id);
+}
+
+export function getAllBlogPosts(): BlogPost[] {
+  return BLOG_POSTS;
+}
+
 export default function Blog() {
+  const navigate = useNavigate();
   const [activeCategory, setActiveCategory] = useState<string>("All");
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
   const [likesMap, setLikesMap] = useState<Record<string, number>>(
     BLOG_POSTS.reduce((acc, post) => ({ ...acc, [post.id]: post.likes }), {})
   );
@@ -1839,28 +1844,7 @@ export default function Blog() {
 
   const categories = ["All", "Wedding Trends", "Decor & Styling", "Behind The Scenes"];
 
-  // Close on ESC key and lock body scroll
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        setSelectedPost(null);
-      }
-    };
-
-    if (selectedPost) {
-      document.body.style.overflow = "hidden";
-      window.addEventListener("keydown", handleKeyDown);
-    } else {
-      document.body.style.overflow = "unset";
-    }
-
-    return () => {
-      document.body.style.overflow = "unset";
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [selectedPost]);
-
-  // Handle direct blog link via hash on initial page load or hash change
+  // Handle direct blog link via hash on initial page load or hash change and redirect to /blog/:id
   useEffect(() => {
     const handleHash = () => {
       const hash = window.location.hash;
@@ -1868,20 +1852,24 @@ export default function Blog() {
         const blogId = hash.replace("#blog-", "");
         const found = BLOG_POSTS.find((p) => p.id === blogId);
         if (found) {
-          setSelectedPost(found);
+          navigate(`/blog/${blogId}`);
         }
       }
     };
     handleHash();
     window.addEventListener("hashchange", handleHash);
     return () => window.removeEventListener("hashchange", handleHash);
-  }, []);
+  }, [navigate]);
 
   const filteredPosts = activeCategory === "All"
     ? BLOG_POSTS
     : BLOG_POSTS.filter((post) => post.category === activeCategory);
 
-  const toggleLike = (postId: string) => {
+  const toggleLike = (postId: string, e?: React.MouseEvent) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     setUserLikedMap((prev) => {
       const isLiked = prev[postId];
       setLikesMap((likes) => ({
@@ -2005,10 +1993,10 @@ export default function Blog() {
                   Media Drive
                 </span>
                 <h3 className="font-serif text-base font-bold text-white group-hover:text-[#D4AF37] transition-colors">
-                  Google Drive Gallery
+                  High-Res Albums &amp; Drive
                 </h3>
                 <p className="text-[11px] text-[#F5F5F0]/60 font-light mt-0.5">
-                  High-res photo portfolio
+                  Google Drive shared portfolio
                 </p>
               </div>
             </div>
@@ -2024,10 +2012,11 @@ export default function Blog() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`px-5 py-2.5 rounded-full text-xs font-sans tracking-wider uppercase transition-all duration-300 cursor-pointer ${activeCategory === cat
-                ? "bg-[#D4AF37] text-black font-bold shadow-[0_4px_20px_rgba(212,175,55,0.4)]"
-                : "bg-white/5 border border-white/10 text-[#F5F5F0]/70 hover:text-white hover:border-[#D4AF37]/40"
-                }`}
+              className={`px-5 py-2.5 rounded-full text-xs font-sans tracking-wider uppercase transition-all duration-300 cursor-pointer ${
+                activeCategory === cat
+                  ? "bg-[#D4AF37] text-black font-bold shadow-[0_4px_20px_rgba(212,175,55,0.4)]"
+                  : "bg-white/5 border border-white/10 text-[#F5F5F0]/70 hover:text-white hover:border-[#D4AF37]/40"
+              }`}
             >
               {cat}
             </button>
@@ -2047,7 +2036,7 @@ export default function Blog() {
             >
               <div>
                 {/* Blog Image Header */}
-                <div className="relative h-64 overflow-hidden">
+                <Link to={`/blog/${post.id}`} className="block relative h-64 overflow-hidden">
                   <img
                     src={post.image}
                     alt={post.imageAlt || post.title}
@@ -2062,14 +2051,14 @@ export default function Blog() {
                     {post.category}
                   </div>
 
-                  {/* Read Time & Likes */}
+                  {/* Read Time */}
                   <div className="absolute bottom-4 right-4 flex items-center gap-3">
                     <span className="text-[10px] font-sans uppercase tracking-wider text-white/80 bg-black/60 px-2.5 py-1 rounded-md backdrop-blur-sm flex items-center gap-1">
                       <Clock className="w-3 h-3 text-[#D4AF37]" />
                       {post.readTime}
                     </span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Article Body */}
                 <div className="p-8 space-y-4">
@@ -2085,9 +2074,11 @@ export default function Blog() {
                     </span>
                   </div>
 
-                  <h3 className="font-serif text-xl md:text-2xl font-bold text-white group-hover:text-[#D4AF37] transition-colors leading-snug">
-                    {post.title}
-                  </h3>
+                  <Link to={`/blog/${post.id}`} className="block">
+                    <h3 className="font-serif text-xl md:text-2xl font-bold text-white group-hover:text-[#D4AF37] transition-colors leading-snug">
+                      {post.title}
+                    </h3>
+                  </Link>
 
                   <p className="font-sans text-xs md:text-sm text-[#F5F5F0]/70 font-light leading-relaxed line-clamp-3">
                     {post.excerpt}
@@ -2097,21 +2088,22 @@ export default function Blog() {
 
               {/* Card Footer Actions */}
               <div className="px-8 pb-8 pt-2 flex items-center justify-between border-t border-[#D4AF37]/10 mt-4">
-                <button
-                  onClick={() => setSelectedPost(post)}
+                <Link
+                  to={`/blog/${post.id}`}
                   className="inline-flex items-center gap-2 text-xs font-sans uppercase tracking-widest text-[#D4AF37] font-bold group-hover:translate-x-1 transition-transform cursor-pointer"
                 >
                   Read Article
                   <ArrowRight className="w-4 h-4" />
-                </button>
+                </Link>
 
                 <div className="flex items-center gap-2">
                   <button
-                    onClick={() => toggleLike(post.id)}
-                    className={`flex items-center gap-1.5 text-xs font-sans px-3 py-1.5 rounded-full border transition-colors cursor-pointer ${userLikedMap[post.id]
-                      ? "bg-rose-500/20 border-rose-500/60 text-rose-400"
-                      : "bg-white/5 border-white/10 text-white/70 hover:text-rose-400 hover:border-rose-500/30"
-                      }`}
+                    onClick={(e) => toggleLike(post.id, e)}
+                    className={`flex items-center gap-1.5 text-xs font-sans px-3 py-1.5 rounded-full border transition-colors cursor-pointer ${
+                      userLikedMap[post.id]
+                        ? "bg-rose-500/20 border-rose-500/60 text-rose-400"
+                        : "bg-white/5 border-white/10 text-white/70 hover:text-rose-400 hover:border-rose-500/30"
+                    }`}
                   >
                     <Heart className={`w-3.5 h-3.5 ${userLikedMap[post.id] ? "fill-rose-400" : ""}`} />
                     <span>{likesMap[post.id]}</span>
@@ -2123,185 +2115,6 @@ export default function Blog() {
         </div>
 
       </div>
-
-      {/* Full Article Modal */}
-      <AnimatePresence>
-        {selectedPost && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black/90 backdrop-blur-2xl flex items-end sm:items-center justify-center p-0 sm:p-4 md:p-8 overflow-y-auto"
-            onClick={() => setSelectedPost(null)}
-          >
-            <motion.div
-              drag="y"
-              dragConstraints={{ top: 0, bottom: 0 }}
-              dragElastic={{ top: 0, bottom: 0.6 }}
-              onDragEnd={(_e, info) => {
-                if (info.offset.y > 75 || info.velocity.y > 400) {
-                  setSelectedPost(null);
-                }
-              }}
-              initial={{ scale: 0.95, opacity: 0, y: 40 }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.95, opacity: 0, y: 40 }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
-              className="bg-[#0a0a0a] border border-[#D4AF37]/40 rounded-t-3xl sm:rounded-2xl max-w-3xl w-full max-h-[92vh] sm:max-h-[90vh] overflow-y-auto shadow-2xl relative flex flex-col"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* Sticky Top Header with Swipe Bar and Exit Options */}
-              <div className="sticky top-0 left-0 right-0 z-40 bg-[#0a0a0a]/95 backdrop-blur-md border-b border-[#D4AF37]/30 px-4 py-3 flex items-center justify-between shadow-lg">
-                <button
-                  onClick={() => setSelectedPost(null)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-sans uppercase font-bold tracking-wider cursor-pointer transition-all active:scale-95"
-                >
-                  <ArrowLeft className="w-3.5 h-3.5" />
-                  <span>Back</span>
-                </button>
-
-                {/* Mobile Drag / Swipe Pill */}
-                <div className="flex flex-col items-center cursor-grab active:cursor-grabbing">
-                  <div className="w-12 h-1.5 bg-[#D4AF37]/60 hover:bg-[#D4AF37] rounded-full mb-0.5" />
-                  <span className="text-[9px] uppercase tracking-widest text-[#F5F5F0]/50 font-sans hidden xs:inline">
-                    Swipe down to close
-                  </span>
-                </div>
-
-                <button
-                  onClick={() => setSelectedPost(null)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#D4AF37] hover:brightness-110 text-black text-xs font-sans uppercase font-bold tracking-wider cursor-pointer transition-all shadow-md active:scale-95"
-                  title="Close (Esc or swipe down)"
-                >
-                  <span>Exit</span>
-                  <X className="w-3.5 h-3.5" />
-                </button>
-              </div>
-
-              {/* Modal Cover Image */}
-              <div className="relative h-60 sm:h-72 md:h-96 w-full overflow-hidden flex-shrink-0">
-                <img
-                  src={selectedPost.image}
-                  alt={selectedPost.imageAlt || selectedPost.title}
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-black/40" />
-                <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 space-y-2">
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-black/75 border border-[#D4AF37]/50 rounded-full text-[10px] font-sans uppercase tracking-widest text-[#D4AF37] font-bold">
-                    {selectedPost.category}
-                  </span>
-                  <h2 className="font-serif text-xl sm:text-2xl md:text-4xl font-bold text-white leading-tight drop-shadow-md">
-                    {selectedPost.title}
-                  </h2>
-                </div>
-              </div>
-
-              {/* Modal Details & Content */}
-              <div className="p-5 sm:p-6 md:p-10 space-y-8 flex-1">
-                <div className="flex flex-wrap items-center justify-between gap-4 py-3 border-y border-[#D4AF37]/20 text-xs font-sans text-[#F5F5F0]/60">
-                  <div className="flex items-center gap-4">
-                    <span className="flex items-center gap-1.5">
-                      <Calendar className="w-4 h-4 text-[#D4AF37]" />
-                      {selectedPost.date}
-                    </span>
-                    <span className="flex items-center gap-1.5">
-                      <User className="w-4 h-4 text-[#D4AF37]" />
-                      {selectedPost.author}
-                    </span>
-                  </div>
-                  <span className="flex items-center gap-1.5 text-[#D4AF37]">
-                    <Clock className="w-4 h-4" />
-                    {selectedPost.readTime}
-                  </span>
-                </div>
-
-                {/* Main Article Text */}
-                <div
-                  className="prose prose-invert max-w-none text-sm md:text-base leading-relaxed text-[#F5F5F0]/85 font-light whitespace-pre-line"
-                  onClick={(e) => {
-                    const link = (e.target as HTMLElement).closest('a');
-                    if (link) {
-                      const href = link.getAttribute('href');
-                      if (href) {
-                        if (href.startsWith('#blog-')) {
-                          e.preventDefault();
-                          const targetBlogId = href.replace('#blog-', '');
-                          const found = BLOG_POSTS.find((p) => p.id === targetBlogId);
-                          if (found) {
-                            setSelectedPost(found);
-                            const modalScroll = link.closest('.overflow-y-auto');
-                            if (modalScroll) {
-                              modalScroll.scrollTo({ top: 0, behavior: 'smooth' });
-                            }
-                            return;
-                          }
-                        } else if (href.startsWith('#')) {
-                          e.preventDefault();
-                          setSelectedPost(null);
-                          setTimeout(() => {
-                            const element = document.querySelector(href);
-                            if (element) {
-                              element.scrollIntoView({ behavior: 'smooth' });
-                            }
-                          }, 300);
-                        }
-                      }
-                    }
-                  }}
-                >
-                  {selectedPost.fullContent}
-                </div>
-
-                {/* Social Share & Instagram / Facebook Action Card */}
-                <div className="p-5 sm:p-6 bg-gradient-to-r from-purple-950/40 via-black to-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-4">
-                  <div>
-                    <h4 className="font-serif text-base font-bold text-white flex items-center gap-2">
-                      <Instagram className="w-5 h-5 text-pink-400" />
-                      Follow Official Event Stories
-                    </h4>
-                    <p className="text-xs text-[#F5F5F0]/60 font-light mt-1">
-                      See daily grand decor setups &amp; live video highlights on Instagram and Facebook.
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
-                    <a
-                      href="https://www.instagram.com/_surya_event_management._?igsh=aDV5M2c2Mzd4eXNs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 sm:flex-none justify-center px-4 py-2 bg-gradient-to-r from-pink-600 to-amber-500 text-white rounded-md text-xs font-sans uppercase tracking-widest font-bold hover:brightness-110 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-lg"
-                    >
-                      Instagram
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
-                    <a
-                      href="https://www.facebook.com/share/198yMm2gpF/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 sm:flex-none justify-center px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md text-xs font-sans uppercase tracking-widest font-bold transition-all flex items-center gap-1.5 whitespace-nowrap shadow-lg"
-                    >
-                      Facebook
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
-                  </div>
-                </div>
-
-                {/* Bottom Exit Bar */}
-                <div className="pt-4 border-t border-[#D4AF37]/20 flex justify-end">
-                  <button
-                    onClick={() => setSelectedPost(null)}
-                    className="w-full sm:w-auto px-6 py-3 bg-white/10 hover:bg-[#D4AF37] hover:text-black border border-[#D4AF37]/40 text-white font-sans font-bold text-xs uppercase tracking-widest rounded-md transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md"
-                  >
-                    <ArrowLeft className="w-4 h-4" />
-                    Back / Exit Article
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </section>
   );
 }
-

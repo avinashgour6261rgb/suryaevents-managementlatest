@@ -27,6 +27,10 @@ export default function Header() {
 
   const handleLinkClick = (href: string) => {
     setIsMobileMenuOpen(false);
+    if (window.location.pathname !== "/") {
+      window.location.href = "/" + href;
+      return;
+    }
     const targetElement = document.querySelector(href);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: "smooth" });
