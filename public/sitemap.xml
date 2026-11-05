@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://suryaevent.com/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://suryaevent.com/blog/how-to-plan-a-beautiful-mehendi-function-with-traditional-south-indian-decor</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suryaevent.com/blog/behind-a-smooth-wedding-reception-coordinating-stage-moments-lighting-and-event-teams</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://suryaevent.com/blog/why-a-wedding-venue-walkthrough-matters-before-decoration-and-event-setup</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://suryaevent.com/blog/one-wedding-different-celebrations-giving-engagement-mehendi-and-sangeet-their-own-identity</loc>

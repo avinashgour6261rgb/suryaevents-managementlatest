@@ -42,7 +42,7 @@ export default function BlogPostPage() {
         setPost(found);
         setLikesCount(found.likes);
         setIsLiked(false);
-        // If visited via an old alias or short slug, upgrade address bar to the full title URL
+        // Ensure URL strictly matches the blog title slug
         if (found.id !== id) {
           navigate(`/blog/${found.id}`, { replace: true });
         }
@@ -258,18 +258,22 @@ export default function BlogPostPage() {
             const href = link.getAttribute("href");
             if (!href) return;
 
-            // 1. External links (Instagram, Facebook, external domains)
+            // 1. External vs internal absolute links
             if (href.startsWith("http://") || href.startsWith("https://")) {
-              if (
-                href.includes("suryaevents-managementlatest.vercel.app") ||
-                href.includes("suryaevent.com")
-              ) {
-                e.preventDefault();
-                const url = new URL(href);
-                const targetPath = url.pathname + url.hash;
-                navigate(targetPath);
-                return;
-              }
+              try {
+                const parsedUrl = new URL(href);
+                // If it points to the current site (any domain, localhost, vercel, or custom domain)
+                if (
+                  parsedUrl.hostname === window.location.hostname ||
+                  href.includes("suryaevents-managementlatest.vercel.app") ||
+                  href.includes("suryaevent.com")
+                ) {
+                  e.preventDefault();
+                  const targetPath = parsedUrl.pathname + parsedUrl.hash;
+                  navigate(targetPath);
+                  return;
+                }
+              } catch (_) {}
               link.setAttribute("target", "_blank");
               link.setAttribute("rel", "noopener noreferrer");
               return;
