@@ -71,6 +71,10 @@ dist/
 dist-ssr/
 *.local
 
+# Personal Excel / CSV exports
+suryaevent-all-urls.xlsx
+suryaevent-all-urls.csv
+
 # Editor directories and files
 .idea
 .DS_Store
