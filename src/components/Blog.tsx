@@ -32,6 +32,68 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: "traditional-south-indian-wedding-entrance-decoration-with-flowers-and-banana-saplings",
+    title: "Traditional South Indian Wedding Entrance Decoration with Flowers and Banana Saplings",
+    excerpt: "Discover traditional South Indian wedding entrance decoration ideas using banana saplings, fresh flowers and elegant arrangements for weddings in Bengaluru.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>The entrance is the first part of a wedding venue that guests experience. In a traditional South Indian wedding, it can reflect the cultural feel of the celebration through natural flowers, banana saplings and carefully arranged decorative elements.</p>
+        <p>For families planning weddings in Bengaluru and across Karnataka, a traditional entrance can create a warm welcome while setting the tone for the ceremonies inside the venue. The decoration does not always need to be complicated. A few well-coordinated elements can make the entrance feel special and connected to the wedding theme. For wider venue planning tips, explore our guide on <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Welcome Guests with Traditional Banana Saplings</h2>
+        <p>Banana saplings are commonly used in traditional South Indian wedding decorations, symbolizing fertility, prosperity, and auspicious beginnings. Placing them on either side of the entrance can give the venue a familiar ceremonial appearance.</p>
+        <p>Their natural green leaves also complement colourful floral arrangements. The placement should leave enough space for guests to enter comfortably and should suit the size of the venue entrance.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. Use Fresh Flowers for a Natural Look</h2>
+        <p>Fresh flowers can make the entrance more inviting. Marigolds and jasmine are suitable choices for traditional wedding styling, especially when arranged in a coordinated pattern.</p>
+        <p>Flower strings can be used around entrance structures, while smaller arrangements can add detail without making the space look crowded. Discover artisan floristry tips and fragrant garland styles in our feature on <a href="/blog/fresh-floral-styling-for-muhurtha-sangeet-stages" className="text-[#D4AF37] no-underline hover:text-white transition-colors">fresh floral styling for Muhurtha and Sangeet stages</a>.</p>
+        <p>The flower selection should complement the colours used in the wedding mandap and other decoration areas. Explore traditional floral backdrops in our <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding décor ideas to transform your venue</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Coordinate the Entrance with the Wedding Theme</h2>
+        <p>The entrance should feel connected to the overall wedding decoration. If the ceremony uses traditional floral structures and silk drapery, similar colours and decorative details can be carried through to the welcome area.</p>
+        <p>This creates a consistent visual experience from the moment guests arrive until they reach the ceremony space. To see how ritual spaces blend smoothly with evening receptions, read our guide on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">coordinating from Muhurtha to reception</a> and <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how stage architecture and lighting shape grand celebrations</a>.</p>
+        <p>For a traditional Muhurtha, the decoration can focus on a graceful and cultural appearance rather than an overly elaborate design.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. Keep the Guest Entry Area Comfortable</h2>
+        <p>A beautiful entrance should also be practical. Guests need enough space to walk in, greet family members and move towards the ceremony area.</p>
+        <p>When planning the decoration, consider:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>The width of the entrance and walking path.</li>
+          <li>The placement of banana saplings and floral structures.</li>
+          <li>Space for guests arriving together.</li>
+          <li>Clear access for elderly family members.</li>
+          <li>The movement of vendors and event staff during setup.</li>
+        </ul>
+        <p>These details help maintain a welcoming entrance without creating unnecessary congestion. For thoughtful hospitality ideas for visiting relatives, explore our guide on <a href="/blog/welcoming-outstation-guests-to-a-south-indian-wedding-a-guide-to-thoughtful-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">welcoming outstation wedding guests</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. Consider the Venue Before Finalizing Decoration</h2>
+        <p>Every wedding venue has different entrance dimensions and surroundings. An indoor hall may need a compact floral arrangement, while a larger venue may provide room for more detailed traditional styling.</p>
+        <p>Before finalizing the design, check the available space and any venue restrictions related to decoration and installation. Conducting a detailed <a href="/blog/why-a-wedding-venue-walkthrough-matters-before-decoration-and-event-setup" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding venue walkthrough before setup</a> ensures you assess widths, ceiling heights, and lighting. If you are comparing halls in Bengaluru or Karnataka, check our guide on <a href="/blog/how-to-choose-the-perfect-wedding-venue-for-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to choose the perfect wedding venue</a>.</p>
+        <p>The arrangement should suit the location instead of simply copying a design from another wedding.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Coordinate Entrance Decoration with the Main Ceremony Setup</h2>
+        <p>The entrance is only one part of the complete wedding environment. Its decoration should complement the main ceremony area rather than look like a separate design.</p>
+        <p>For example, the colours and flowers used at the entrance can be coordinated with the Muhurtha setup, floral structures and silk drapery inside the venue. Learn about contemporary mandapam trends in our breakdown of <a href="/blog/top-south-indian-wedding-trends-muhurtha-stage-structures" className="text-[#D4AF37] no-underline hover:text-white transition-colors">top South Indian wedding trends for Muhurtha stage structures</a>.</p>
+        <p>Surya Event offers traditional South Indian wedding arrangements, including floral styling, banana sapling entrances and ceremony decoration. Explore the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> to learn more.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">7. Complete the Setup Before Guests Arrive</h2>
+        <p>Entrance decoration should be completed and checked before guests begin arriving. This gives the team time to adjust flower arrangements, check the walking space and ensure that all decorative elements are properly positioned.</p>
+        <p>A final inspection also helps confirm that the entrance looks consistent with the planned wedding theme.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>A traditional South Indian wedding entrance can make guests feel welcome while reflecting the cultural character of the celebration. Banana saplings, fresh flowers and coordinated decoration can create a beautiful first impression without making the arrangement unnecessarily complicated.</p>
+        <p>For families planning a traditional wedding in Bengaluru, thoughtful entrance styling can be an important part of the overall venue decoration.</p>
+        <p>Visit the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event gallery</a> for wedding decoration inspiration, learn <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why families choose Surya Event</a>, or use the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact section</a> to discuss your upcoming event.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "November 8, 2026",
+    readTime: "5 min read",
+    author: "Surya Event Team",
+    image: "https://images.pexels.com/photos/30283581/pexels-photo-30283581.png",
+    likes: 48
+  },
+  {
     id: "how-to-plan-a-beautiful-mehendi-function-with-traditional-south-indian-decor",
     title: "How to Plan a Beautiful Mehendi Function with Traditional South Indian Decor",
     excerpt: "Explore creative Mehendi decoration ideas with floral swings, colourful seating, fresh flowers and traditional styling for pre-wedding celebrations in Bengaluru.",
@@ -441,7 +503,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Make the Entrance the Beginning of the Experience</h2>
         <p>The entrance gives guests their first impression of the wedding. Rather than treating it as a separate decorative feature, families can plan it as the beginning of the celebration's overall visual theme.</p>
-        <p>Traditional South Indian elements such as banana saplings, fresh floral arrangements and silk drapery can help create a welcoming entrance. The design can then carry selected colors, flowers or materials into the main ceremony and reception areas. To explore unique theme palettes and floral doorway concepts, take inspiration from our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
+        <p>Traditional South Indian elements such as banana saplings, fresh floral arrangements and silk drapery can help create a welcoming entrance. For detailed styling ideas, read our feature on <a href="/blog/traditional-south-indian-wedding-entrance-decoration-with-flowers-and-banana-saplings" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Traditional South Indian Wedding Entrance Decoration with Flowers and Banana Saplings</a>. The design can then carry selected colors, flowers or materials into the main ceremony and reception areas, complemented by ideas from our guide on <a href="/blog/wedding-decor-ideas-to-transform-your-venue-into-a-dream-celebration" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Wedding Décor Ideas to Transform Your Venue Into a Dream Celebration</a>.</p>
         <p>Practical considerations are equally important. The entrance should allow guests to move comfortably, avoid unnecessary congestion and provide a clear route towards the event space.</p>
         <p>The aim is to create a welcoming arrival without making the entrance difficult to navigate.</p>
 
