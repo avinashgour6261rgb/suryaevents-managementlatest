@@ -32,6 +32,71 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: "how-can-wedding-catering-be-coordinated-with-the-complete-event-setup",
+    title: "How Can Wedding Catering Be Coordinated with the Complete Event Setup?",
+    excerpt: "How can wedding catering, guest arrangements, venue planning and event schedules be coordinated for a smooth South Indian wedding in Bengaluru?",
+    fullContent: (
+      <article className="space-y-4">
+        <p>How can a wedding dining experience be made comfortable and well-organized for every guest? Food is an important part of every Indian wedding, and catering arrangements need to be planned carefully alongside the event schedule and venue setup.</p>
+        <p>For traditional South Indian weddings in Bengaluru, coordinating catering with the ceremony, guest arrival and dining arrangements helps ensure that everything works together throughout the celebration. To discover how dining logistics integrate with broader timelines, explore our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">complete wedding planning timeline</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. How Should Catering Be Planned According to the Wedding Schedule?</h2>
+        <p>The catering plan should begin with the wedding schedule. The timing of the Muhurtha, guest arrival, ceremony and meal service can affect the entire dining arrangement.</p>
+        <p>Discuss the expected schedule with the family and event planning team. Consider when guests are likely to arrive, when the ceremony will finish and when food service should begin.</p>
+        <p>For weddings with multiple functions, each event may require a different dining arrangement depending on the timing and number of guests. Learn how we coordinate schedules across sacred rituals and evening galas in our guide on <a href="/blog/how-to-coordinate-a-traditional-south-indian-wedding-from-muhurtha-to-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how to coordinate a traditional South Indian wedding from Muhurtha to reception</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. How Can the Guest Count Be Estimated Properly?</h2>
+        <p>An approximate guest count helps in planning seating, dining arrangements and food service requirements.</p>
+        <p>Families should consider the expected number of guests for each function rather than relying only on the total invitation count. Some guests may attend the wedding ceremony, while others may join the reception or other celebrations. Understanding these attendance variations is crucial when <a href="/blog/one-wedding-different-celebrations-giving-engagement-mehendi-and-sangeet-their-own-identity" className="text-[#D4AF37] no-underline hover:text-white transition-colors">giving Engagement, Mehendi and Sangeet their own identity</a>.</p>
+        <p>Keeping the guest count updated helps the catering team prepare more effectively and allows the venue layout to be planned accordingly.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. How Should the Dining Area Be Arranged?</h2>
+        <p>The dining arrangement should fit the available venue space. Guest seating, serving areas and movement paths need to be considered together.</p>
+        <p>For a traditional South Indian wedding feast, banana leaf dining may be part of the family's preferred celebration style. The dining space should accommodate guests comfortably while allowing catering staff to serve efficiently. Explore authentic seating layouts, serving orders, and batch logistics in our specialized feature on <a href="/blog/south-indian-wedding-feast-planning-the-art-of-traditional-banana-leaf-dining" className="text-[#D4AF37] no-underline hover:text-white transition-colors">South Indian wedding feast planning and banana leaf dining</a>.</p>
+        <p>The venue layout should also provide easy access without interfering with the ceremony area or other event activities. Check our strategies for <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. How Can Food Service Be Coordinated with Wedding Ceremonies?</h2>
+        <p>The timing of food service is particularly important during traditional wedding ceremonies. Guests may arrive at different times, and the ceremony schedule may change slightly.</p>
+        <p>The event team and catering team should communicate about the planned meal timings and any important ceremony-related changes.</p>
+        <p>This coordination helps avoid unnecessary delays and allows guests to enjoy the celebration without confusion about dining arrangements. If you are preparing for evening reception schedules, review our tips on <a href="/blog/behind-a-smooth-wedding-reception-coordinating-stage-moments-lighting-and-event-teams" className="text-[#D4AF37] no-underline hover:text-white transition-colors">behind-the-scenes reception coordination</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. What Makes Wedding Dining Comfortable for Guests?</h2>
+        <p>A comfortable dining experience involves more than the food itself. Seating arrangements, cleanliness, accessibility and the overall dining environment also matter.</p>
+        <p>Consider elderly guests, children and family members who may need additional assistance. Ensure the dining area is easy to access and that guests can move comfortably. For practical hospitality guidelines, read our feature on <a href="/blog/welcoming-outstation-guests-to-a-south-indian-wedding-a-guide-to-thoughtful-hospitality" className="text-[#D4AF37] no-underline hover:text-white transition-colors">welcoming outstation wedding guests with thoughtful hospitality</a>.</p>
+        <p>Thoughtful hospitality helps make the wedding experience pleasant for everyone attending.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Why Should Catering Be Coordinated with Other Event Services?</h2>
+        <p>Catering arrangements should be coordinated with the venue team and other wedding service providers. Decoration, photography, guest movement and dining setup may all use different areas of the same venue.</p>
+        <p>Planning these arrangements together helps avoid space-related problems and ensures that the event setup remains practical. Conducting a <a href="/blog/why-a-wedding-venue-walkthrough-matters-before-decoration-and-event-setup" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding venue walkthrough before setup</a> allows planners to verify utility access, service entrances, and wash stations in advance.</p>
+        <p>Surya Event offers end-to-end wedding event planning that includes catering coordination, venue arrangements, decoration and other celebration requirements. Explore the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> to learn more about our <a href="/blog/end-to-end-wedding-management-in-bengaluru-stress-free-family-celebrations" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding management in Bengaluru</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">7. What Should Be Included in the Final Catering Checklist?</h2>
+        <p>Before the wedding, review the final catering requirements with the family and event team.</p>
+        <p>The checklist can include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Confirmed guest count for each function.</li>
+          <li>Meal service timings.</li>
+          <li>Dining layout and seating arrangements.</li>
+          <li>Coordination with the venue.</li>
+          <li>Access and movement for catering staff.</li>
+          <li>Special arrangements discussed with the family.</li>
+        </ul>
+        <p>Confirming these details in advance can help the team manage the dining arrangements more smoothly.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>How can wedding catering be managed smoothly? A clear schedule, realistic guest count and properly planned dining area can help create a comfortable experience for guests.</p>
+        <p>For families planning South Indian weddings in Bengaluru, coordinating catering with the complete event setup makes it easier to manage the celebration while keeping hospitality at the centre of the occasion.</p>
+        <p>Visit the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event gallery</a> for event inspiration, discover <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why families choose Surya Event</a>, or <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact the team</a> to discuss wedding planning requirements.</p>
+      </article>
+    ),
+    category: "Behind The Scenes",
+    date: "November 19, 2026",
+    readTime: "6 min read",
+    author: "Surya Event Team",
+    image: "https://images.pexels.com/photos/28736727/pexels-photo-28736727.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 36
+  },
+  {
     id: "traditional-south-indian-wedding-entrance-decoration-with-flowers-and-banana-saplings",
     title: "Traditional South Indian Wedding Entrance Decoration with Flowers and Banana Saplings",
     excerpt: "Discover traditional South Indian wedding entrance decoration ideas using banana saplings, fresh flowers and elegant arrangements for weddings in Bengaluru.",
@@ -702,7 +767,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Coordinate Dining With the Other Wedding Services</h2>
         <p>The dining team needs to work in coordination with the venue staff and the people managing the ceremony.</p>
         <p>For example, the event coordinator should know when the main ritual is expected to finish, while the catering team should be prepared for the arrival of guests. If photography or family activities continue after the ceremony, make sure they do not unintentionally delay the meal for everyone.</p>
-        <p>Surya Event Management lists traditional dining logistics among its end-to-end wedding offerings. You can learn more about our comprehensive <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> and explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> for inspiration when planning the overall celebration.</p>
+        <p>Surya Event Management lists traditional dining logistics among its end-to-end wedding offerings. For practical advice on syncing meal services with hall layouts and vendor timelines, read our guide on <a href="/blog/how-can-wedding-catering-be-coordinated-with-the-complete-event-setup" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how wedding catering can be coordinated with the complete event setup</a>. You can learn more about our comprehensive <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> and explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> for inspiration when planning the overall celebration.</p>
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Prepare a Dining Checklist</h2>
         <p>Before the wedding day, confirm the important arrangements with the catering and event teams.</p>

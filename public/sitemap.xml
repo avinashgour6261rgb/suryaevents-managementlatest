@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://suryaevent.com/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://suryaevent.com/blog/how-can-wedding-catering-be-coordinated-with-the-complete-event-setup</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://suryaevent.com/blog/traditional-south-indian-wedding-entrance-decoration-with-flowers-and-banana-saplings</loc>
