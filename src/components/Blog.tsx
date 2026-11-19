@@ -100,7 +100,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </article>
     ),
     category: "Decor & Styling",
-    date: "November 20, 2026",
+    date: "November 19, 2026",
     readTime: "6 min read",
     author: "Surya Event Team",
     image: "https://images.pexels.com/photos/32854448/pexels-photo-32854448.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -165,7 +165,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </article>
     ),
     category: "Behind The Scenes",
-    date: "November 19, 2026",
+    date: "November 18, 2026",
     readTime: "6 min read",
     author: "Surya Event Team",
     image: "https://images.pexels.com/photos/28736727/pexels-photo-28736727.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -227,7 +227,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </article>
     ),
     category: "Decor & Styling",
-    date: "November 8, 2026",
+    date: "November 17, 2026",
     readTime: "5 min read",
     author: "Surya Event Team",
     image: "https://images.pexels.com/photos/30283581/pexels-photo-30283581.png",
