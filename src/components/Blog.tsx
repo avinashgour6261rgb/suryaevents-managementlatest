@@ -32,6 +32,81 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: "how-can-wedding-decoration-be-completed-before-guests-arrive",
+    title: "How Can Wedding Decoration Be Completed Before Guests Arrive?",
+    excerpt: "How can stage installation, floral arrangements, lighting and wedding venue decoration be completed on time? Explore practical setup planning tips for Bengaluru weddings.",
+    fullContent: (
+      <article className="space-y-4">
+        <p>How can a wedding venue be transformed into a beautifully decorated space before guests arrive? Wedding decoration involves several elements that need to be arranged at the right time. Floral structures, stage backdrops, lighting, seating and entrance decoration all require preparation before the celebration.</p>
+        <p>For weddings in Bengaluru, planning the decoration setup timeline is particularly useful when the venue has limited preparation hours or when multiple functions are scheduled at the same location. A proper setup plan helps the event team complete the decoration in an organized manner and prepare the venue for the celebration. To build an organized schedule months ahead, explore our <a href="/blog/complete-wedding-planning-timeline-what-to-plan-before-your-big-day" className="text-[#D4AF37] no-underline hover:text-white transition-colors">complete wedding planning timeline</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">1. Why Should the Venue Be Inspected Before Decoration Begins?</h2>
+        <p>Before decoration work begins, the event team should understand the venue layout and available setup time.</p>
+        <p>A venue visit helps identify the stage location, entrance area, available space for floral arrangements, lighting requirements and any restrictions related to decoration installation. Conducting a detailed <a href="/blog/why-a-wedding-venue-walkthrough-matters-before-decoration-and-event-setup" className="text-[#D4AF37] no-underline hover:text-white transition-colors">wedding venue walkthrough before setup</a> ensures you assess ceiling heights, rigging points, power sockets and loading docks early.</p>
+        <p>It also allows the team to estimate how much time different setup activities may require.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">2. What Materials Should Be Prepared Before the Setup Day?</h2>
+        <p>Decoration materials should be organized before reaching the venue. Floral elements, drapery, decorative structures and other required items should be checked against the approved design.</p>
+        <p>Preparing materials in advance helps reduce unnecessary delays during installation. The team should also identify which elements require special handling or additional time to assemble.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">3. Which Decoration Work Should Be Completed First?</h2>
+        <p>Large stage structures and backdrop installations generally need to be arranged before smaller decorative details.</p>
+        <p>Once the main structure is positioned, the team can proceed with floral decoration, drapery and other finishing elements. For a traditional South Indian wedding, the setup may include floral structures, silk drapery and decorative elements around the Muhurtha area. Explore our insights on <a href="/blog/top-south-indian-wedding-trends-muhurtha-stage-structures" className="text-[#D4AF37] no-underline hover:text-white transition-colors">top South Indian wedding trends for Muhurtha stage structures</a>.</p>
+        <p>For a reception, custom stage structures and floral canopies may require a different installation sequence depending on the venue. Discover how architectural backdrops are erected in our feature on <a href="/blog/how-stage-architecture-and-lighting-shape-a-grand-south-indian-wedding-reception" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how stage architecture and lighting shape a grand reception</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">4. How Should Floral Decoration and Finishing Details Be Arranged?</h2>
+        <p>After the main structures are ready, the team can complete the floral arrangements and finishing work.</p>
+        <p>This may include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Fresh flower arrangements around the stage.</li>
+          <li>Entrance decoration and welcome arrangements.</li>
+          <li>Decorative drapery and backdrop finishing.</li>
+          <li>Floral details around seating areas.</li>
+          <li>Final adjustments to the overall decoration.</li>
+        </ul>
+        <p>Completing these details in a planned sequence helps the decoration look consistent throughout the venue. To explore traditional blossoms, jasmine garlands, and banana sapling doorways, read our guides on <a href="/blog/fresh-floral-styling-for-muhurtha-sangeet-stages" className="text-[#D4AF37] no-underline hover:text-white transition-colors">fresh floral styling for Muhurtha and Sangeet stages</a> and <a href="/blog/traditional-south-indian-wedding-entrance-decoration-with-flowers-and-banana-saplings" className="text-[#D4AF37] no-underline hover:text-white transition-colors">traditional South Indian wedding entrance decoration with flowers and banana saplings</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">5. How Can Lighting Improve the Wedding Stage?</h2>
+        <p>Once the stage and decoration are installed, lighting should be checked according to the planned design.</p>
+        <p>Warm lighting, LED ambient effects and other stage lighting elements should be reviewed to ensure that they complement the floral arrangements and backdrop. Explore contemporary illumination styles in our overview of <a href="/blog/2026-wedding-trends-that-can-make-your-celebration-more-memorable" className="text-[#D4AF37] no-underline hover:text-white transition-colors">2026 wedding trends that make celebrations memorable</a>.</p>
+        <p>The team should check the overall appearance from different parts of the venue, not just from directly in front of the stage. This helps identify areas that may need adjustment before the event begins.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">6. Why Should Extra Time Be Kept for Final Corrections?</h2>
+        <p>Decoration work should not be planned to finish exactly when guests are expected to arrive.</p>
+        <p>Keeping some additional time allows the team to correct small issues, reposition decorative elements, check the entrance and complete any unfinished details. A final walkthrough should confirm that the stage, entrance, seating areas and guest pathways are ready. Learn how intentional venue planning improves movement in <a href="/blog/beyond-the-wedding-stage-making-every-space-count-at-a-south-indian-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">making every space count at a South Indian wedding</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">7. How Can Different Event Teams Work Together During Setup?</h2>
+        <p>Wedding decoration may need to be completed alongside other arrangements such as catering, photography and venue preparation.</p>
+        <p>The event team should communicate the setup schedule with the relevant service providers so that different teams do not interfere with one another. For example, dining setups should align with service routes—as detailed in our guide on <a href="/blog/how-can-wedding-catering-be-coordinated-with-the-complete-event-setup" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how wedding catering can be coordinated with the complete event setup</a>—and stage schedules should sync with photographers, as outlined in our <a href="/blog/behind-a-smooth-wedding-reception-coordinating-stage-moments-lighting-and-event-teams" className="text-[#D4AF37] no-underline hover:text-white transition-colors">behind-the-scenes reception coordination guide</a>.</p>
+        <p>Surya Event provides wedding planning and decoration services, including venue coordination, floral styling and stage arrangements. Explore the <a href="/#services" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event services</a> to learn more about our <a href="/blog/end-to-end-wedding-management-in-bengaluru-stress-free-family-celebrations" className="text-[#D4AF37] no-underline hover:text-white transition-colors">end-to-end wedding management in Bengaluru</a>.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">8. What Should Be Checked Before Guests Arrive?</h2>
+        <p>Before the celebration begins, the team should review the completed decoration and confirm that everything is ready.</p>
+        <p>The final check should include:</p>
+        <ul className="list-disc pl-5 space-y-1 text-[#F5F5F0]/80">
+          <li>Stage and backdrop installation.</li>
+          <li>Floral decoration and drapery.</li>
+          <li>Lighting arrangements.</li>
+          <li>Entrance decoration.</li>
+          <li>Guest seating and walking paths.</li>
+          <li>Remaining setup work.</li>
+        </ul>
+        <p>This final review helps identify small issues before the venue fills with guests.</p>
+
+        <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
+        <p>How can wedding decoration be completed smoothly and on time? Preparing materials in advance, installing large structures first, completing floral details and checking lighting can make the setup process more organized.</p>
+        <p>For families planning weddings in Bengaluru, coordinating the decoration timeline with the venue and other event arrangements can help reduce last-minute confusion.</p>
+        <p>Visit the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">Surya Event gallery</a> for wedding decoration ideas, read <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why families choose Surya Event</a>, or <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact the team</a> to discuss your upcoming celebration.</p>
+      </article>
+    ),
+    category: "Decor & Styling",
+    date: "November 20, 2026",
+    readTime: "6 min read",
+    author: "Surya Event Team",
+    image: "https://images.pexels.com/photos/32854448/pexels-photo-32854448.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    likes: 38
+  },
+  {
     id: "how-can-wedding-catering-be-coordinated-with-the-complete-event-setup",
     title: "How Can Wedding Catering Be Coordinated with the Complete Event Setup?",
     excerpt: "How can wedding catering, guest arrangements, venue planning and event schedules be coordinated for a smooth South Indian wedding in Bengaluru?",
@@ -329,7 +404,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
         <h2 className="text-2xl font-serif text-[#D4AF37] mt-8 mb-4">Conclusion</h2>
         <p>A wedding venue walkthrough is a useful step in preparing a well-organized celebration. It helps families and event planners understand the available space, coordinate decoration and lighting, and plan practical arrangements for guests.</p>
-        <p>For couples planning a wedding in Bengaluru, discussing these details in advance can make the transition from planning to execution much smoother. Learn more about our hands-on coordination philosophy in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event for your dream wedding</a>.</p>
+        <p>For couples planning a wedding in Bengaluru, discussing these details in advance can make the transition from planning to execution much smoother. For an in-depth breakdown of installation schedules, read our guide on <a href="/blog/how-can-wedding-decoration-be-completed-before-guests-arrive" className="text-[#D4AF37] no-underline hover:text-white transition-colors">how wedding decoration can be completed before guests arrive</a>, and learn more about our hands-on philosophy in <a href="/blog/why-choose-surya-event-for-your-dream-wedding" className="text-[#D4AF37] no-underline hover:text-white transition-colors">why choose Surya Event for your dream wedding</a>.</p>
         <p>To discuss your upcoming celebration, visit the <a href="/#contact" className="text-[#D4AF37] no-underline hover:text-white transition-colors">contact section</a> and explore the <a href="/#gallery" className="text-[#D4AF37] no-underline hover:text-white transition-colors">event gallery</a> for inspiration.</p>
         <p className="font-bold text-lg text-[#D4AF37] mt-6">Let Surya Event Management conduct a thorough venue walkthrough to optimize your wedding layout, lighting, and stage setup.</p>
       </article>
